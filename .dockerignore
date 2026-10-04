@@ -1,0 +1,14 @@
+# The frontend and gateway images are built from the repository root.
+# Keep secrets, history and everything they do not need out of the build context.
+.git
+.env
+.env.*
+**/*.pem
+**/*.key
+backend
+end-to-end-tests
+operations
+code-sample
+**/node_modules
+**/dist
+**/.DS_Store

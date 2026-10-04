@@ -1,0 +1,7 @@
+/* src/styles/tokens.css */
+@layer a11y.tokens {
+  :root {
+    --a11y-content-width: 68ch;
+    --a11y-focus-ring: #f59e0b;
+  }
+}

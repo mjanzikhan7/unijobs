@@ -1,0 +1,218 @@
+:root {
+  color-scheme: light dark;
+
+  --color-bg: #f6f8fc;
+  --color-surface: #ffffff;
+  --color-surface-raised: #ffffff;
+  --color-surface-sunken: #eef1f8;
+  --color-overlay: rgb(14 19 34 / 55%);
+  --color-border-subtle: #e3e8f2;
+  --color-border-strong: #838ca2;
+  --color-text-primary: #0e1322;
+  --color-text-secondary: #48526a;
+  --color-text-muted: #616a84;
+  --color-text-inverse: #ffffff;
+
+  --color-brand: #4e37e5;
+  --color-brand-hover: #4229c4;
+  --color-brand-active: #3720a3;
+  --color-brand-subtle-bg: #edeafe;
+  --color-accent: #0a6c8c;
+  --color-accent-vivid: #06b6d4;
+  --color-cta: #b0126b;
+  --color-cta-hover: #97095a;
+  --color-cta-active: #7e0349;
+  --color-cta-subtle-bg: #fce7f3;
+  --color-focus-ring: #4e37e5;
+
+  --color-success-text: #0a6e3d;  --color-success-bg: #e4f6ec;
+  --color-warning-text: #7a4a00;  --color-warning-bg: #fcf0d8;
+  --color-danger-text: #a81f26;   --color-danger-bg: #fce7e7;
+  --color-info-text: #0b5ca8;     --color-info-bg: #e3f0fd;
+  --color-neutral-text: #3f4757;  --color-neutral-bg: #edeff4;
+  --color-unknown-text: #7228be;  --color-unknown-bg: #f3e8fd;
+
+  --color-status-found-text: #3f4757;         --color-status-found-bg: #edeff4;
+  --color-status-ready-text: #0b6e62;         --color-status-ready-bg: #ddf4f0;
+  --color-status-applied-text: #1250b0;       --color-status-applied-bg: #e2eefd;
+  --color-status-acknowledged-text: #4338ca;  --color-status-acknowledged-bg: #e9e8fc;
+  --color-status-interview-text: #7228be;     --color-status-interview-bg: #f3e8fd;
+  --color-status-offer-text: #0a6e3d;         --color-status-offer-bg: #e4f6ec;
+  --color-status-rejected-text: #a81f26;      --color-status-rejected-bg: #fce7e7;
+  --color-status-ghosted-text: #7a4a00;       --color-status-ghosted-bg: #fcf0d8;
+
+  --color-workplace-remote-text: #0a6c8c;  --color-workplace-remote-bg: #e0f4fa;
+  --color-workplace-hybrid-text: #0b6e62;  --color-workplace-hybrid-bg: #ddf4f0;
+  --color-workplace-onsite-text: #3f4757;  --color-workplace-onsite-bg: #edeff4;
+  --color-match-low-text: #3f4757;         --color-match-low-bg: #edeff4;
+  --color-match-medium-text: #7a4a00;      --color-match-medium-bg: #fcf0d8;
+  --color-match-high-text: #0a6e3d;        --color-match-high-bg: #e4f6ec;
+
+  --shadow-xs: 0 1px 2px rgb(14 19 34 / 6%);
+  --shadow-sm: 0 1px 2px rgb(14 19 34 / 6%), 0 1px 1px rgb(14 19 34 / 4%);
+  --shadow-md: 0 6px 16px rgb(14 19 34 / 8%), 0 2px 6px rgb(14 19 34 / 6%);
+  --shadow-lg: 0 16px 40px rgb(14 19 34 / 14%);
+  --shadow-xl: 0 28px 64px rgb(14 19 34 / 18%);
+  --shadow-focus: 0 0 0 3px rgb(78 55 229 / 28%);
+
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+
+  --text-display-2xl: 3.75rem;  --leading-display-2xl: 1.05;  --tracking-display-2xl: -0.03em;
+  --text-display-xl: 3rem;      --leading-display-xl: 1.08;   --tracking-display-xl: -0.025em;
+  --text-display-lg: 2.25rem;   --leading-display-lg: 1.15;   --tracking-display-lg: -0.02em;
+  --text-heading-xl: 1.875rem;  --leading-heading-xl: 1.2;    --tracking-heading-xl: -0.015em;
+  --text-heading-lg: 1.5rem;    --leading-heading-lg: 1.25;   --tracking-heading-lg: -0.01em;
+  --text-heading-md: 1.25rem;   --leading-heading-md: 1.3;    --tracking-heading-md: -0.005em;
+  --text-heading-sm: 1.0625rem; --leading-heading-sm: 1.35;   --tracking-heading-sm: 0em;
+  --text-body-lg: 1.125rem;     --leading-body-lg: 1.6;
+  --text-body: 1rem;            --leading-body: 1.55;
+  --text-body-sm: 0.875rem;     --leading-body-sm: 1.5;
+  --text-caption: 0.8125rem;    --leading-caption: 1.45;
+  --text-micro: 0.75rem;        --leading-micro: 1.4;   --tracking-micro: 0.005em;
+  --text-overline: 0.6875rem;   --leading-overline: 1.3; --tracking-overline: 0.06em;
+
+  --space-1: 0.25rem;  --space-2: 0.5rem;   --space-3: 0.75rem;  --space-4: 1rem;
+  --space-5: 1.25rem;  --space-6: 1.5rem;   --space-8: 2rem;     --space-10: 2.5rem;
+  --space-12: 3rem;    --space-16: 4rem;    --space-20: 5rem;    --space-24: 6rem;
+  --space-32: 8rem;
+
+  --radius-xs: 4px;  --radius-sm: 6px;   --radius-md: 10px;
+  --radius-lg: 14px; --radius-xl: 20px;  --radius-2xl: 28px;  --radius-full: 9999px;
+
+  --border-hairline: 1px;  --border-emphasis: 2px;  --border-focus: 3px;
+
+  --z-base: 0;    --z-raised: 10;  --z-sticky: 100; --z-drawer: 200;
+  --z-overlay: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+
+  --container-form: 440px;    --container-prose: 720px;   --container-narrow: 960px;
+  --container-content: 1280px; --container-wide: 1600px;
+
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 360ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-linear: linear;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --color-bg: #0b0f1a;
+    --color-surface: #141a28;
+    --color-surface-raised: #1c2334;
+    --color-surface-sunken: #080b14;
+    --color-overlay: rgb(0 0 0 / 66%);
+    --color-border-subtle: #242d40;
+    --color-border-strong: #5f6d8a;
+    --color-text-primary: #e8ecf5;
+    --color-text-secondary: #a7b2c6;
+    --color-text-muted: #8b96ac;
+    --color-text-inverse: #0b0f1a;
+
+    --color-brand: #8b7bff;
+    --color-brand-hover: #a296ff;
+    --color-brand-active: #7666f2;
+    --color-brand-subtle-bg: #221e3f;
+    --color-accent: #35c9ea;
+    --color-accent-vivid: #22d3ee;
+    --color-cta: #ff6fb5;
+    --color-cta-hover: #ff8cc5;
+    --color-cta-active: #ee5aa2;
+    --color-cta-subtle-bg: #3a1730;
+    --color-focus-ring: #a296ff;
+
+    --color-success-text: #6ee7a8;  --color-success-bg: #0e2f1e;
+    --color-warning-text: #f5ce7a;  --color-warning-bg: #33260c;
+    --color-danger-text: #fca5a8;   --color-danger-bg: #3a1618;
+    --color-info-text: #8cc5f5;     --color-info-bg: #10263d;
+    --color-neutral-text: #b4bece;  --color-neutral-bg: #232b3b;
+    --color-unknown-text: #d3a6f5;  --color-unknown-bg: #2c1b3d;
+
+    --color-status-found-text: #b4bece;        --color-status-found-bg: #232b3b;
+    --color-status-ready-text: #5fdbc8;        --color-status-ready-bg: #0c2e2a;
+    --color-status-applied-text: #8cc5f5;      --color-status-applied-bg: #10263d;
+    --color-status-acknowledged-text: #aba2ff; --color-status-acknowledged-bg: #221e3f;
+    --color-status-interview-text: #d3a6f5;    --color-status-interview-bg: #2c1b3d;
+    --color-status-offer-text: #6ee7a8;        --color-status-offer-bg: #0e2f1e;
+    --color-status-rejected-text: #fca5a8;     --color-status-rejected-bg: #3a1618;
+    --color-status-ghosted-text: #f5ce7a;      --color-status-ghosted-bg: #33260c;
+
+    --color-workplace-remote-text: #6edbf5;  --color-workplace-remote-bg: #0c2a33;
+    --color-workplace-hybrid-text: #5fdbc8;  --color-workplace-hybrid-bg: #0c2e2a;
+    --color-workplace-onsite-text: #b4bece;  --color-workplace-onsite-bg: #232b3b;
+    --color-match-low-text: #b4bece;         --color-match-low-bg: #232b3b;
+    --color-match-medium-text: #f5ce7a;      --color-match-medium-bg: #33260c;
+    --color-match-high-text: #6ee7a8;        --color-match-high-bg: #0e2f1e;
+
+    --shadow-xs: 0 1px 2px rgb(0 0 0 / 40%);
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 40%), 0 1px 1px rgb(0 0 0 / 28%);
+    --shadow-md: 0 6px 16px rgb(0 0 0 / 46%), 0 2px 6px rgb(0 0 0 / 34%);
+    --shadow-lg: 0 16px 40px rgb(0 0 0 / 56%);
+    --shadow-xl: 0 28px 64px rgb(0 0 0 / 64%);
+    --shadow-focus: 0 0 0 3px rgb(162 150 255 / 34%);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #0b0f1a;
+  --color-surface: #141a28;
+  --color-surface-raised: #1c2334;
+  --color-surface-sunken: #080b14;
+  --color-overlay: rgb(0 0 0 / 66%);
+  --color-border-subtle: #242d40;
+  --color-border-strong: #5f6d8a;
+  --color-text-primary: #e8ecf5;
+  --color-text-secondary: #a7b2c6;
+  --color-text-muted: #8b96ac;
+  --color-text-inverse: #0b0f1a;
+
+  --color-brand: #8b7bff;
+  --color-brand-hover: #a296ff;
+  --color-brand-active: #7666f2;
+  --color-brand-subtle-bg: #221e3f;
+  --color-accent: #35c9ea;
+  --color-accent-vivid: #22d3ee;
+  --color-cta: #ff6fb5;
+  --color-cta-hover: #ff8cc5;
+  --color-cta-active: #ee5aa2;
+  --color-cta-subtle-bg: #3a1730;
+  --color-focus-ring: #a296ff;
+
+  --color-success-text: #6ee7a8;  --color-success-bg: #0e2f1e;
+  --color-warning-text: #f5ce7a;  --color-warning-bg: #33260c;
+  --color-danger-text: #fca5a8;   --color-danger-bg: #3a1618;
+  --color-info-text: #8cc5f5;     --color-info-bg: #10263d;
+  --color-neutral-text: #b4bece;  --color-neutral-bg: #232b3b;
+  --color-unknown-text: #d3a6f5;  --color-unknown-bg: #2c1b3d;
+
+  --color-status-found-text: #b4bece;        --color-status-found-bg: #232b3b;
+  --color-status-ready-text: #5fdbc8;        --color-status-ready-bg: #0c2e2a;
+  --color-status-applied-text: #8cc5f5;      --color-status-applied-bg: #10263d;
+  --color-status-acknowledged-text: #aba2ff; --color-status-acknowledged-bg: #221e3f;
+  --color-status-interview-text: #d3a6f5;    --color-status-interview-bg: #2c1b3d;
+  --color-status-offer-text: #6ee7a8;        --color-status-offer-bg: #0e2f1e;
+  --color-status-rejected-text: #fca5a8;     --color-status-rejected-bg: #3a1618;
+  --color-status-ghosted-text: #f5ce7a;      --color-status-ghosted-bg: #33260c;
+
+  --color-workplace-remote-text: #6edbf5;  --color-workplace-remote-bg: #0c2a33;
+  --color-workplace-hybrid-text: #5fdbc8;  --color-workplace-hybrid-bg: #0c2e2a;
+  --color-workplace-onsite-text: #b4bece;  --color-workplace-onsite-bg: #232b3b;
+  --color-match-low-text: #b4bece;         --color-match-low-bg: #232b3b;
+  --color-match-medium-text: #f5ce7a;      --color-match-medium-bg: #33260c;
+  --color-match-high-text: #6ee7a8;        --color-match-high-bg: #0e2f1e;
+
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 40%);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 40%), 0 1px 1px rgb(0 0 0 / 28%);
+  --shadow-md: 0 6px 16px rgb(0 0 0 / 46%), 0 2px 6px rgb(0 0 0 / 34%);
+  --shadow-lg: 0 16px 40px rgb(0 0 0 / 56%);
+  --shadow-xl: 0 28px 64px rgb(0 0 0 / 64%);
+  --shadow-focus: 0 0 0 3px rgb(162 150 255 / 34%);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}

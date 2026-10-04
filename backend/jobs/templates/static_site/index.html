@@ -1,0 +1,19 @@
+{% extends "static_site/base.html" %}
+{% block title %}Open vacancies{% endblock %}
+{% block content %}
+<h1>Open vacancies at UK universities</h1>
+<p>{{ total }} open vacancies at {{ institutions|length }} institutions.
+  Download them all as <a href="jobs.csv">CSV</a> or <a href="jobs.json">JSON</a>.</p>
+<table>
+  <caption class="meta">Institutions in alphabetical order</caption>
+  <thead><tr><th scope="col">Institution</th><th scope="col">Open vacancies</th></tr></thead>
+  <tbody>
+  {% for institution in institutions %}
+    <tr>
+      <td><a href="institutions/{{ institution.slug }}.html">{{ institution.name }}</a></td>
+      <td>{{ institution.count }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

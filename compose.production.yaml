@@ -1,0 +1,223 @@
+# Production stack. Start it with:
+#
+#   docker compose -f compose.production.yaml --env-file .env.production up -d --build
+#
+# What is different from development:
+#   - Every secret must be set. There are no default passwords.
+#   - Only the gateway has a port. The database and Redis sit on a private network.
+#   - Our own containers run as a non-root user, with a read-only filesystem and no
+#     Linux capabilities.
+#   - The source code is inside the image. Nothing is mounted from the host.
+#
+# TLS is expected to end at the load balancer or reverse proxy in front of the gateway.
+
+name: hejobs-production
+
+x-backend-environment: &backend-environment
+  DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set DJANGO_SECRET_KEY}
+  DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:?Set DJANGO_ALLOWED_HOSTS}
+  DJANGO_CSRF_TRUSTED_ORIGINS: ${DJANGO_CSRF_TRUSTED_ORIGINS:?Set DJANGO_CSRF_TRUSTED_ORIGINS}
+  DJANGO_CORS_ALLOWED_ORIGINS: ${DJANGO_CORS_ALLOWED_ORIGINS:-}
+  DJANGO_SECURE_SSL_REDIRECT: ${DJANGO_SECURE_SSL_REDIRECT:-1}
+  POSTGRES_DB: ${POSTGRES_DB:-hejobs}
+  POSTGRES_USER: ${POSTGRES_USER:-hejobs}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+  POSTGRES_HOST: db
+  POSTGRES_PORT: 5432
+  REDIS_URL: redis://:${REDIS_PASSWORD:?Set REDIS_PASSWORD}@redis:6379/0
+  FRONTEND_BASE_URL: ${FRONTEND_BASE_URL:?Set FRONTEND_BASE_URL}
+  CRAWLER_CONTACT_EMAIL: ${CRAWLER_CONTACT_EMAIL:?Set CRAWLER_CONTACT_EMAIL}
+  CRAWLER_RAW_CACHE_DIR: /var/lib/hejobs/rawcache
+  DJANGO_MEDIA_ROOT: /var/lib/hejobs/media
+  EMAIL_HOST: ${EMAIL_HOST:?Set EMAIL_HOST}
+  EMAIL_PORT: ${EMAIL_PORT:-587}
+  EMAIL_HOST_USER: ${EMAIL_HOST_USER:-}
+  EMAIL_HOST_PASSWORD: ${EMAIL_HOST_PASSWORD:-}
+  EMAIL_USE_TLS: ${EMAIL_USE_TLS:-1}
+  DEFAULT_FROM_EMAIL: ${DEFAULT_FROM_EMAIL:?Set DEFAULT_FROM_EMAIL}
+  DIGEST_ENABLED: ${DIGEST_ENABLED:-0}
+  LOG_FORMAT: json
+  LOG_LEVEL: ${LOG_LEVEL:-INFO}
+  METRICS_TOKEN: ${METRICS_TOKEN:-}
+
+x-hardening: &hardening
+  read_only: true
+  cap_drop: ["ALL"]
+  security_opt: ["no-new-privileges:true"]
+  restart: unless-stopped
+
+x-backend-depends-on: &backend-depends-on
+  db:
+    condition: service_healthy
+  redis:
+    condition: service_healthy
+  migrate:
+    condition: service_completed_successfully
+
+x-worker-healthcheck: &worker-healthcheck
+  test: ["CMD-SHELL", "celery -A config inspect ping --destination celery@$$HOSTNAME --timeout 5"]
+  interval: 30s
+  timeout: 15s
+  retries: 3
+  start_period: 30s
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    security_opt: ["no-new-privileges:true"]
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-hejobs}
+      POSTGRES_USER: ${POSTGRES_USER:-hejobs}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks: [data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-hejobs} -d ${POSTGRES_DB:-hejobs}"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7.4-alpine
+    <<: *hardening
+    user: redis
+    command: ["redis-server", "--appendonly", "no", "--save", "", "--requirepass", "${REDIS_PASSWORD:?Set REDIS_PASSWORD}"]
+    networks: [data]
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a \"$$REDIS_PASSWORD\" --no-auth-warning ping | grep -q PONG"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?Set REDIS_PASSWORD}
+
+  migrate:
+    build:
+      context: ./backend
+      target: production
+    image: hejobs/backend:${RELEASE:-latest}
+    read_only: true
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+    tmpfs: [/tmp]
+    command: ["python", "manage.py", "migrate", "--noinput"]
+    environment: *backend-environment
+    networks: [data]
+    depends_on:
+      db:
+        condition: service_healthy
+
+  backend:
+    build:
+      context: ./backend
+      target: production
+    image: hejobs/backend:${RELEASE:-latest}
+    <<: *hardening
+    tmpfs: [/tmp]
+    environment:
+      <<: *backend-environment
+      WEB_CONCURRENCY: ${WEB_CONCURRENCY:-3}
+    volumes:
+      - mediafiles:/var/lib/hejobs/media
+    networks: [application, data]
+    depends_on: *backend-depends-on
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request as u; u.urlopen(u.Request('http://localhost:8000/api/health/', headers={'X-Forwarded-Proto': 'https'}))"
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  worker:
+    image: hejobs/backend:${RELEASE:-latest}
+    <<: *hardening
+    tmpfs: [/tmp]
+    command: ["celery", "-A", "config", "worker", "--queues", "default", "--loglevel", "info", "--concurrency", "2"]
+    environment: *backend-environment
+    volumes:
+      - rawcache:/var/lib/hejobs/rawcache
+      - mediafiles:/var/lib/hejobs/media
+    networks: [application, data]
+    depends_on: *backend-depends-on
+    healthcheck: *worker-healthcheck
+
+  crawler:
+    build:
+      context: ./backend
+      target: production-crawler
+    image: hejobs/crawler:${RELEASE:-latest}
+    <<: *hardening
+    # Chromium writes its profile to the home folder and its working memory to /dev/shm.
+    tmpfs: [/tmp, /home/app]
+    shm_size: 1gb
+    environment: *backend-environment
+    volumes:
+      - rawcache:/var/lib/hejobs/rawcache
+    networks: [application, data]
+    depends_on: *backend-depends-on
+    healthcheck: *worker-healthcheck
+
+  scheduler:
+    image: hejobs/backend:${RELEASE:-latest}
+    <<: *hardening
+    tmpfs: [/tmp]
+    command:
+      - celery
+      - -A
+      - config
+      - beat
+      - --loglevel=info
+      - --schedule=/tmp/celerybeat-schedule
+      - --pidfile=/tmp/celerybeat.pid
+    environment: *backend-environment
+    networks: [data]
+    depends_on: *backend-depends-on
+    healthcheck:
+      test: ["CMD-SHELL", "kill -0 \"$$(cat /tmp/celerybeat.pid)\""]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  gateway:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      target: production
+    image: hejobs/gateway:${RELEASE:-latest}
+    <<: *hardening
+    # nginx writes its finished config here when it starts, as user 101.
+    tmpfs:
+      - /tmp
+      - /etc/nginx/conf.d:uid=101,gid=101,mode=0755
+    environment:
+      API_UPSTREAM: backend:8000
+    ports:
+      - "${GATEWAY_PORT:-8080}:8080"
+    networks: [application]
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--spider", "http://127.0.0.1:8080/healthz"]
+      interval: 15s
+      timeout: 3s
+      retries: 5
+
+networks:
+  # The gateway, the API and the workers. Has a route to the internet, for crawling and email.
+  application:
+  # The database and Redis. No route in or out.
+  data:
+    internal: true
+
+volumes:
+  pgdata:
+  rawcache:
+  mediafiles:

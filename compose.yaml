@@ -1,0 +1,226 @@
+# Development stack. Every component runs in its own container.
+#
+#   db         PostgreSQL
+#   redis      task queue and cache
+#   migrate    applies database migrations, then exits
+#   backend    Django API
+#   worker     background tasks that do not need a browser
+#   crawler    crawl tasks, with Chromium
+#   scheduler  starts the timed tasks
+#   frontend   Vite dev server for the React app
+#   mailpit    catches every email, so nothing reaches a real inbox
+#   e2e        Playwright tests (only with `--profile e2e`)
+#
+# Ports are bound to 127.0.0.1, so nothing is open to the local network.
+
+name: hejobs
+
+x-backend-environment: &backend-environment
+  DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-dev-only-not-a-real-secret-change-me}
+  DJANGO_DEBUG: ${DJANGO_DEBUG:-1}
+  DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,backend}
+  DJANGO_CSRF_TRUSTED_ORIGINS: ${DJANGO_CSRF_TRUSTED_ORIGINS:-http://localhost:5173,http://localhost:8000}
+  DJANGO_CORS_ALLOWED_ORIGINS: ${DJANGO_CORS_ALLOWED_ORIGINS:-http://localhost:5173}
+  POSTGRES_DB: ${POSTGRES_DB:-hejobs}
+  POSTGRES_USER: ${POSTGRES_USER:-hejobs}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-hejobs}
+  POSTGRES_HOST: db
+  POSTGRES_PORT: 5432
+  REDIS_URL: redis://redis:6379/0
+  FRONTEND_BASE_URL: ${FRONTEND_BASE_URL:-http://localhost:5173}
+  CRAWLER_CONTACT_EMAIL: ${CRAWLER_CONTACT_EMAIL:-you@example.com}
+  CRAWLER_RAW_CACHE_DIR: /var/lib/hejobs/rawcache
+  DJANGO_MEDIA_ROOT: /var/lib/hejobs/media
+  CRAWLER_PLAYWRIGHT_ENABLED: ${CRAWLER_PLAYWRIGHT_ENABLED:-1}
+  DIGEST_ENABLED: ${DIGEST_ENABLED:-0}
+  DIGEST_TO_EMAIL: ${DIGEST_TO_EMAIL:-you@example.com}
+  EMAIL_HOST: ${EMAIL_HOST:-mailpit}
+  EMAIL_PORT: ${EMAIL_PORT:-1025}
+
+x-backend-build: &backend-build
+  context: ./backend
+  target: development
+
+x-backend-depends-on: &backend-depends-on
+  db:
+    condition: service_healthy
+  redis:
+    condition: service_healthy
+  migrate:
+    condition: service_completed_successfully
+
+x-worker-healthcheck: &worker-healthcheck
+  test: ["CMD-SHELL", "celery -A config inspect ping --destination celery@$$HOSTNAME --timeout 5"]
+  interval: 30s
+  timeout: 15s
+  retries: 3
+  start_period: 30s
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-hejobs}
+      POSTGRES_USER: ${POSTGRES_USER:-hejobs}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-hejobs}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT_HOST:-5433}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-hejobs} -d ${POSTGRES_DB:-hejobs}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7.4-alpine
+    # Nothing is saved to disk. The queue and the cache can both be rebuilt.
+    command: ["redis-server", "--appendonly", "no", "--save", ""]
+    ports:
+      - "127.0.0.1:${REDIS_PORT_HOST:-6380}:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  migrate:
+    build: *backend-build
+    image: hejobs/backend:development
+    command: ["python", "manage.py", "migrate", "--noinput"]
+    environment: *backend-environment
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+
+  backend:
+    build: *backend-build
+    image: hejobs/backend:development
+    command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+    environment: *backend-environment
+    volumes:
+      - ./backend:/app
+      - mediafiles:/var/lib/hejobs/media
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on: *backend-depends-on
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health/')"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+  worker:
+    build: *backend-build
+    image: hejobs/backend:development
+    command: ["celery", "-A", "config", "worker", "--queues", "default", "--loglevel", "info", "--concurrency", "2"]
+    environment: *backend-environment
+    volumes:
+      - ./backend:/app
+      - rawcache:/var/lib/hejobs/rawcache
+      - mediafiles:/var/lib/hejobs/media
+    depends_on: *backend-depends-on
+    healthcheck: *worker-healthcheck
+
+  crawler:
+    build:
+      context: ./backend
+      target: development-crawler
+    image: hejobs/crawler:development
+    command: ["celery", "-A", "config", "worker", "--queues", "crawl", "--loglevel", "info", "--concurrency", "4"]
+    environment: *backend-environment
+    # Chromium keeps its working memory in /dev/shm. The default 64 MB is too small.
+    shm_size: 1gb
+    volumes:
+      - ./backend:/app
+      - rawcache:/var/lib/hejobs/rawcache
+    depends_on: *backend-depends-on
+    healthcheck: *worker-healthcheck
+
+  scheduler:
+    build: *backend-build
+    image: hejobs/backend:development
+    command:
+      - celery
+      - -A
+      - config
+      - beat
+      - --loglevel=info
+      - --schedule=/tmp/celerybeat-schedule
+      - --pidfile=/tmp/celerybeat.pid
+    environment: *backend-environment
+    volumes:
+      - ./backend:/app
+    depends_on: *backend-depends-on
+    healthcheck:
+      test: ["CMD-SHELL", "kill -0 \"$$(cat /tmp/celerybeat.pid)\""]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  frontend:
+    build:
+      # The context is the repository root, because the app depends on the workspace
+      # package in packages/accessibility-toolbar.
+      context: .
+      dockerfile: frontend/Dockerfile
+      target: development
+    image: hejobs/frontend:development
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+    environment:
+      # The Vite dev server reads this inside the container, not the browser.
+      # So it must be the service name. "localhost" here would be this container.
+      VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://backend:8000}
+    volumes:
+      - ./frontend:/app/frontend
+      - ./packages:/app/packages
+      - /app/node_modules
+      - /app/frontend/node_modules
+    ports:
+      - "127.0.0.1:5173:5173"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:5173/').then((r) => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+  mailpit:
+    image: axllent/mailpit:v1.27
+    ports:
+      - "127.0.0.1:8025:8025"
+      - "127.0.0.1:1025:1025"
+    healthcheck:
+      test: ["CMD", "/mailpit", "readyz"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  e2e:
+    profiles: ["e2e"]
+    build:
+      context: ./end-to-end-tests
+    image: hejobs/end-to-end-tests:development
+    environment:
+      E2E_BASE_URL: http://frontend:5173
+      E2E_API_URL: http://backend:8000
+      E2E_PASSWORD: ${E2E_PASSWORD:-e2e-password}
+    volumes:
+      - ./end-to-end-tests/specs:/tests/specs:ro
+      - ./end-to-end-tests/test-results:/tests/test-results
+    depends_on:
+      frontend:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  rawcache:
+  mediafiles:

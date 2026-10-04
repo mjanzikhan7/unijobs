@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Current vacancies | The University of Manchester</title>
+</head>
+<body>
+  <div class="search-panel">
+    <h1>Search current vacancies</h1>
+    <form id="jobSearchForm" action="/Home/Job" method="get">
+      <label for="keywords">Keywords</label><input id="keywords" name="keywords" type="text">
+      <label for="category">Category</label>
+      <select id="category" name="category">
+        <option value="">All categories</option>
+        <option value="1">Academic</option>
+        <option value="2">Professional Services</option>
+        <option value="3">Technical</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <div id="jobResults" class="job-results">
+    <p class="no-results">There are 0 jobs matching your search.</p>
+  </div>
+
+  <footer>
+    <p>Need help? Visit <a href="https://jobseekersupport.jobtrain.co.uk/">jobseekersupport.jobtrain.co.uk</a></p>
+  </footer>
+</body>
+</html>

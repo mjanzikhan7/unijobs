@@ -1,0 +1,349 @@
+{
+  "items": [
+    {
+      "SearchId": 1,
+      "Keyword": null,
+      "CorrectedKeyword": null,
+      "UseExactKeywordFlag": false,
+      "SuggestedKeyword": null,
+      "ExecuteSpellCheckFlag": true,
+      "Location": null,
+      "LocationId": null,
+      "Radius": 0,
+      "RadiusUnit": "MI",
+      "SelectedTitlesFacet": null,
+      "SelectedCategoriesFacet": null,
+      "SelectedPostingDatesFacet": null,
+      "SelectedLocationsFacet": null,
+      "LastSelectedFacet": null,
+      "Facets": "TITLES;LOCATIONS;LOCATION_LEVEL1;LOCATION_LEVEL2;LOCATION_LEVEL3;CATEGORIES;POSTING_DATES;WORK_LOCATIONS;FLEX_FIELDS;ORGANIZATIONS;WORKPLACE_TYPES",
+      "Offset": 0,
+      "Limit": 2,
+      "SortBy": "RELEVANCY",
+      "TotalJobsCount": 4,
+      "Latitude": null,
+      "Longitude": null,
+      "SiteNumber": "CX_6001",
+      "JobFamilyId": null,
+      "PostingStartDate": null,
+      "PostingEndDate": null,
+      "SelectedWorkLocationsFacet": null,
+      "RequisitionId": null,
+      "CandidateNumber": null,
+      "WorkLocationZipCode": null,
+      "WorkLocationCountryCode": null,
+      "SelectedFlexFieldsFacets": null,
+      "OrganizationId": null,
+      "SelectedOrganizationsFacet": null,
+      "UserTargetFacetName": null,
+      "UserTargetFacetInputTerm": null,
+      "HotJobFlag": null,
+      "WorkplaceType": null,
+      "SelectedWorkplaceTypesFacet": null,
+      "BotQRShortCode": null,
+      "requisitionList": [
+        {
+          "Id": "9853",
+          "Title": "Assistant Professor (Education) - Birmingham Business School - 59364Z26 - Grade 8",
+          "PostedDate": "2026-08-23",
+          "PostingEndDate": "2026-09-14",
+          "Language": "US",
+          "PrimaryLocationCountry": "GB",
+          "GeographyId": 300000000361400,
+          "HotJobFlag": false,
+          "WorkplaceTypeCode": null,
+          "JobFamily": null,
+          "JobFunction": null,
+          "WorkerType": null,
+          "ContractType": null,
+          "ManagerLevel": null,
+          "JobSchedule": null,
+          "JobShift": null,
+          "JobType": null,
+          "StudyLevel": null,
+          "DomesticTravelRequired": null,
+          "InternationalTravelRequired": null,
+          "WorkDurationYears": null,
+          "WorkDurationMonths": null,
+          "WorkHours": null,
+          "WorkDays": null,
+          "LegalEmployer": null,
+          "BusinessUnit": null,
+          "Department": null,
+          "Organization": null,
+          "BusinessUnitId": 300000001652346,
+          "LegalEmployerId": 300000001652001,
+          "OrganizationId": 300000001652001,
+          "MediaThumbURL": null,
+          "ShortDescriptionStr": "As an Assistant Professor in Finance (Education focused), you will inspire students and be informed by discipline-based research and the management, development and delivery of teaching and assessment, whilst enhancing the student experience and employability (for education focused candidates). You will contribute to a range of education-related activities.\u00a0Teaching is likely to include a contribution to: (a) the management, development and delivery of teaching and assessment at all levels; and (b) enhancement of the student experience and employability.\u00a0 The role will typically also involve developing and advising others, including: (a) providing advice to staff and students, and (b) developing and advising others on learning and teaching tasks and methods. You will be expected to deliver high quality teaching and learning practice in your modules and play an important role in student academic and pastoral support.",
+          "PrimaryLocation": "United Kingdom",
+          "Distance": 10.0,
+          "TrendingFlag": false,
+          "BeFirstToApplyFlag": false,
+          "Relevancy": 10.0,
+          "WorkplaceType": "",
+          "ExternalQualificationsStr": null,
+          "ExternalResponsibilitiesStr": null
+        },
+        {
+          "Id": "9855",
+          "Title": "Full Stack Developer - UX Focus (Web and Digital) - IT Services - 102651 - Grade 6",
+          "PostedDate": "2026-08-23",
+          "PostingEndDate": "2026-09-07",
+          "Language": "US",
+          "PrimaryLocationCountry": "GB",
+          "GeographyId": 300000000361400,
+          "HotJobFlag": false,
+          "WorkplaceTypeCode": null,
+          "JobFamily": null,
+          "JobFunction": null,
+          "WorkerType": null,
+          "ContractType": null,
+          "ManagerLevel": null,
+          "JobSchedule": null,
+          "JobShift": null,
+          "JobType": null,
+          "StudyLevel": null,
+          "DomesticTravelRequired": null,
+          "InternationalTravelRequired": null,
+          "WorkDurationYears": null,
+          "WorkDurationMonths": null,
+          "WorkHours": null,
+          "WorkDays": null,
+          "LegalEmployer": null,
+          "BusinessUnit": null,
+          "Department": null,
+          "Organization": null,
+          "BusinessUnitId": 300000001652346,
+          "LegalEmployerId": 300000001652001,
+          "OrganizationId": 300000001652001,
+          "MediaThumbURL": null,
+          "ShortDescriptionStr": "A Full Stack Developer with a strong UX focus, responsible for developing secure, accessible and user-friendly digital products across front end and back end technologies.",
+          "PrimaryLocation": "United Kingdom",
+          "Distance": 10.0,
+          "TrendingFlag": false,
+          "BeFirstToApplyFlag": false,
+          "Relevancy": 10.0,
+          "WorkplaceType": "",
+          "ExternalQualificationsStr": null,
+          "ExternalResponsibilitiesStr": null
+        }
+      ],
+      "categoriesFacet": [
+        {
+          "Id": 300000002904064,
+          "Name": "Academic Non-clinical",
+          "TotalCount": 39
+        },
+        {
+          "Id": 300000002904073,
+          "Name": "Estates/Facilities",
+          "TotalCount": 12
+        },
+        {
+          "Id": 300000002904082,
+          "Name": "Specialist/Professional",
+          "TotalCount": 9
+        },
+        {
+          "Id": 300000002904300,
+          "Name": "Clerical/Administrative",
+          "TotalCount": 5
+        },
+        {
+          "Id": 300000002904085,
+          "Name": "Technical",
+          "TotalCount": 3
+        },
+        {
+          "Id": 300000002904060,
+          "Name": "Academic Clinical",
+          "TotalCount": 1
+        },
+        {
+          "Id": 300000002904076,
+          "Name": "Manager",
+          "TotalCount": 1
+        }
+      ],
+      "locationsFacet": [
+        {
+          "Id": 300000000361400,
+          "Name": "United Kingdom",
+          "TotalCount": 68
+        },
+        {
+          "Id": 300000000361178,
+          "Name": "United Arab Emirates",
+          "TotalCount": 3
+        }
+      ],
+      "postingDatesFacet": [
+        {
+          "Id": 7,
+          "Name": "Less than 7 days",
+          "TotalCount": 23
+        },
+        {
+          "Id": 30,
+          "Name": "Less than 30 days",
+          "TotalCount": 66
+        },
+        {
+          "Id": 31,
+          "Name": "Greater than 30 days",
+          "TotalCount": 4
+        }
+      ],
+      "titlesFacet": [
+        {
+          "Id": "RES",
+          "Name": "Research",
+          "TotalCount": 22
+        },
+        {
+          "Id": "EDU",
+          "Name": "Education",
+          "TotalCount": 11
+        },
+        {
+          "Id": "SSA",
+          "Name": "Student Support and Administration",
+          "TotalCount": 9
+        },
+        {
+          "Id": "FAC",
+          "Name": "Student and Staff Facilities",
+          "TotalCount": 5
+        },
+        {
+          "Id": "ISD",
+          "Name": "Information Services/Research and Teaching Support",
+          "TotalCount": 5
+        },
+        {
+          "Id": "REEDU",
+          "Name": "Research and Education",
+          "TotalCount": 5
+        },
+        {
+          "Id": "EST",
+          "Name": "Estates and Related Functions",
+          "TotalCount": 4
+        },
+        {
+          "Id": "ADMIN",
+          "Name": "Administration/Facilities",
+          "TotalCount": 3
+        },
+        {
+          "Id": "MKT",
+          "Name": "Marketing, Design, PR, Fundraising and Related Functions",
+          "TotalCount": 3
+        },
+        {
+          "Id": "MANOP",
+          "Name": "Management/Operations",
+          "TotalCount": 2
+        }
+      ],
+      "workLocationsFacet": [
+        {
+          "Id": 300000001705014,
+          "Name": "University of Birmingham",
+          "TotalCount": 66
+        },
+        {
+          "Id": 300000105202957,
+          "Name": "Murray Learning Centre",
+          "TotalCount": 4
+        },
+        {
+          "Id": 300000105203564,
+          "Name": "University of Birmingham Dubai",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000159211804,
+          "Name": "Institute of Translational Medicine",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000105055275,
+          "Name": "Maintenance Building",
+          "TotalCount": 1
+        },
+        {
+          "Id": 300000105203028,
+          "Name": "3 Elms Road",
+          "TotalCount": 1
+        },
+        {
+          "Id": 300000105203216,
+          "Name": "Ash House",
+          "TotalCount": 1
+        }
+      ],
+      "flexFieldsFacet": [],
+      "organizationsFacet": [
+        {
+          "Id": 300000001652001,
+          "Name": "The University of Birmingham",
+          "TotalCount": 30
+        },
+        {
+          "Id": 300001049771784,
+          "Name": "Medicine and Health",
+          "TotalCount": 5
+        },
+        {
+          "Id": 300000021058137,
+          "Name": "Chemistry",
+          "TotalCount": 3
+        },
+        {
+          "Id": 300000021058179,
+          "Name": "Metallurgy and Materials",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000021058185,
+          "Name": "Physics and Astronomy",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000021058227,
+          "Name": "Psychology",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000021058317,
+          "Name": "Pharmacy",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000021059756,
+          "Name": "Dubai Operations",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300001050077334,
+          "Name": "Applied Health Sciences",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000001749516,
+          "Name": "African Studies and Anthropology",
+          "TotalCount": 1
+        }
+      ],
+      "workplaceTypesFacet": [
+        {
+          "Id": "ORA_ON_SITE",
+          "Name": "On-site",
+          "TotalCount": 70
+        }
+      ]
+    }
+  ]
+}

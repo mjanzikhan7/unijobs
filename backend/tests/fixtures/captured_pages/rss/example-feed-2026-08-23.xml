@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Example University vacancies</title>
+    <link>https://jobs.example.ac.uk/</link>
+    <description>Current vacancies</description>
+    <item>
+      <title>Research Associate in Machine Learning</title>
+      <link>https://jobs.example.ac.uk/vacancy/800</link>
+      <description>Applications are invited for this post.</description>
+      <pubDate>Tue, 12 Aug 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lecturer in Software Engineering</title>
+      <link>https://jobs.example.ac.uk/vacancy/801</link>
+      <description>Applications are invited for this post.</description>
+      <pubDate>Tue, 12 Aug 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Senior Research Software Engineer</title>
+      <link>https://jobs.example.ac.uk/vacancy/802</link>
+      <description>Applications are invited for this post.</description>
+      <pubDate>Tue, 12 Aug 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Teaching Fellow in Data Science</title>
+      <link>https://jobs.example.ac.uk/vacancy/803</link>
+      <description>Applications are invited for this post.</description>
+      <pubDate>Tue, 12 Aug 2026 09:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

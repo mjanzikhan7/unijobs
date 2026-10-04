@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% endblock %} - UniJobs</title>
+  <link rel="stylesheet" href="{% block root %}{% endblock %}styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header><p><a href="{% block home %}{% endblock %}index.html">UniJobs</a>: UK higher education vacancies</p></header>
+  <main id="main">
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <p>Updated {{ generated }}. Each verdict is checked against the GOV.UK register of licensed
+      sponsors and the current salary thresholds. Always check the advert itself.</p>
+    <p>This page uses no JavaScript and no cookies.</p>
+  </footer>
+</body>
+</html>

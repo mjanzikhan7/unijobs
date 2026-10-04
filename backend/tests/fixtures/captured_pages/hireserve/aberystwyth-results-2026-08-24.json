@@ -1,0 +1,786 @@
+{
+ "jobs": [
+  {
+   "id": 614470,
+   "title": "Kitchen Assistant",
+   "language": "DEFAULT",
+   "status": "open",
+   "refno": "6288",
+   "weblink": "https://jobs.aber.ac.uk/en/vacancy/kitchen-assistant-614470.html",
+   "wcc_matching_score": "0",
+   "summary": "",
+   "timestamp": "2026-08-24 11:54:22",
+   "display_in_list": "Y",
+   "publication": {
+    "internet": {
+     "live": "Y",
+     "publish_date": "2026-06-29 00:00:00",
+     "closing_date": "2026-09-06 00:00:00"
+    },
+    "intranet": {
+     "live": "N",
+     "publish_date": "2026-08-04 00:00:00",
+     "closing_date": "2026-08-09 00:00:00"
+    }
+   },
+   "recruiter": {
+    "id": 194093,
+    "full_name": "Recruitment Team",
+    "job_title": "",
+    "branch": "",
+    "email": "recruitment@example.ac.uk",
+    "work_phone": "",
+    "mobile_phone": ""
+   },
+   "org": {
+    "id": 210395,
+    "name": "",
+    "url": "",
+    "contact_id": null,
+    "contact_first_name": "",
+    "contact_last_name": "",
+    "org_contact_email": "",
+    "org_contact_phone": "",
+    "org_location_name": "",
+    "org_location_adress1": "",
+    "org_location_adress2": "",
+    "org_location_postal_code": "",
+    "org_location_city": "",
+    "org_location_country": ""
+   },
+   "locations": [
+    {
+     "id": null,
+     "name": "",
+     "address1": "",
+     "address2": "",
+     "postal_code": "",
+     "city": "",
+     "county": "",
+     "country": "",
+     "code": "",
+     "telephone": "",
+     "fax": "",
+     "latitude": null,
+     "longitude": null
+    }
+   ],
+   "form_id": 1811,
+   "mobile_form_id": 1811,
+   "template_id": 5886,
+   "web_site_id": 4249,
+   "classifications": {
+    "class_14114": {
+     "id": 14114,
+     "name": "Faculty/Department",
+     "lov_id": 6836,
+     "values": [
+      {
+       "class_val": "Aberystwyth Arts Centre",
+       "class_val_id": 562171,
+       "class_val_code": "SD04"
+      }
+     ]
+    },
+    "class_10841": {
+     "id": 10841,
+     "name": "Salary Scale",
+     "lov_id": 4225,
+     "values": []
+    },
+    "class_10680": {
+     "id": 10680,
+     "name": "Salary",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "\u00a325,528.10 per annum pro rata ",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_24228": {
+     "id": 24228,
+     "name": "Salary (CY)",
+     "lov_id": null,
+     "values": []
+    },
+    "class_10696": {
+     "id": 10696,
+     "name": "Contract Type",
+     "lov_id": 4073,
+     "values": [
+      {
+       "class_val": "Permanent",
+       "class_val_id": 506809,
+       "class_val_code": "PERM"
+      }
+     ]
+    },
+    "class_10681": {
+     "id": 10681,
+     "name": "Weekly Hours",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "20",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_10683": {
+     "id": 10683,
+     "name": "Interview Date",
+     "lov_id": null,
+     "values": []
+    },
+    "class_24227": {
+     "id": 24227,
+     "name": "Interview Date (CY)",
+     "values": []
+    }
+   },
+   "documents": [
+    {
+     "id": 580205,
+     "doc_name": "AC.26.6288 Disgrifiad Swydd.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=614470&p_type=JOBDOC&p_id=580205&p_show=Y"
+    },
+    {
+     "id": 580204,
+     "doc_name": "AC.26.6288 Job Description.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=614470&p_type=JOBDOC&p_id=580204&p_show=Y"
+    }
+   ]
+  },
+  {
+   "id": 614445,
+   "title": "Specialist Mentor -ASC",
+   "language": "DEFAULT",
+   "status": "open",
+   "refno": "6287",
+   "weblink": "https://jobs.aber.ac.uk/en/vacancy/specialist-mentor-asc-614445.html",
+   "wcc_matching_score": "0",
+   "summary": "",
+   "timestamp": "2026-08-24 10:07:21",
+   "display_in_list": "Y",
+   "publication": {
+    "internet": {
+     "live": "Y",
+     "publish_date": "2026-08-24 00:00:00",
+     "closing_date": "2026-08-30 00:00:00"
+    },
+    "intranet": {
+     "live": "N",
+     "publish_date": "2026-08-09 00:00:00",
+     "closing_date": "2026-08-16 00:00:00"
+    }
+   },
+   "recruiter": {
+    "id": 130848,
+    "full_name": "Recruitment Team",
+    "job_title": "",
+    "branch": "",
+    "email": "recruitment@example.ac.uk",
+    "work_phone": "",
+    "mobile_phone": ""
+   },
+   "org": {
+    "id": 2417908,
+    "name": "",
+    "url": "",
+    "contact_id": null,
+    "contact_first_name": "",
+    "contact_last_name": "",
+    "org_contact_email": "",
+    "org_contact_phone": "",
+    "org_location_name": "",
+    "org_location_adress1": "",
+    "org_location_adress2": "",
+    "org_location_postal_code": "",
+    "org_location_city": "",
+    "org_location_country": ""
+   },
+   "locations": [
+    {
+     "id": null,
+     "name": "",
+     "address1": "",
+     "address2": "",
+     "postal_code": "",
+     "city": "",
+     "county": "",
+     "country": "",
+     "code": "",
+     "telephone": "",
+     "fax": "",
+     "latitude": null,
+     "longitude": null
+    }
+   ],
+   "form_id": 3032,
+   "mobile_form_id": 3032,
+   "template_id": 5886,
+   "web_site_id": 4249,
+   "classifications": {
+    "class_14114": {
+     "id": 14114,
+     "name": "Faculty/Department",
+     "lov_id": 6836,
+     "values": [
+      {
+       "class_val": "Student Journey",
+       "class_val_id": 742598,
+       "class_val_code": "190A"
+      }
+     ]
+    },
+    "class_10841": {
+     "id": 10841,
+     "name": "Salary Scale",
+     "lov_id": 4225,
+     "values": [
+      {
+       "class_val": "\u00a333,001.64 - \u00a338,784.49 per annum (pro rata)",
+       "class_val_id": 553279,
+       "class_val_code": "553279"
+      }
+     ]
+    },
+    "class_10680": {
+     "id": 10680,
+     "name": "Salary",
+     "lov_id": null,
+     "values": []
+    },
+    "class_24228": {
+     "id": 24228,
+     "name": "Salary (CY)",
+     "lov_id": null,
+     "values": []
+    },
+    "class_10696": {
+     "id": 10696,
+     "name": "Contract Type",
+     "lov_id": 4073,
+     "values": [
+      {
+       "class_val": "Permanent",
+       "class_val_id": 506809,
+       "class_val_code": "PERM"
+      }
+     ]
+    },
+    "class_10681": {
+     "id": 10681,
+     "name": "Weekly Hours",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "Zero hours",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_10683": {
+     "id": 10683,
+     "name": "Interview Date",
+     "lov_id": null,
+     "values": []
+    },
+    "class_24227": {
+     "id": 24227,
+     "name": "Interview Date (CY)",
+     "values": []
+    }
+   },
+   "documents": [
+    {
+     "id": 581003,
+     "doc_name": "SS.26.6287 Disgrifiad Swydd.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=614445&p_type=JOBDOC&p_id=581003&p_show=Y"
+    },
+    {
+     "id": 581002,
+     "doc_name": "SS.26.6287 Job Description.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=614445&p_type=JOBDOC&p_id=581002&p_show=Y"
+    }
+   ]
+  },
+  {
+   "id": 613705,
+   "title": "Tiwtor Gweithlu Addysg",
+   "language": "DEFAULT",
+   "status": "open",
+   "refno": "6273",
+   "weblink": "https://jobs.aber.ac.uk/en/vacancy/tiwtor-gweithlu-addysg-613705.html",
+   "wcc_matching_score": "0",
+   "summary": "",
+   "timestamp": "2026-08-24 08:59:23",
+   "display_in_list": "Y",
+   "publication": {
+    "internet": {
+     "live": "Y",
+     "publish_date": "2026-08-17 00:00:00",
+     "closing_date": "2026-08-30 00:00:00"
+    },
+    "intranet": {
+     "live": "N",
+     "publish_date": "2026-08-10 00:00:00",
+     "closing_date": ""
+    }
+   },
+   "recruiter": {
+    "id": 141466,
+    "full_name": "Recruitment Team",
+    "job_title": "",
+    "branch": "",
+    "email": "recruitment@example.ac.uk",
+    "work_phone": "",
+    "mobile_phone": ""
+   },
+   "org": {
+    "id": 1636976,
+    "name": "",
+    "url": "",
+    "contact_id": null,
+    "contact_first_name": "",
+    "contact_last_name": "",
+    "org_contact_email": "",
+    "org_contact_phone": "",
+    "org_location_name": "",
+    "org_location_adress1": "",
+    "org_location_adress2": "",
+    "org_location_postal_code": "",
+    "org_location_city": "",
+    "org_location_country": ""
+   },
+   "locations": [
+    {
+     "id": null,
+     "name": "",
+     "address1": "",
+     "address2": "",
+     "postal_code": "",
+     "city": "",
+     "county": "",
+     "country": "",
+     "code": "",
+     "telephone": "",
+     "fax": "",
+     "latitude": null,
+     "longitude": null
+    }
+   ],
+   "form_id": 3032,
+   "mobile_form_id": 3032,
+   "template_id": 5886,
+   "web_site_id": 4249,
+   "classifications": {
+    "class_14114": {
+     "id": 14114,
+     "name": "Faculty/Department",
+     "lov_id": 6836,
+     "values": [
+      {
+       "class_val": "Learn Welsh",
+       "class_val_id": 592776,
+       "class_val_code": "ADZA"
+      }
+     ]
+    },
+    "class_10841": {
+     "id": 10841,
+     "name": "Salary Scale",
+     "lov_id": 4225,
+     "values": [
+      {
+       "class_val": "\u00a333,001.64 - \u00a338,784.49 per annum (pro rata)",
+       "class_val_id": 553279,
+       "class_val_code": "553279"
+      }
+     ]
+    },
+    "class_10680": {
+     "id": 10680,
+     "name": "Salary",
+     "lov_id": null,
+     "values": []
+    },
+    "class_24228": {
+     "id": 24228,
+     "name": "Salary (CY)",
+     "lov_id": null,
+     "values": []
+    },
+    "class_10696": {
+     "id": 10696,
+     "name": "Contract Type",
+     "lov_id": 4073,
+     "values": [
+      {
+       "class_val": "Fixed Term",
+       "class_val_id": 506808,
+       "class_val_code": "FTC"
+      }
+     ]
+    },
+    "class_10681": {
+     "id": 10681,
+     "name": "Weekly Hours",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "36.5",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_10683": {
+     "id": 10683,
+     "name": "Interview Date",
+     "lov_id": null,
+     "values": []
+    },
+    "class_24227": {
+     "id": 24227,
+     "name": "Interview Date (CY)",
+     "values": []
+    }
+   },
+   "documents": [
+    {
+     "id": 581100,
+     "doc_name": "LW.26.6144 Job Description.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=613705&p_type=JOBDOC&p_id=581100&p_show=Y"
+    },
+    {
+     "id": 581099,
+     "doc_name": "LW.26.6144 Swydd Disgrifiad.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=613705&p_type=JOBDOC&p_id=581099&p_show=Y"
+    }
+   ]
+  },
+  {
+   "id": 616265,
+   "title": "Marketing & Audience Development Officer - Aberystwyth Arts Centre",
+   "language": "DEFAULT",
+   "status": "open",
+   "refno": "6309",
+   "weblink": "https://jobs.aber.ac.uk/en/vacancy/marketing-audience-development-officer-aberystwyth-arts-centre-616265.html",
+   "wcc_matching_score": "0",
+   "summary": "",
+   "timestamp": "2026-08-18 14:54:14",
+   "display_in_list": "Y",
+   "publication": {
+    "internet": {
+     "live": "Y",
+     "publish_date": "2026-07-23 00:00:00",
+     "closing_date": "2026-08-30 00:00:00"
+    },
+    "intranet": {
+     "live": "N",
+     "publish_date": "2026-08-10 00:00:00",
+     "closing_date": "2026-08-16 00:00:00"
+    }
+   },
+   "recruiter": {
+    "id": 79818,
+    "full_name": "Recruitment Team",
+    "job_title": "",
+    "branch": "",
+    "email": "recruitment@example.ac.uk",
+    "work_phone": "",
+    "mobile_phone": ""
+   },
+   "org": {
+    "id": 210395,
+    "name": "",
+    "url": "",
+    "contact_id": null,
+    "contact_first_name": "",
+    "contact_last_name": "",
+    "org_contact_email": "",
+    "org_contact_phone": "",
+    "org_location_name": "",
+    "org_location_adress1": "",
+    "org_location_adress2": "",
+    "org_location_postal_code": "",
+    "org_location_city": "",
+    "org_location_country": ""
+   },
+   "locations": [
+    {
+     "id": null,
+     "name": "",
+     "address1": "",
+     "address2": "",
+     "postal_code": "",
+     "city": "",
+     "county": "",
+     "country": "",
+     "code": "",
+     "telephone": "",
+     "fax": "",
+     "latitude": null,
+     "longitude": null
+    }
+   ],
+   "form_id": 3032,
+   "mobile_form_id": 3032,
+   "template_id": 5886,
+   "web_site_id": 4249,
+   "classifications": {
+    "class_14114": {
+     "id": 14114,
+     "name": "Faculty/Department",
+     "lov_id": 6836,
+     "values": [
+      {
+       "class_val": "Aberystwyth Arts Centre",
+       "class_val_id": 562171,
+       "class_val_code": "SD04"
+      }
+     ]
+    },
+    "class_10841": {
+     "id": 10841,
+     "name": "Salary Scale",
+     "lov_id": 4225,
+     "values": [
+      {
+       "class_val": "\u00a333,001.64 - \u00a338,784.49 per annum",
+       "class_val_id": 508875,
+       "class_val_code": "508875"
+      }
+     ]
+    },
+    "class_10680": {
+     "id": 10680,
+     "name": "Salary",
+     "lov_id": null,
+     "values": []
+    },
+    "class_24228": {
+     "id": 24228,
+     "name": "Salary (CY)",
+     "lov_id": null,
+     "values": []
+    },
+    "class_10696": {
+     "id": 10696,
+     "name": "Contract Type",
+     "lov_id": 4073,
+     "values": [
+      {
+       "class_val": "Permanent",
+       "class_val_id": 506809,
+       "class_val_code": "PERM"
+      }
+     ]
+    },
+    "class_10681": {
+     "id": 10681,
+     "name": "Weekly Hours",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "36.5",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_10683": {
+     "id": 10683,
+     "name": "Interview Date",
+     "lov_id": null,
+     "values": []
+    },
+    "class_24227": {
+     "id": 24227,
+     "name": "Interview Date (CY)",
+     "values": []
+    }
+   },
+   "documents": [
+    {
+     "id": 580975,
+     "doc_name": "AC.26.6309 Disgrifiad Swydd.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=616265&p_type=JOBDOC&p_id=580975&p_show=Y"
+    },
+    {
+     "id": 581173,
+     "doc_name": "AC.26.6309 Job Description.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=616265&p_type=JOBDOC&p_id=581173&p_show=Y"
+    }
+   ]
+  },
+  {
+   "id": 614276,
+   "title": "AberOnline Tutor (Education)",
+   "language": "DEFAULT",
+   "status": "open",
+   "refno": "6285",
+   "weblink": "https://jobs.aber.ac.uk/en/vacancy/aberonline-tutor-education-614276.html",
+   "wcc_matching_score": "0",
+   "summary": "",
+   "timestamp": "2026-08-18 11:01:21",
+   "display_in_list": "Y",
+   "publication": {
+    "internet": {
+     "live": "Y",
+     "publish_date": "2026-08-18 00:00:00",
+     "closing_date": "2026-08-25 00:00:00"
+    },
+    "intranet": {
+     "live": "N",
+     "publish_date": "2026-07-27 00:00:00",
+     "closing_date": "2026-08-16 00:00:00"
+    }
+   },
+   "recruiter": {
+    "id": 166431,
+    "full_name": "Recruitment Team",
+    "job_title": "",
+    "branch": "",
+    "email": "recruitment@example.ac.uk",
+    "work_phone": "",
+    "mobile_phone": ""
+   },
+   "org": {
+    "id": 2423567,
+    "name": "",
+    "url": "",
+    "contact_id": null,
+    "contact_first_name": "",
+    "contact_last_name": "",
+    "org_contact_email": "",
+    "org_contact_phone": "",
+    "org_location_name": "",
+    "org_location_adress1": "",
+    "org_location_adress2": "",
+    "org_location_postal_code": "",
+    "org_location_city": "",
+    "org_location_country": ""
+   },
+   "locations": [
+    {
+     "id": null,
+     "name": "",
+     "address1": "",
+     "address2": "",
+     "postal_code": "",
+     "city": "",
+     "county": "",
+     "country": "",
+     "code": "",
+     "telephone": "",
+     "fax": "",
+     "latitude": null,
+     "longitude": null
+    }
+   ],
+   "form_id": 3032,
+   "mobile_form_id": 3032,
+   "template_id": 5886,
+   "web_site_id": 4249,
+   "classifications": {
+    "class_14114": {
+     "id": 14114,
+     "name": "Faculty/Department",
+     "lov_id": 6836,
+     "values": [
+      {
+       "class_val": "Aber Online",
+       "class_val_id": 742597,
+       "class_val_code": "177A "
+      }
+     ]
+    },
+    "class_10841": {
+     "id": 10841,
+     "name": "Salary Scale",
+     "lov_id": 4225,
+     "values": []
+    },
+    "class_10680": {
+     "id": 10680,
+     "name": "Salary",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "\u00a333,001.64 per annum pro rata ",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_24228": {
+     "id": 24228,
+     "name": "Salary (CY)",
+     "lov_id": null,
+     "values": []
+    },
+    "class_10696": {
+     "id": 10696,
+     "name": "Contract Type",
+     "lov_id": 4073,
+     "values": [
+      {
+       "class_val": "Fixed Term",
+       "class_val_id": 506808,
+       "class_val_code": "FTC"
+      }
+     ]
+    },
+    "class_10681": {
+     "id": 10681,
+     "name": "Weekly Hours",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "zero hours",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_10683": {
+     "id": 10683,
+     "name": "Interview Date",
+     "lov_id": null,
+     "values": [
+      {
+       "class_val": "ASAP",
+       "class_val_id": null,
+       "class_val_code": ""
+      }
+     ]
+    },
+    "class_24227": {
+     "id": 24227,
+     "name": "Interview Date (CY)",
+     "values": []
+    }
+   },
+   "documents": [
+    {
+     "id": 580308,
+     "doc_name": "A0.26.6285 Disgrifiad Swydd.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=614276&p_type=JOBDOC&p_id=580308&p_show=Y"
+    },
+    {
+     "id": 580307,
+     "doc_name": "AO.26.6285 Job Description.docx",
+     "doc_url": "https://jobs.aber.ac.uk/wd/plsql/wd_portal.view_blob?p_web_site_id=4249&p_web_page_id=614276&p_type=JOBDOC&p_id=580307&p_show=Y"
+    }
+   ]
+  }
+ ],
+ "total": 11
+}

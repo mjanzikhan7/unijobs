@@ -1,0 +1,14 @@
+.ring {
+  background: conic-gradient(
+    var(--fit-arc) calc(var(--sweep) * 1%),
+    var(--color-border-subtle) 0
+  );
+}
+
+.ring::before {
+  content: "";
+  position: absolute;
+  inset: var(--fit-thickness);
+  border-radius: 9999px;
+  background: var(--color-surface);
+}

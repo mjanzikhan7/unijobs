@@ -1,0 +1,1338 @@
+[
+  {
+    "slug": "university-of-cambridge",
+    "registered_legal_name": "The University of Cambridge",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-oxford",
+    "registered_legal_name": "University of Oxford",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "london-school-of-economics-and-political-science",
+    "registered_legal_name": "The London School of Economics and Political Science",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-st-andrews",
+    "registered_legal_name": "University of St Andrews",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "imperial-college-london",
+    "registered_legal_name": "Imperial College London (HR)",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "durham-university",
+    "registered_legal_name": "University of Durham",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "loughborough-university",
+    "registered_legal_name": "Loughborough University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-bath",
+    "registered_legal_name": "University of Bath",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "lancaster-university",
+    "registered_legal_name": "Lancaster University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-exeter",
+    "registered_legal_name": "University of Exeter",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Charity Worker; Creative Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-birmingham",
+    "registered_legal_name": "University of Birmingham",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-college-london-ucl",
+    "registered_legal_name": "University College London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-sheffield",
+    "registered_legal_name": "The University of Sheffield",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-southampton",
+    "registered_legal_name": "University of Southampton",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "kings-college-london",
+    "registered_legal_name": "King's College London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-bristol",
+    "registered_legal_name": "University of Bristol",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-leeds",
+    "registered_legal_name": "University of Leeds (Human Resources)",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; International Agreement; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-edinburgh",
+    "registered_legal_name": "University of Edinburgh",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Charity Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-york",
+    "registered_legal_name": "University of York",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-surrey",
+    "registered_legal_name": "University of Surrey",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-liverpool",
+    "registered_legal_name": "University of Liverpool",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "queens-university-belfast",
+    "registered_legal_name": "Queen's University Belfast",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Charity Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-manchester",
+    "registered_legal_name": "The University of Manchester",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-dundee",
+    "registered_legal_name": "University of Dundee",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-nottingham",
+    "registered_legal_name": "University of Nottingham",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "cardiff-university",
+    "registered_legal_name": "Cardiff University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-the-arts-london",
+    "registered_legal_name": "University of the Arts London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-glasgow",
+    "registered_legal_name": "University of Glasgow",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-essex",
+    "registered_legal_name": "University of Essex",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "heriot-watt-university",
+    "registered_legal_name": "Heriot-Watt University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-aberdeen",
+    "registered_legal_name": "University of Aberdeen",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-leicester",
+    "registered_legal_name": "University of Leicester",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-east-anglia",
+    "registered_legal_name": "University of East Anglia",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "newcastle-university",
+    "registered_legal_name": "Newcastle University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Global Business Mobility: Senior or Specialist Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-sussex",
+    "registered_legal_name": "University of Sussex",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "northumbria-university",
+    "registered_legal_name": "Northumbria University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "harper-adams-university",
+    "registered_legal_name": "Harper Adams University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-of-strathclyde",
+    "registered_legal_name": "University of Strathclyde",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "queen-mary-university-of-london",
+    "registered_legal_name": "Queen Mary University of London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "swansea-university",
+    "registered_legal_name": "Swansea University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-holloway-university-of-london",
+    "registered_legal_name": "Royal Holloway and Bedford New College",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-reading",
+    "registered_legal_name": "University of Reading",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Global Business Mobility: Senior or Specialist Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-suffolk",
+    "registered_legal_name": "University of Suffolk",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "oxford-brookes-university",
+    "registered_legal_name": "Oxford Brookes University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "nottingham-trent-university",
+    "registered_legal_name": "Nottingham Trent University - Human Resources",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "ulster-university",
+    "registered_legal_name": "University of Ulster",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "brunel-university-of-london",
+    "registered_legal_name": "Brunel University London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "bangor-university",
+    "registered_legal_name": "Bangor University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-lincoln",
+    "registered_legal_name": "University of Lincoln",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-portsmouth",
+    "registered_legal_name": "University of Portsmouth",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "aston-university",
+    "registered_legal_name": "Aston University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "manchester-metropolitan-university",
+    "registered_legal_name": "MANCHESTER METROPOLITAN UNIVERSITY",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "keele-university",
+    "registered_legal_name": "Keele University - Human Resources",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-stirling",
+    "registered_legal_name": "University of Stirling",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "aberystwyth-university",
+    "registered_legal_name": "Aberystwyth University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "coventry-university",
+    "registered_legal_name": "Coventry University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "edge-hill-university",
+    "registered_legal_name": "Edge Hill University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "city-st-georges-university-of-london",
+    "registered_legal_name": "City St George's, University of London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "norwich-university-of-the-arts",
+    "registered_legal_name": "Norwich University of the Arts",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "goldsmiths-university-of-london",
+    "registered_legal_name": "Goldsmiths University of London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-kent",
+    "registered_legal_name": "University of Kent",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-chichester",
+    "registered_legal_name": "University of Chichester",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-hull",
+    "registered_legal_name": "University of Hull",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "falmouth-university",
+    "registered_legal_name": "Falmouth University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-salford",
+    "registered_legal_name": "The University of Salford",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-plymouth",
+    "registered_legal_name": "University of Plymouth",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-huddersfield",
+    "registered_legal_name": "University of Huddersfield",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-sunderland",
+    "registered_legal_name": "University of Sunderland",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-hertfordshire",
+    "registered_legal_name": "University of Hertfordshire Higher Education Corporation",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-derby",
+    "registered_legal_name": "University of Derby",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "arts-university-bournemouth",
+    "registered_legal_name": "Arts University Bournemouth",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "cardiff-metropolitan-university",
+    "registered_legal_name": "Cardiff Metropolitan University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "International Sportsperson; Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-of-the-west-of-england-bristol",
+    "registered_legal_name": "University of the West of England",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "robert-gordon-university",
+    "registered_legal_name": "The Robert Gordon University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "liverpool-john-moores-university",
+    "registered_legal_name": "Liverpool John Moores University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "bournemouth-university",
+    "registered_legal_name": "Bournemouth University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-chester",
+    "registered_legal_name": "University of Chester",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "st-marys-university-twickenham",
+    "registered_legal_name": "St Mary's University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-worcester",
+    "registered_legal_name": "The University of Worcester",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "edinburgh-napier-university",
+    "registered_legal_name": "Edinburgh Napier University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "sheffield-hallam-university",
+    "registered_legal_name": "Sheffield Hallam University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "liverpool-hope-university",
+    "registered_legal_name": "Liverpool Hope University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-west-london",
+    "registered_legal_name": "The University of West London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-for-the-creative-arts",
+    "registered_legal_name": "University for the Creative Arts",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "leeds-beckett-university",
+    "registered_legal_name": "Leeds Beckett University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "teesside-university",
+    "registered_legal_name": "University of Teesside",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "kingston-university",
+    "registered_legal_name": "Kingston University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "glasgow-caledonian-university",
+    "registered_legal_name": "Glasgow Caledonian University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-central-lancashire",
+    "registered_legal_name": "University of Lancashire",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-south-wales",
+    "registered_legal_name": "University of South Wales",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "bath-spa-university",
+    "registered_legal_name": "Bath Spa University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "canterbury-christ-church-university",
+    "registered_legal_name": "Canterbury Christ Church University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker; Tier 2 Ministers of Religion",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "soas-university-of-london",
+    "registered_legal_name": "School of Oriental and African Studies",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "birmingham-city-university",
+    "registered_legal_name": "Birmingham City University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-of-east-london",
+    "registered_legal_name": "University of East London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-winchester",
+    "registered_legal_name": "The University of Winchester",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-bradford",
+    "registered_legal_name": "University of Bradford",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-gloucestershire",
+    "registered_legal_name": "University of Gloucestershire",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-wales-trinity-saint-david",
+    "registered_legal_name": "University of Wales Trinity Saint David - Lampeter Campus",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-wolverhampton",
+    "registered_legal_name": "University of Wolverhampton",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "queen-margaret-university",
+    "registered_legal_name": "Queen MargaretUniversity",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-of-greenwich",
+    "registered_legal_name": "",
+    "register_status": "NOT FOUND",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "university-of-brighton",
+    "registered_legal_name": "University of Brighton",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "abertay-university",
+    "registered_legal_name": "Abertay University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-bedfordshire",
+    "registered_legal_name": "University of Bedfordshire",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "leeds-arts-university",
+    "registered_legal_name": "",
+    "register_status": "NOT FOUND",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "york-st-john-university",
+    "registered_legal_name": "York St John University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-agricultural-university",
+    "registered_legal_name": "Royal Agricultural University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "de-montfort-university",
+    "registered_legal_name": "De Montfort University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "staffordshire-university",
+    "registered_legal_name": "University of Staffordshire",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "london-south-bank-university",
+    "registered_legal_name": "London South Bank University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Charity Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "anglia-ruskin-university",
+    "registered_legal_name": "Anglia Ruskin University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "bishop-grosseteste-university",
+    "registered_legal_name": "",
+    "register_status": "UNCONFIRMED",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "solent-university",
+    "registered_legal_name": "Solent University Limited",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-of-westminster",
+    "registered_legal_name": "University of Westminster",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-cumbria",
+    "registered_legal_name": "University of Cumbria",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-greater-manchester-formerly-univ-of-bolton",
+    "registered_legal_name": "University of Bolton",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "arts-university-plymouth",
+    "registered_legal_name": "Arts University Plymouth",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "buckinghamshire-new-university",
+    "registered_legal_name": "Buckinghamshire New University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-northampton",
+    "registered_legal_name": "The University of Northampton",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "middlesex-university",
+    "registered_legal_name": "Middlesex University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-roehampton",
+    "registered_legal_name": "Roehampton University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-of-buckingham",
+    "registered_legal_name": "The University of Buckingham",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "leeds-trinity-university",
+    "registered_legal_name": "Leeds Trinity University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "International Agreement; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "plymouth-marjon-university",
+    "registered_legal_name": "University of St Mark & St John",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "newman-university-birmingham",
+    "registered_legal_name": "Birmingham Newman University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-of-the-west-of-scotland",
+    "registered_legal_name": "University of the West of Scotland",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "london-metropolitan-university",
+    "registered_legal_name": "London Metropolitan University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "wrexham-university",
+    "registered_legal_name": "Wrexham University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "arden-university",
+    "registered_legal_name": "Arden University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "bpp-university",
+    "registered_legal_name": "BPP University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "birkbeck-university-of-london",
+    "registered_legal_name": "Birkbeck College",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "cranfield-university",
+    "registered_legal_name": "Cranfield University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "guildhall-school-of-music-drama",
+    "registered_legal_name": "",
+    "register_status": "VIA PARENT",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "hartpury-university",
+    "registered_legal_name": "Hartpury University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; International Sportsperson; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "health-sciences-university-formerly-aecc",
+    "registered_legal_name": "Health Sciences University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "institute-of-cancer-research",
+    "registered_legal_name": "The Institute of Cancer Research",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "leeds-conservatoire",
+    "registered_legal_name": "",
+    "register_status": "VIA PARENT",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "liverpool-institute-for-performing-arts",
+    "registered_legal_name": "The Liverpool Institute for Performing Arts",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "london-business-school",
+    "registered_legal_name": "London Business School",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "london-school-of-hygiene-tropical-medicine",
+    "registered_legal_name": "London School of Hygiene & Tropical Medicine",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "northeastern-university-london",
+    "registered_legal_name": "Northeastern University - London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Global Business Mobility: Senior or Specialist Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "ravensbourne-university-london",
+    "registered_legal_name": "Ravensbourne University London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "regents-university-london",
+    "registered_legal_name": "Regent's University London Limited",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "richmond-american-university-london",
+    "registered_legal_name": "Richmond, The American International University in London",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "rose-bruford-college",
+    "registered_legal_name": "Rose Bruford College",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-academy-of-music",
+    "registered_legal_name": "Royal Academy of Music",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-central-school-of-speech-and-drama",
+    "registered_legal_name": "The Royal Central School of Speech and Drama",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-college-of-art",
+    "registered_legal_name": "Royal College of Art",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-college-of-music",
+    "registered_legal_name": "Royal College of Music",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-conservatoire-of-scotland",
+    "registered_legal_name": "Royal Conservatoire of Scotland",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-northern-college-of-music",
+    "registered_legal_name": "Royal Northern College of Music",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-veterinary-college",
+    "registered_legal_name": "Royal Veterinary College",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "royal-welsh-college-of-music-drama",
+    "registered_legal_name": "",
+    "register_status": "VIA PARENT",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "sruc-scotlands-rural-college",
+    "registered_legal_name": "Scotland's Rural College",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "st-marys-university-college-belfast",
+    "registered_legal_name": "",
+    "register_status": "NOT FOUND",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "stranmillis-university-college",
+    "registered_legal_name": "",
+    "register_status": "NOT FOUND",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "the-courtauld-institute-of-art",
+    "registered_legal_name": "Courtauld Institute of Art",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "the-glasgow-school-of-art",
+    "registered_legal_name": "The Glasgow School of Art",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "the-london-institute-of-banking-finance",
+    "registered_legal_name": "",
+    "register_status": "NOT FOUND",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "the-open-university",
+    "registered_legal_name": "The Open University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "the-open-university-in-ireland",
+    "registered_legal_name": "The Open University",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "trinity-laban-conservatoire-of-music-and-dance",
+    "registered_legal_name": "Trinity Laban",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Creative Worker; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "university-college-birmingham",
+    "registered_legal_name": "University College Birmingham",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Skilled Worker",
+    "type_rating": "Worker (A rating)"
+  },
+  {
+    "slug": "university-of-law",
+    "registered_legal_name": "",
+    "register_status": "NOT FOUND",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  },
+  {
+    "slug": "university-of-the-highlands-and-islands-uhi",
+    "registered_legal_name": "University of the Highlands and Islands",
+    "register_status": "ON REGISTER",
+    "skilled_worker_licence": "Yes",
+    "routes": "Government Authorised Exchange; Skilled Worker",
+    "type_rating": "Temporary Worker (A rating); Worker (A rating)"
+  },
+  {
+    "slug": "writtle-university-college",
+    "registered_legal_name": "",
+    "register_status": "NOT FOUND",
+    "skilled_worker_licence": "",
+    "routes": "",
+    "type_rating": ""
+  }
+]

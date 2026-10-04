@@ -1,0 +1,772 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Job Search</title>
+
+<script type="text/javascript">
+		var CRITERIA_FIELDS_TO_REGISTER = [];
+		
+		var require = {
+			baseUrl : "/careersection/2026PRD.1.3.11.3.0/js/",
+			config: {
+				'fs/FacetedSearchSettings': {
+					waitSeconds: 15,
+					queryString: 'lang=en&amp;portal=10105010224&amp;portal=14205010224',
+				    resourcesMapAsJSON: {"resultListPanel.mustEnterSearchName":"You must specify a search query name.","helpPanel.candidateProfile":"Candidate Profile","seeAllOlf.filterLocations":"Filter locations","resultListPanel.ascending":"Ascending","resultListPanel.singleLineViewLinkAudibleDescription":"Job list in single line view. Press ENTER to switch to multi line view.","seeAllOlf.loading":"Loading","resultListPanel.referACandidateButton":"Refer a candidate","advancedSearchPanel.clearAll":"Clear All","seeAllOlf.seeLocations":"See all locations","resultListPanel.share":"Share","resultListPanel.descending":"Descending","icons.draftSubmission":"Draft submission","searchPanel.showMoreTT":"Shore more values","resultListPanel.actions":"Actions","resultListPanel.singleLineView":"Single-line","headerPanel.processesTT":"Go to Tasks","filterTopPanel.removeCriterion":"Remove criterion {0}","searchPanel.viewAllJobs":"View All Jobs","headerPanel.submissionsTT":"Access the My Submissions page containing details related to your submissions","headerPanel.messagesTT":"Access the My Messages page containing your messages","resultListPanel.saveSearchLengthError":"The search name exceeds the maximum length allowed ({0}).","advancedSearchPanel.addJobField":"Add Job Field","resultListPanel.saveSearch":"Save this Search","headerPanel.jobSearchTT":"Access the job search page","headerPanel.advancedSearch":"Advanced Search","resultListPanel.pageTitle":"Job Search","resultListPanel.reApplyButtonTT":"Re-apply for this job","accessibility.noMatchFound":"No match found.","resultListPanel.collapseSection":"Collapse this section","resultListPanel.referLinkTT":"Refer a friend's profile","helpPanel.advancedJobSearch":"Advanced Job Search","advancedSearchPanel.title":"Advanced Job Search","advancedSearchPanel.basicSearch":"Basic Search","resultListPanel.multiLineView":"Multi-line","footerPanel.viewStandardCareerSection":"View Full Career Section","headerPanel.offersTT":"Go to Offers","resultListPanel.noResults":"No jobs correspond to the specified criteria.","accessibility.multipleResultAudible":"{0} results are available, use up and down arrow keys to navigate.","resultListPanel.finishDraftSubmissionButton":"Finish Draft Submission","seeAllOlf.showingOrganizations":"Showing all organisations.","footerPanel.viewStandardCareerSectionTT":"Go to Full Career Section","icons.addedToJobCartResource":"Added to the job cart","resultListPanel.saveSearchConfirm":"Confirm","icons.urgentNeedJob":"Urgent need job","helpPanel.submitCandidateProfileLinkTT":"Open the form used to refer a candidate","headerPanel.processes":"My Offer","resultListPanel.sortOrder":"Order","infoPanel.jobOpenings":"Job Vacancies","helpPanel.savingSearches":"Saving searches","resultListPanel.saveSearchAction":"Save this Search","resultListPanel.jobListReloaded":"The list of job openings has reloaded","resultListPanel.nextPage":"Next","headerPanel.jobsMatchingMyProfileTT":"Access the list of jobs matching your profile","resultListPanel.nextPageTT":"Go to the next page","searchPanel.showLess":"Show less...","seeAllOlf.filterOlfHint":"The list will update after entering a search criterion.","infoPanel.rss":"RSS","resultListPanel.sortBy":"Sort by","resultListPanel.messageLinkJobDescription":"Click the link to view the complete job description.","resultListPanel.multiLineViewLinkAudibleDescription":"Job list in multi line view. Press ENTER to switch to single line view.","resultListPanel.removeFilters":"To improve your search results, remove one or more filters.","resultListPanel.applyButton":"Apply","sessionPanel.warningMessage":"This service is set to disconnect automatically after 60 minutes of inactivity. Your session will end in 20 minutes.","accessibility.helpAndIconLegend":"Help and Icon Legend","seeAllOlf.showingLocations":"Showing all locations.","headerPanel.signOut":"Sign Out","helpPanel.referCandidateDescription":"Tell us about a person who might be interested in working for our organization. All privacy rights will be protected.","resultListPanel.addToJobCartActionTT":"Save this job","resultListPanel.saveSearchDescription":"Save this search so you do not have to select search criteria the next time you are looking for similar jobs.","headerPanel.signInTT":"Log in to the system","resultListPanel.multipleLocations":"Multiple Locations","helpPanel.closeTT":"Close","headerPanel.signIn":"Sign In","helpPanel.savingSearchesDescription":"You can save the current search by clicking \"Save this Search\". Searches are saved in the \"My Saved Searches\" section, under the \"My Jobpage\" tab.","seeAllOlf.emptyFiltering":"No records found","pagerAccessibilityResources.pageNumberLinkTitle":"Go to page {0}","resultListPanel.saveSearchTitle":"Search Name","helpPanel.referFriend":"Refer a friend","resultListPanel.viewEditSubmissionButton":"View\/Edit Submission","icons.completedSubmission":"Completed submission","seeAllOlf.selectionLimitTitle":"Selection limit reached","resultListPanel.previousPage":"Previous","headerPanel.jobpageTT":"Access the My Jobpage page containing your saved searches, submissions, referrals","resultListPanel.applyButtonTT":"Apply for this job","resultListPanel.referAFriendLink":"Refer a friend","seeAllOlf.seeOrganizations":"See all organisations","seeAllOlf.selectionLimitOK":"OK","headerPanel.savedSearches":"Saved Searches","seeAllOlf.filterOrganizations":"Filter organisations","helpPanel.helpTT":"Access the online help","headerPanel.offers":"Offers","resultListPanel.saveSearchTT":"This will save this search with name entered","headerPanel.jobsMatchingMyProfile":"Jobs Matching My Profile","seeAllOlf.selectElement":"Select Element","sessionPanel.timeoutMessage":"You have been signed out.","infoPanel.rssButtonTT":"Create an RSS feed","helpPanel.accessMyProfileLink":"Access my profile","accessibility.jobListReloaded":"The list of jobs has reloaded. {0} – {1} of {2}. Page {3}","advancedSearchPanel.addLocation":"Add Location","seeAllOlf.showingJobFields":"Showing all job fields.","pagerAccessibilityResources.previousPageLinkTitle":"Go to the previous page","searchPanel.noMatchFound":"No match found.","seeAllOlf.add":"Add","filterTopPanel.clearCommand":"Clear","sessionPanel.clickOkResetTimer":"Click OK to reset the timer to 60 minutes.","resultListPanel.accessSaveSearches":"Access My Saved Searches","sessionPanel.okButtonTT":"Reset the timer","resultListPanel.saveSearchConfirmationText":"Are you sure that you want to override it?","icons.iconLegend":"Icon legend","sessionPanel.sessionTerminated":"This service is set to sign out after 60 minutes of inactivity.","searchPanel.showLessTT":"Show less values","headerPanel.submissions":"My Submissions","searchPanel.showMore":"Show more...","helpPanel.submitFriendProfileLink":"Submit a friend's profile","searchPanel.searchIconTT":"Search for jobs","headerPanel.jobSearch":"Job Search","resultListPanel.addToJobCartErrorMessage":"You cannot add this item to the job cart, because you have already reached the maximum number of items allowed in the job cart (25). You must first delete an existing item to be able to add a new one.","resultListPanel.addToJobCartAction":"Save Job","helpPanel.referCandidate":"Refer a candidate","headerPanel.account":"Account","filterTopPanel.clearCriteriaLinkAudible":"Clear search criteria.","pagerAccessibilityResources.nextPageLinkTitle":"Go to the next page","headerPanel.jobsInJobcartHiddenLabel":"jobs in jobcart","seeAllOlf.cancel":"Cancel","helpPanel.searchTips":"Search Tips","headerPanel.referrals":"Referrals","seeAllOlf.filterList":"Filter records:","resultListPanel.previousPageTT":"Go to the previous page","seeAllOlf.showingOrganizationsIn":"Showing all organizations in {0}","searchPanel.viewAllJobsTT":"Access the list of all job openings","resultListPanel.viewAllJobs":"You can also view all available job openings.","helpPanel.accessMyProfileLinkTT":"Open the form used to manage employment profiles","resultListPanel.finishDraftSubmissionButtonTT":"Finish this draft submission","helpPanel.submitCandidateProfileLink":"Submit a candidate's profile","resultListPanel.viewEditSubmissionButtonTT":"View or modify this submission","seeAllOlf.showingLocationsIn":"Showing all locations in {0}","advancedSearchPanel.addOrganization":"Add Organization","headerPanel.jobpage":"My Jobpage","resultListPanel.saveSearchErrorMessage":"You cannot save this search because you have reached the maximum number of saved searches allowed. Please delete or override an existing search query.","sessionPanel.okButton":"OK","resultListPanel.referACandidateButtonTT":"Refer a candidate","seeAllOlf.selectionLimitMsg":"You can't select more than {0} positions.","resultListPanel.icons":"Icons","seeAllOlf.seeJobFieldsIn":"See all job fields in {0}","resultListPanel.accessSaveSearchesTT":"Access the search queries you have saved","helpPanel.candidateProfileDescription":"Take a few minutes to create or modify your employment profile and to specify your preferred working criteria for future openings matching your interests.","seeAllOlf.emptyTable":"No data available","resultListPanel.saveSearchCancel":"Cancel","seeAllOlf.seeLocationsIn":"See all locations in {0}","accessibility.singleResultAudible":"1 result is available, use up and down arrow keys to navigate.","resultListPanel.saveSearchButtonTT":"Expand the 'Save this search' section","resultListPanel.showMoreLocations":"More...","headerPanel.welcomeMessageForSignedOutUser":"Welcome. You are not signed in.","resultListPanel.saveSearchErrorOk":"OK","seeAllOlf.seeJobFields":"See all job fields","resultListPanel.moreActionsButton":"More actions","helpPanel.searchTipsDescription":"You can search jobs by entering relevant data in the above search fields and by filtering the job list with additional criteria.","headerPanel.profile":"Profile","resultListPanel.reApplyButton":"Re-apply","seeAllOlf.showingInfo":"Select up to {0} items to add them to your job search.","resultListPanel.saveSearchConfirmationTitle":"You are about to override a search query and all of its content.","helpPanel.advancedJobSearchDescription":"To perform a job search using advanced search criteria, click the \"Advanced Search\" link on the search bar and select relevant criteria.","seeAllOlf.showingJobFieldsIn":"Showing all job fields in {0}","infoPanel.of":"of","icons.moreInformation":"More information","headerPanel.welcomeMessageForSignedInUser":"Welcome {0} {1}. You are signed in.","helpPanel.submitFriendProfileLinkTT":"Open the form used to refer a friend","resultListPanel.referDescription":"Tell us about a friend who might be interested in working for our organization. All privacy rights will be protected.","headerPanel.signOutTT":"Log out of the system","headerPanel.messages":"My Messages","helpPanel.referFriendDescription":"Tell us about a friend who might be interested in working for our organization. All privacy rights will be protected.","resultListPanel.referLink":"Refer a friend","resultListPanel.view":"View","seeAllOlf.filterJobFields":"Filter job fields","resultListPanel.jobsAvailableIn":"Jobs available in:","seeAllOlf.seeOrganizationsIn":"See all organizations in {0}"},
+					versionNumber: '2026PRD.1.3.11.3.0',
+					lang: 'en',
+					portalNo: '14205010224',
+					urlOrigin: 'https://durham.taleo.net'	,
+					urlCode: 'du_mob',
+					src: '',
+					urgentJobDisplayed: false,
+					userSignedIn: false,
+					agencyPortal: false,
+					applicationFlowSet: true,
+					addToJobCartLinkDisplayed: true,
+					addThisEnabled: false,
+					multilineLayoutAsJSONArray: [[{type: "field", value: "", index: 0},{type: "staticText", value: " ", index: 0},{type: "staticText", value: "-", index: 0},{type: "staticText", value: " ", index: 0},{type: "field", value: "", index: 1}],[{type: "field", value: "", index: 2},{type: "staticText", value: " ", index: 0},{type: "field", value: "", index: 3}]],
+					defaultOrder: false,
+					defaultSortingField: 'RELEVANCY',
+					filterPanelOffLayout: true,
+					jobCartItemCount: 0,
+					searchOnMultilingualRequisition: false,
+					saveSearchPanelDisplayed: false,
+					sessionCSRFTokenName: "csrftoken",
+					sessionCSRFToken: "giVsw2ykDNhyHQ9VFETQ6rHwNQN5N9+89cosb0Tjg/Q=",
+					timeoutInterval: 3600000,
+					warningInterval: 1200000,
+                    requisitionDescriptionPageDisplayed : true,
+                    logoutServletURL: '/careersection/locallogoutservlet.jss?portal=14205010224&portalCode=du_mob&SPID=http%3A%2F%2Fwww.taleo.com%2Fcareersection',
+					criteriaFieldsToRegister : CRITERIA_FIELDS_TO_REGISTER,
+					multilineViewSetAsDefault : true
+				}
+			}
+		};
+		
+		function setWindowLoaded() {
+			window.loaded = true;
+		}
+
+		if (window.addEventListener) {
+			window.addEventListener("load", setWindowLoaded, false);
+		} else if (window.attachEvent) {
+			window.attachEvent("onload", setWindowLoaded);
+		}
+		
+		if(!window.console) {
+			console = {log: function() {}};
+		};
+</script>
+<script data-main="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FacetedSearchPage.js" src="/careersection/2026PRD.1.3.11.3.0/js/common/require.js"></script>
+<script src="/careersection/2026PRD.1.3.11.3.0/js/integration/iframes_communication.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FacetedSearchPage.js" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FacetedSearchPage.js"></script>
+<script src="/careersection/2026PRD.1.3.11.3.0/js/common/json2.js"></script>
+
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/faceted_search.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/quick_filter_panel.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/result_list_panel.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/header_panel.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/advanced-search-panel.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/see_all_olf_popup.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/css/footer_panel.css" type="text/css">
+<link rel="stylesheet" href="/careersection/2026PRD.1.3.11.3.0/UIStyleSheet.dcss?styleSheet=FSDU_THEME_V3&amp;timestamp=1788534008127" type="text/css">
+
+<title>Oracle Taleo</title><link rel="stylesheet" href="/careersection/theme/61/1701187593461/en/theme/css/style.css" type="text/css"><meta name="description" content="Mobile"><meta name="keywords" content="Mobile"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+
+<script type="text/javascript">
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+    </script>
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="/careersection/2026PRD.1.3.11.3.0/js/common/jquery.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SearchHandler" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SearchHandler.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/HeaderPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/HeaderPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SessionManager" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SessionManager.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/ResultListPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/ResultListPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FieldPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FieldPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/PopupManager" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/PopupManager.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FilterPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FilterPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FilterTopPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FilterTopPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/HelpManager" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/HelpManager.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/InfoPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/InfoPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/LanguageFilterPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/LanguageFilterPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SortPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SortPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SaveSearchPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SaveSearchPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/AdvancedSearchPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/AdvancedSearchPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/advancedsearchcriteria/CriteriaRegistrator" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/advancedsearchcriteria/CriteriaRegistrator.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/QueryStringBuilder" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/QueryStringBuilder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/URLBuilder" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/URLBuilder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/ResourcesHandler" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/ResourcesHandler.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/autosuggest/AutosuggestsCreator" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/autosuggest/AutosuggestsCreator.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/Utilities" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/Utilities.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FacetedSearchSettings" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FacetedSearchSettings.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/DropdownMenuUtils" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/DropdownMenuUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/DropDownMenuKeyboardUtils" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/DropDownMenuKeyboardUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/QueryStringParser" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/QueryStringParser.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/StaticResourcesProvider" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/StaticResourcesProvider.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/DateUtils" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/DateUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/CookieStore" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/CookieStore.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/TableRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/TableRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/MultilineListRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/MultilineListRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/JobTablePager" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/JobTablePager.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/MultilineQueryParamExtractor" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/MultilineQueryParamExtractor.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/PopupManagerDefinition" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/PopupManagerDefinition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery.cookie" src="/careersection/2026PRD.1.3.11.3.0/js/common/jquery.cookie.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FilterParamParser" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FilterParamParser.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FilterFactory" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FilterFactory.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/PageDetails" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/PageDetails.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SortQueryParamExtractor" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SortQueryParamExtractor.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/advancedsearchcriteria/TextCriteriaField" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/advancedsearchcriteria/TextCriteriaField.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/advancedsearchcriteria/RadioCriteriaField" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/advancedsearchcriteria/RadioCriteriaField.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/advancedsearchcriteria/OLFCriteriaField" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/advancedsearchcriteria/OLFCriteriaField.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/advancedsearchcriteria/CheckboxCriteriaField" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/advancedsearchcriteria/CheckboxCriteriaField.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/ResourcesHandlerDefinition" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/ResourcesHandlerDefinition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/autosuggest/Autosuggest" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/autosuggest/Autosuggest.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/autosuggest/AutosuggestOLF" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/autosuggest/AutosuggestOLF.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/autosuggest/AutosuggestPhrase" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/autosuggest/AutosuggestPhrase.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/autosuggest/AutosuggestText" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/autosuggest/AutosuggestText.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/RowRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/RowRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/MultilineEntryRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/MultilineEntryRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/setFullVersionCookie" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/setFullVersionCookie.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/DefaultFilter" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/DefaultFilter.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/DefaultFilterRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/DefaultFilterRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/DropdownContentRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/DropdownContentRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/OLFLevelsContentRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/OLFLevelsContentRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/CheckboxesContentRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/CheckboxesContentRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/DefaultLanguageFilterRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/DefaultLanguageFilterRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/LanguagesContentRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/LanguagesContentRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/OLFFieldBuilder" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/OLFFieldBuilder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="/careersection/2026PRD.1.3.11.3.0/js/common/jquery-ui.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/CellRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/CellRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/ActionsCellRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/ActionsCellRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/IconsCellRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/IconsCellRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/LineRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/LineRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/OLFLevelsBuilder" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/OLFLevelsBuilder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/CheckboxItemRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/CheckboxItemRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/ShowMoreLessLinkFactory" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/ShowMoreLessLinkFactory.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SeeAllOlfLinkFactory" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SeeAllOlfLinkFactory.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/ListSortedByQuantityBuilder" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/ListSortedByQuantityBuilder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/list/LocationsCellRenderer" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/list/LocationsCellRenderer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/IconsDefinitionProvider" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/IconsDefinitionProvider.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/ButtonsDefinitionsProvider" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/ButtonsDefinitionsProvider.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FilterValuesToDisplayProvider" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FilterValuesToDisplayProvider.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SortRule" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SortRule.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SeeAllOlfPopup" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SeeAllOlfPopup.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/IconDefinition" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/IconDefinition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/ApplyButtonDefinition" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/ApplyButtonDefinition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/ReferCandidateButtonDefinition" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/ReferCandidateButtonDefinition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/AddToJobCartButtonDefinition" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/AddToJobCartButtonDefinition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/AddThisButtonDefinition" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/AddThisButtonDefinition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FiltersSelectionHolder" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FiltersSelectionHolder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/FiltersSelectionPanel" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/FiltersSelectionPanel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/SeeAllOlfTable" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/SeeAllOlfTable.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fs/VersionHolder" src="/careersection/2026PRD.1.3.11.3.0/js/facetedsearch/VersionHolder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery.dataTables" src="/careersection/2026PRD.1.3.11.3.0/js/common/jquery.dataTables.min.js"></script></head>
+<body>
+	<div class="main_holder">
+		<div class="logo_hldr">
+			<a href="//www.dur.ac.uk/" shape="rect">
+				<img src="/careersection/theme/61/1701187593461/en/theme/images/durham-university.png" alt="Durham University" width="140" height="61">
+			</a>
+		</div>
+		
+
+	<div class="masterbody" id="facetedSearchBody">
+		<div class="header"></div>
+
+		<div class="menu"></div>
+		<div class="mainsection">
+			<div class="headersection">
+				
+
+
+
+<div id="headerPanelContainer" class="headerpanel">
+	<div class="userpanel">
+		<h2 class="username">Welcome. You are not signed in.</h2>
+	</div>
+
+	<div class="right-header-info">
+		
+		
+			<span id="header-actions-signed-out" class="header-actions metalink">
+				<a id="signin-link" class="signed-in" href="/careersection/du_mob/jobsearch.ftl?ftlcompclass=LoginComponent">Sign In</a>
+			</span>
+		
+	</div>
+	<div style="clear:both;"></div>
+	
+	<ul id="tabs" class="linkpanel">
+		<li>
+	  		<a id="jobsearch-link" class="selectedlink" href="/careersection/du_mob/jobsearch.ftl">Job Search</a>
+	  	</li>
+	  
+	  	
+	  		<li>
+	  			<a id="jobpage-link" class="link" href="/careersection/du_mob/mysubmissions.ftl">My Jobpage</a>
+	  		</li>	
+	  	
+	  	
+	  	
+	  	
+	  	
+
+        
+	</ul>
+</div>
+			</div>
+			
+
+<div id="sessionWarning" class="session-popup-window messagewarningpanel" role="alertdialog" aria-hidden="true" aria-labelledby="warningID" aria-describedby="okResetID">
+	<div class="messagetitle" id="warningID">This service is set to disconnect automatically after 60 minutes of inactivity. Your session will end in 20 minutes.</div>
+	<br>
+	<div class="messagetext" id="okResetID">Click OK to reset the timer to 60 minutes.</div>
+	<div class="popup-actions">
+		<a href="#" role="button" class="result-list-button" id="sessionWarningOK" title="Reset the timer">OK</a>
+	</div>
+</div>
+
+<div id="sessionTimeout" class="session-popup-window messagewarningpanel" role="alertdialog" aria-hidden="true" aria-labelledby="timeoutID" aria-describedby="sessionTerminatedId">
+	<div class="messagetitle" id="timeoutID">You have been signed out.</div>
+	<br>
+	<div class="messagetext" id="sessionTerminatedId">This service is set to sign out after 60 minutes of inactivity.</div>
+	<div class="popup-actions">
+		<a href="#" role="button" class="result-list-button" id="sessionTimeoutOK">OK</a>
+	</div>
+</div>
+			
+
+
+
+<div class="column165">
+	<div id="helpPanel" class="helppanel" role="dialog" aria-describedby="helpContentId" aria-label="Help and Icon Legend">
+		<div class="helpTitle">
+			<span class="helpDecorator" id="helpDecorator"></span>
+            <button type="button" class="closeHelp" id="closeHelp">
+                <img src="/careersection/2026PRD.1.3.11.3.0/images/icon_help_close.png" title="Close" alt="Close">
+            </button>
+		</div>
+		
+		<div class="helpContent" id="helpContentId">
+			<div class="helpsubtitle">Search Tips</div>
+			<div class="helplabel">You can search jobs by entering relevant data in the above search fields and by filtering the job list with additional criteria.</div>
+			
+			
+
+			
+
+			
+				<div class="helpsubtitle">Candidate Profile</div>
+				<div class="helplabel">Take a few minutes to create or modify your employment profile and to specify your preferred working criteria for future openings matching your interests.
+					<div class="helplink">
+						<a id="profile-link" href="/careersection/profile.jss?type=1&amp;portal=14205010224">Access my profile</a>
+					</div>
+				</div>
+			
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				<div class="legendpanel">
+					<div class="legendtitle">Icon legend</div>
+					
+					
+						<div class="legendlabel icon-added-to-job-cart">Added to the job cart</div>
+					
+					
+						<div class="legendlabel icon-draft">Draft submission</div>
+						<div class="legendlabel icon-already-applied-on">Completed submission</div>
+					
+				</div>
+				
+		</div>
+	</div>
+</div>
+
+
+<div class="jobsearch">		
+	<div id="criteria-container">
+		<div class="topSearchPanel" id="searchPanel" valign="center">
+			<!-- search -->
+			<div class="topSearchContainer">
+				
+
+
+
+<div class="criteria-fields" id="criteriaFields">
+	
+		<div class="criteria-field">
+            <label for="KEYWORD">
+			Keyword
+            </label>
+			<input type="text" class="criteriaFieldInput ui-autocomplete-input" id="KEYWORD" isautosuggest="true" suggestid="1" isolf="false" isphrase="false" value="" autocomplete="off">
+			<input type="hidden" id="KEYWORD-olfid" value="">
+		</div>
+	
+		<div class="criteria-field">
+            <label for="LOCATION">
+			Location
+            </label>
+			<input type="text" class="criteriaFieldInput ui-autocomplete-input" id="LOCATION" isautosuggest="true" suggestid="2" isolf="true" isphrase="false" value="" autocomplete="off">
+			<input type="hidden" id="LOCATION-olfid" value="">
+		</div>
+	
+	
+		
+		<div class="criteria-field search-button-container">
+			<input id="search" type="button" class="search-button hidden-text-button" aria-label="Search for jobs">
+		</div>
+	
+	<div class="search-panel-links-container">
+		<ul>
+			<li>
+				<a id="clearButton" href="#">View All Jobs</a>
+			</li>
+			
+			
+		</ul>
+	</div>
+</div>
+
+			</div>
+		</div>
+
+		
+
+
+
+<div id="advanced-search-panel-container" class="advanced-search-panel-container">
+	<div id="advanced-search-padding-panel">
+		<div class="advanced-search-top-panel">
+			<span class="advanced-search-title" tabindex="0" aria-label="Advanced Job Search">
+				Advanced Job Search
+			</span>
+			<button id="close-window-button" class="close-window-button" tabindex="0" style="background: none; border: none;font-size:100%" title="close" alt="close">×</button>
+		</div>
+		<br class="clear">
+		<div class="advanced-search-criteria">
+			
+				<div class="advanced-search-row">
+					
+						<div class="criteria-widget" style="width: 33%">
+							
+								
+								
+								
+								
+									
+
+
+
+<div class="olf-widget">
+	<div class="widget-title">
+		Organization
+	</div>
+
+	<div id="ORGANIZATION-olf-criteria-field"><div id="ORGANIZATION-olf-0-div" class="olf-autocomplete-field" style="display: block;"><input type="text" size="20" id="ORGANIZATION-olf-0" title="ORGANIZATION" class="ui-autocomplete-input" autocomplete="off"><a id="ORGANIZATION-olf-0-remove-button" href="#" role="button" aria-label="close" class="remove-button-olf-widget" style="display: none;">×</a><input type="hidden" id="ORGANIZATION-olf-0-olfid" value=""></div></div>
+
+	<div id="ORGANIZATION-olf-add-button-div" class="add-olf-link">
+		<a id="ORGANIZATION-olf-add-button" class="olf-add-link" href="#" style="cursor: pointer; opacity: 1;"> 
+				
+				
+					Add Organization
+				
+				
+			
+		</a>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	CRITERIA_FIELDS_TO_REGISTER.push({
+		type : 'OLFCriteriaField',
+		id : 'ORGANIZATION',
+		fieldId : '6',
+		values : '{}',
+		suggestId : '4'
+	});
+</script>
+
+
+								
+							
+						</div>
+						
+					
+						<div class="criteria-widget" style="width: 33%">
+							
+								
+								
+								
+								
+									
+
+
+
+<div class="olf-widget">
+	<div class="widget-title">
+		Location
+	</div>
+
+	<div id="LOCATION-olf-criteria-field"><div id="LOCATION-olf-0-div" class="olf-autocomplete-field" style="display: block;"><input type="text" size="20" id="LOCATION-olf-0" title="LOCATION" class="ui-autocomplete-input" autocomplete="off"><a id="LOCATION-olf-0-remove-button" href="#" role="button" aria-label="close" class="remove-button-olf-widget" style="display: none;">×</a><input type="hidden" id="LOCATION-olf-0-olfid" value=""></div></div>
+
+	<div id="LOCATION-olf-add-button-div" class="add-olf-link">
+		<a id="LOCATION-olf-add-button" class="olf-add-link" href="#" style="cursor: pointer; opacity: 1;"> 
+				
+					Add Location
+				
+				
+				
+			
+		</a>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	CRITERIA_FIELDS_TO_REGISTER.push({
+		type : 'OLFCriteriaField',
+		id : 'LOCATION',
+		fieldId : '5',
+		values : '{}',
+		suggestId : '2'
+	});
+</script>
+
+
+								
+							
+						</div>
+						
+					
+						<div class="criteria-widget" style="width: 33%">
+							
+								
+								
+								
+								
+									
+
+
+
+<div class="olf-widget">
+	<div class="widget-title">
+		Job Field
+	</div>
+
+	<div id="JOB_FIELD-olf-criteria-field"><div id="JOB_FIELD-olf-0-div" class="olf-autocomplete-field" style="display: block;"><input type="text" size="20" id="JOB_FIELD-olf-0" title="JOB FIELD" class="ui-autocomplete-input" autocomplete="off"><a id="JOB_FIELD-olf-0-remove-button" href="#" role="button" aria-label="close" class="remove-button-olf-widget" style="display: none;">×</a><input type="hidden" id="JOB_FIELD-olf-0-olfid" value=""></div></div>
+
+	<div id="JOB_FIELD-olf-add-button-div" class="add-olf-link">
+		<a id="JOB_FIELD-olf-add-button" class="olf-add-link" href="#" style="cursor: pointer; opacity: 1;"> 
+				
+				
+				
+					Add Job Field
+				
+			
+		</a>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	CRITERIA_FIELDS_TO_REGISTER.push({
+		type : 'OLFCriteriaField',
+		id : 'JOB_FIELD',
+		fieldId : '1',
+		values : '{}',
+		suggestId : '3'
+	});
+</script>
+
+
+								
+							
+						</div>
+						
+							<br>
+						
+					
+						<div class="criteria-widget" style="width: 33%">
+							
+								
+									
+
+
+
+<div id="JOB_NUMBER-text-criteria" class="text-widget">
+	<div class="widget-title">
+		Job Number
+	</div>
+
+	<div class="widget-input">
+		<input type="text" id="JOB_NUMBER-text-criteria-input" isautosuggest="false" suggestid="" value="" aria-label="Job Number">
+	</div>
+</div>
+
+<script type="text/javascript">
+	CRITERIA_FIELDS_TO_REGISTER.push({
+		type : 'TextCriteriaField',
+		id : 'JOB_NUMBER',
+		fieldId : '3'
+	});
+</script>
+
+								
+								
+								
+								
+							
+						</div>
+						
+					
+						<div class="criteria-widget" style="width: 33%">
+							
+								
+								
+								
+									
+
+
+
+
+
+
+
+
+
+
+<div id="URGENT_JOB-checkbox-criteria" class="checkbox-widget">
+	<div class="widget-title">
+		Urgent Jobs
+	</div>
+	<fieldset class="criteria-options  no-border">
+		
+				
+					
+					
+						
+					
+				
+
+				<input id="URGENT_JOB-1-option" type="checkbox" name="URGENT_JOB" value="1" aria-label="Urgent Jobs : Urgent Jobs Only">
+				<span id="URGENT_JOB-1-option-desc" class="criteria-label-wrapper">
+					Urgent Jobs Only
+				</span>
+				<br>
+
+		
+	</fieldset>
+</div>
+
+<script type="text/javascript">
+	CRITERIA_FIELDS_TO_REGISTER.push({
+		type : 'CheckboxCriteriaField',
+		id : 'URGENT_JOB',
+		fieldId : '24'
+	});
+</script>
+
+								
+								
+							
+						</div>
+						
+					
+				</div>
+			
+		</div>
+		<div id="advanced-search-buttons-container" class="advanced-search-buttons-container">
+			<input id="clear-advanced-search-criteria" type="button" class="clear-advanced-search-criteria" value="Clear All">
+			<input id="advanced-search-button" type="button" class="search-button" aria-label="Search for jobs">
+		</div>
+
+		<br class="clear">
+	</div>
+</div>
+
+	</div>
+
+	<div class="info-panel" id="infoPanel">
+		<div id="infoPanelContainer" class="subtitle">
+
+    <div class="page-info-panel subtitle" id="currentPageInfoDiv" aria-atomic="true" role="status" aria-live="polite">
+
+        <h1 class="info-panel-title" id="hidDivForAccessInfoPanel" aria-label="
+            Job Vacancies
+         26 - 27 of 27">
+            Job Vacancies
+         26 - 27 of 27</h1>
+        <h1 class="info-panel-title" id="pageInfoHeaderJobOpening" aria-hidden="true" style="display: none">
+            Job Vacancies
+        </h1>
+		<span class="paging-info paging-info-data" id="currentPageInfo" aria-hidden="true" style="display: none">26 - 27 of 27</span>
+
+    </div>
+
+    
+
+</div>
+	</div>
+	
+	
+	
+	
+
+	
+	<div class="offLayout">
+		<!-- quick filter -->
+		<div id="filter-panel" class="filter-panel" style="display: none;">
+		
+			<div id="filter-LOCATION" class="filter-group">
+				<object class="filter-group-config">
+					<param name="name" value="Location">
+					<param name="asSelect" value="false">
+					<param name="expanded" value="true">
+					<param name="isOlf" value="true">
+					<param name="code" value="LOCATION">
+					<param name="fieldId" value="5">
+				</object>
+			<div id="LOCATION-header" class="filter-header filter-active"><span class="icon filter-colapse-open"></span><a href="#" id="LOCATION-link" role="button" aria-expanded="true" aria-disabled="false">Location</a></div><div id="LOCATION-content" class="filter-group-content" style=""><div role="group" aria-labelledby="fieldSetId-LOCATION-level-4"><div id="fieldSetId-LOCATION-level-4" class="hidden-audible">Campus</div><div id="LOCATION-level-4" class="filter-level-title">Campus</div><input id="LOCATION-level-4-item-0" type="checkbox" name="2205010224" title="Durham City Campus" class="filter-checkbox"><div class="label-wrapper"><a><label for="LOCATION-level-4-item-0" class="checkbox-label"><div class="checkboxp checkbox-unchecked">&nbsp;</div><span class="valuesdiv"><span class="filter-text">Durham City Campus</span><span class="filter-quantity">(23)</span></span></label></a></div><input id="LOCATION-level-4-item-1" type="checkbox" name="4205010224" title="Boldon House - Professional Services Campus (DH1 5FA)" class="filter-checkbox"><div class="label-wrapper"><a><label for="LOCATION-level-4-item-1" class="checkbox-label"><div class="checkboxp checkbox-unchecked">&nbsp;</div><span class="valuesdiv"><span class="filter-text">Boldon House - Professional Services Campus (DH1 5FA)</span><span class="filter-quantity">(3)</span></span></label></a></div></div><div class="filter-link filter-link-see-all"><a href="javascript:void(0);" id="LOCATION-seeallolf" class="filter-link-anchor">See all locations</a></div></div></div>
+			<div class="filterSeparator"></div>
+		
+			<div id="filter-JOB_FIELD" class="filter-group">
+				<object class="filter-group-config">
+					<param name="name" value="Job Field">
+					<param name="asSelect" value="false">
+					<param name="expanded" value="true">
+					<param name="isOlf" value="true">
+					<param name="code" value="JOB_FIELD">
+					<param name="fieldId" value="1">
+				</object>
+			<div id="JOB_FIELD-header" class="filter-header filter-active"><span class="icon filter-colapse-open"></span><a href="#" id="JOB_FIELD-link" role="button" aria-expanded="true" aria-disabled="false">Job Field</a></div><div id="JOB_FIELD-content" class="filter-group-content" style=""><div role="group" aria-labelledby="fieldSetId-JOB_FIELD-level-1"><div id="fieldSetId-JOB_FIELD-level-1" class="hidden-audible">Category</div><div id="JOB_FIELD-level-1" class="filter-level-title">Category</div><input id="JOB_FIELD-level-1-item-0" type="checkbox" name="105010224" title="Academic" class="filter-checkbox"><div class="label-wrapper"><a><label for="JOB_FIELD-level-1-item-0" class="checkbox-label"><div class="checkboxp checkbox-unchecked">&nbsp;</div><span class="valuesdiv"><span class="filter-text">Academic</span><span class="filter-quantity">(7)</span></span></label></a></div><input id="JOB_FIELD-level-1-item-1" type="checkbox" name="505010224" title="Professional Administrative" class="filter-checkbox"><div class="label-wrapper"><a><label for="JOB_FIELD-level-1-item-1" class="checkbox-label"><div class="checkboxp checkbox-unchecked">&nbsp;</div><span class="valuesdiv"><span class="filter-text">Professional Administrative</span><span class="filter-quantity">(6)</span></span></label></a></div><input id="JOB_FIELD-level-1-item-2" type="checkbox" name="4105010224" title="Academic Recruitment Campaign" class="filter-checkbox"><div class="label-wrapper"><a><label for="JOB_FIELD-level-1-item-2" class="checkbox-label"><div class="checkboxp checkbox-unchecked">&nbsp;</div><span class="valuesdiv"><span class="filter-text">Academic Recruitment Campaign</span><span class="filter-quantity">(4)</span></span></label></a></div><input id="JOB_FIELD-level-1-item-3" type="checkbox" name="205010224" title="Administrative Support" class="filter-checkbox"><div class="label-wrapper"><a><label for="JOB_FIELD-level-1-item-3" class="checkbox-label"><div class="checkboxp checkbox-unchecked">&nbsp;</div><span class="valuesdiv"><span class="filter-text">Administrative Support</span><span class="filter-quantity">(3)</span></span></label></a></div><input id="JOB_FIELD-level-1-item-4" type="checkbox" name="2205010224" title="Senior Management" class="filter-checkbox"><div class="label-wrapper"><a><label for="JOB_FIELD-level-1-item-4" class="checkbox-label"><div class="checkboxp checkbox-unchecked">&nbsp;</div><span class="valuesdiv"><span class="filter-text">Senior Management</span><span class="filter-quantity">(3)</span></span></label></a></div></div><div class="filter-link filter-link-show-more"><a href="javascript:void(0);" id="JOB_FIELD-moreless" class="filter-link-anchor">Show more...</a></div><div class="filter-link filter-link-see-all"><a href="javascript:void(0);" id="JOB_FIELD-seeallolf" class="filter-link-anchor">See all job fields</a></div></div></div>
+			<div class="filterSeparator"></div>
+		
+</div>
+<!-- It's content of popup window managed by SeeAllOflPopup.js -->
+
+<div id="seeAllOlfPanel" class="see-all-olf-panel masterbody">
+	<div class="mainsection">
+		<div id="title" class="see-all-olf-title headerpanel">
+			<span id="showingWhat"></span>
+			<span id="showingInfo"></span>
+		</div>		
+		<div id="popupProgressIndicator" class="popup-progress-indicator"></div>
+		<div id="table" class="see-all-olf-table"></div>
+		<div id="filtersSelection" class="filter-top-panel-container">
+			<div id="filtersSelectionPanel"></div>
+		</div>
+		<div id="actions" class="see-all-olf-actions">
+			<span id="cancelAction" class="see-all-olf-cancel metalink2"><a href="#">Cancel</a></span>
+			<a href="#" id="addAction" class="see-all-olf-add result-list-button">Add</a>
+		</div>
+	</div>
+	
+	<div class="popup-window messagewarningpanel" id="selectionLimitDialog">
+		<p id="selectionLimitTitle" class="messagetitle">Selection limit reached</p>
+		<p id="selectionLimitMessage" class="messagetext"></p>
+		<div class="popup-actions">
+			<a href="#" class="result-list-button" id="selectionLimitOK">OK</a>
+		</div>
+	</div>
+	<div class="popup-overlay" id="dialogOverlay"></div>	
+</div>
+		
+		
+		<div class="jobListPanel" id="resultListPanel">
+			<!-- job list -->
+			<div class="filter-top-panel-container" id="filterTopPanel" style="display: none;">
+	<div class="filter-top-panel">
+		<ul class="filter-list" id="filterList"></ul>
+	</div>
+
+	<div class="clear-top-filter metalink2">
+		<a id="clearButton" aria-label="Clear search criteria." href="#" class="clear-button">Clear</a>
+	</div>
+</div>
+			<div id="listTopPanel" class="list-top-panel savecontentpanel">
+    
+        
+       
+    
+     
+    <div style="clear:both;"></div>
+    <div id="box2" class="list-top-panel-box">
+        <div id="sortPanel" class="sort-panel">
+            <label for="sortBySelect">
+                Sort by
+            </label>
+            <div style="display: block;">
+                <select id="sortBySelect" class="sort-dropdown">
+                    
+                        <option id="LOCATION-sortfield" value="LOCATION" sortid="4" ascending="true" descending="true">
+                                Location
+                        </option>
+                    
+                        <option id="RELEVANCY-sortfield" value="RELEVANCY" sortid="3" ascending="false" descending="true">
+                                Relevancy
+                        </option>
+                    
+                        <option id="UNPOSTING_DATE-sortfield" value="UNPOSTING_DATE" sortid="2" ascending="true" descending="true">
+                                Closing Date
+                        </option>
+                    
+                        <option id="POSTING_DATE-sortfield" value="POSTING_DATE" sortid="1" ascending="true" descending="true">
+                                Date Advertised
+                        </option>
+                    
+                        <option id="JOB_TITLE-sortfield" value="JOB_TITLE" sortid="5" ascending="true" descending="true">
+                                Job Title
+                        </option>
+                    
+                </select>
+                <label for="sortingOrder" class="hidden-audible">Order</label>
+                <select id="sortingOrder" class="sort-dropdown" disabled="">
+                    <option value="ascendingOrder" ascendingorder="true">Ascending</option>
+                    <option value="descendingOrder" ascendingorder="false">Descending</option>
+                </select>
+            </div>
+        </div>
+
+        
+            </div>
+
+    <div style="clear:both;"></div>
+    
+</div>
+			<div id="searchresults">
+    <span id="reloadMessage" role="alert" class="hidden-audible" aria-hidden="true">The list of jobs has reloaded. 26 – 27 of 27. Page 2</span>
+	<div style="clear:both;"></div>
+	<div id="jobsTableContainer" style="display: none;">
+		<table id="jobs" class="table" summary="Job Vacancies">
+			<thead>
+		    	<tr class="headers subtitle">
+                    <th scope="col"><span class="hidden-audible">Icons</span></th>
+					
+						<th width="50%" scope="col">Requisition Title</th>
+					
+						<th width="30%" scope="col">Salary Range</th>
+					
+						<th width="20%" scope="col">Department</th>
+					
+		            <th scope="col"> Actions </th>
+		        </tr>
+		    </thead>
+		    <tbody class="jobsbody">
+		    </tbody>
+		</table>
+	</div>
+	<div id="multilineListContainer">
+		<ul id="jobList" class="multiline-list"><li id="job124835"><div class="multiline-icon-container"></div><div class="multiline-data-container" style="margin-right: 68.8125px;"><div><span><a href="/careersection/du_mob/jobdetail.ftl?job=26000989&amp;tz=GMT%2B00%3A00&amp;tzname=UTC" title="Assistant or Associate Professor in Computational Astrophysics or Cosmology">Assistant or Associate Professor in Computational Astrophysics or Cosmology</a></span><span> </span><span>-</span><span> </span><span>26000989</span></div><div><span>Physics - Astronomy and Astrophysics</span><span> </span><span>Grade 8 £47,389 - £56,535 per annum Grade 9 £59,966- £67,468 per annum</span></div></div><div class="multiline-action-container"><a class="result-list-button" href="/careersection/application.jss?type=1&amp;lang=en&amp;portal=14205010224&amp;reqNo=124835" role="button">Apply</a></div><div style="clear:both;"></div><div class="additional-action-buttons-container" style="top: -999999px;"><ul role="menu" class="multiline-button-list"><li class="add-to-jobcart metalink2" role="menuitem"><a id="add-to-jobcart124835" href="#" title="Save Job">Save Job</a><span id="add-to-jobcart-disabled124835" tabindex="0" aria-disabled="true" class="hidden-element">Save Job</span></li></ul></div></li><li id="job123974"><div class="multiline-icon-container"></div><div class="multiline-data-container" style="margin-right: 68.8125px;"><div><span><a href="/careersection/du_mob/jobdetail.ftl?job=26000918&amp;tz=GMT%2B00%3A00&amp;tzname=UTC" title="Postdoctoral Research Associate">Postdoctoral Research Associate</a></span><span> </span><span>-</span><span> </span><span>26000918</span></div><div><span>Physics - Astronomy and Astrophysics</span><span> </span><span>£38,784 to £46,049 per annum</span></div></div><div class="multiline-action-container"><a class="result-list-button" href="/careersection/application.jss?type=1&amp;lang=en&amp;portal=14205010224&amp;reqNo=123974" role="button">Apply</a></div><div style="clear:both;"></div><div class="additional-action-buttons-container" style="top: -999999px;"><ul role="menu" class="multiline-button-list"><li class="add-to-jobcart metalink2" role="menuitem"><a id="add-to-jobcart123974" href="#" title="Save Job">Save Job</a><span id="add-to-jobcart-disabled123974" tabindex="0" aria-disabled="true" class="hidden-element">Save Job</span></li></ul></div></li></ul>
+	</div>
+	
+	<div id="noResults" style="display: none;">
+		<p class="no-results-info text">No jobs correspond to the specified criteria.</p>
+		<ul class="no-result-option-list">
+			<li class="text">To improve your search results, remove one or more filters.</li>
+			<li class="metalink2"><a id="viewAllJobsLink" href="#">You can also view all available job openings.</a></li>
+		</ul>
+	</div>
+	
+	
+	
+	<div style="clear: both;"></div>
+	
+	<div id="jobPager" class="pagerpanel">
+		<span class="pagersectionpanel">
+			<span class="pagerlink">
+				<a href="#" id="previous" title="Go to the previous page" class="" aria-disabled="false">Previous</a>
+			</span>
+		</span>
+		<span class="pagersectionpanel">
+			<ul class="pager">
+			<li class="pagerlink"><a href="#" title="Go to page 1" aria-disabled="false">1</a></li><li class="navigation-link-disabled"><a href="#" title="Go to page 2" aria-disabled="true">2</a></li></ul>
+		</span>
+		<span class="pagersectionpanel">
+			<span class="pagerlinkoff">
+				<a href="#" id="next" title="Go to the next page" aria-disabled="true" class="navigation-link-disabled">Next</a>
+			</span>
+		</span>
+	</div>
+	<div id="progressIndicator" class="progress-indicator mastercontentpanel" style="width: 0px; height: 1748px; top: 270px; left: 13px;"></div>
+
+	<div class="popup-window messageerrorpanel" id="addToJobCartError" role="alertdialog" aria-hidden="true" aria-labelledby="jobCartErrorID">
+		<p class="messagetext" id="jobCartErrorID">You cannot add this item to the job cart, because you have already reached the maximum number of items allowed in the job cart (25). You must first delete an existing item to be able to add a new one.</p>
+		<div class="popup-actions">
+			<a href="#" class="result-list-button" id="addToJobCartErrorOk" role="button">OK</a>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+</div>
+
+<br class="clear">
+
+		</div>
+		<div class="popup-overlay" id="popupOverlay" style="display: none;">
+</div>
+
+
+		<div class="footer">
+			
+	<div class="footeraction">
+		<div class="footeractionpanel">
+			<div class="footergroupactionpanel">
+				<div class="rightPanel">
+					<span class="metalink2">	
+						<a href="/careersection/du_ext/default.ftl?lang=en" title="Go to Full Career Section" id="footerPanel-viewStandardCareerSection">
+							View Full Career Section
+						</a>
+					</span>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+		</div>
+	</div>
+	
+	</div>
+
+
+
+
+
+<div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-3" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-4" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-5" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>

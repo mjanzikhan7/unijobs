@@ -1,0 +1,352 @@
+{
+  "items": [
+    {
+      "SearchId": 1,
+      "Keyword": null,
+      "CorrectedKeyword": null,
+      "UseExactKeywordFlag": false,
+      "SuggestedKeyword": null,
+      "ExecuteSpellCheckFlag": true,
+      "Location": null,
+      "LocationId": null,
+      "Radius": 0,
+      "RadiusUnit": "MI",
+      "SelectedTitlesFacet": null,
+      "SelectedCategoriesFacet": null,
+      "SelectedPostingDatesFacet": null,
+      "SelectedLocationsFacet": null,
+      "LastSelectedFacet": null,
+      "Facets": "TITLES;LOCATIONS;LOCATION_LEVEL1;LOCATION_LEVEL2;LOCATION_LEVEL3;CATEGORIES;POSTING_DATES;WORK_LOCATIONS;FLEX_FIELDS;ORGANIZATIONS;WORKPLACE_TYPES",
+      "Offset": 0,
+      "Limit": 50,
+      "SortBy": "RELEVANCY",
+      "TotalJobsCount": 3,
+      "Latitude": null,
+      "Longitude": null,
+      "SiteNumber": "CX",
+      "JobFamilyId": null,
+      "PostingStartDate": null,
+      "PostingEndDate": null,
+      "SelectedWorkLocationsFacet": null,
+      "RequisitionId": null,
+      "CandidateNumber": null,
+      "WorkLocationZipCode": null,
+      "WorkLocationCountryCode": null,
+      "SelectedFlexFieldsFacets": null,
+      "OrganizationId": null,
+      "SelectedOrganizationsFacet": null,
+      "UserTargetFacetName": null,
+      "UserTargetFacetInputTerm": null,
+      "HotJobFlag": null,
+      "WorkplaceType": null,
+      "SelectedWorkplaceTypesFacet": null,
+      "BotQRShortCode": null,
+      "requisitionList": [
+        {
+          "Id": "4964",
+          "Title": "Stewardship Officer",
+          "PostedDate": "2026-08-18",
+          "PostingEndDate": null,
+          "Language": "US",
+          "PrimaryLocationCountry": "GB",
+          "GeographyId": 300000002442871,
+          "HotJobFlag": false,
+          "WorkplaceTypeCode": "ORA_HYBRID",
+          "JobFamily": null,
+          "JobFunction": null,
+          "WorkerType": null,
+          "ContractType": null,
+          "ManagerLevel": null,
+          "JobSchedule": null,
+          "JobShift": null,
+          "JobType": null,
+          "StudyLevel": null,
+          "DomesticTravelRequired": null,
+          "InternationalTravelRequired": null,
+          "WorkDurationYears": null,
+          "WorkDurationMonths": null,
+          "WorkHours": null,
+          "WorkDays": null,
+          "LegalEmployer": null,
+          "BusinessUnit": null,
+          "Department": null,
+          "Organization": null,
+          "BusinessUnitId": 300000002414950,
+          "LegalEmployerId": 300000002394051,
+          "OrganizationId": 300000002394051,
+          "MediaThumbURL": null,
+          "ShortDescriptionStr": "The Stewardship Officer plays a pivotal role in strengthening donor relationships and supporting the growth of philanthropic support at Heriot-Watt University. Through the delivery of excellent donor care and engagement, the postholder helps ensure donors feel connected to the University\u2019s mission, understand the impact of their support, and enjoy a positive giving experience that encourages long-term and repeat philanthropy. ",
+          "PrimaryLocation": "Edinburgh, Midlothian, United Kingdom",
+          "Distance": 7,
+          "TrendingFlag": false,
+          "BeFirstToApplyFlag": true,
+          "Relevancy": 7,
+          "WorkplaceType": "Hybrid",
+          "ExternalQualificationsStr": null,
+          "ExternalResponsibilitiesStr": null
+        },
+        {
+          "Id": "4987",
+          "Title": "Education Consultant, Future Students (Administrative Executive / Senior Administrative Executive)",
+          "PostedDate": "2026-08-18",
+          "PostingEndDate": null,
+          "Language": "US",
+          "PrimaryLocationCountry": "MY",
+          "GeographyId": 300000000378524,
+          "HotJobFlag": false,
+          "WorkplaceTypeCode": "ORA_ON_SITE",
+          "JobFamily": null,
+          "JobFunction": null,
+          "WorkerType": null,
+          "ContractType": null,
+          "ManagerLevel": null,
+          "JobSchedule": null,
+          "JobShift": null,
+          "JobType": null,
+          "StudyLevel": null,
+          "DomesticTravelRequired": null,
+          "InternationalTravelRequired": null,
+          "WorkDurationYears": null,
+          "WorkDurationMonths": null,
+          "WorkHours": null,
+          "WorkDays": null,
+          "LegalEmployer": null,
+          "BusinessUnit": null,
+          "Department": null,
+          "Organization": null,
+          "BusinessUnitId": 300000002414976,
+          "LegalEmployerId": 300000002394071,
+          "OrganizationId": 300000002394071,
+          "MediaThumbURL": "https://www.youtube.com/embed/jfDNkmoe6i0?si=bg8xAWiUgop9aaGf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+          "ShortDescriptionStr": "Actively engages and supports secondary/high school counsellors and partner education agents in Malaysia (both West and East Malaysia)",
+          "PrimaryLocation": "Malaysia",
+          "Distance": 7,
+          "TrendingFlag": false,
+          "BeFirstToApplyFlag": false,
+          "Relevancy": 7,
+          "WorkplaceType": "On-site",
+          "ExternalQualificationsStr": null,
+          "ExternalResponsibilitiesStr": null
+        },
+        {
+          "Id": "4986",
+          "Title": "Psychology Laboratory Technician",
+          "PostedDate": "2026-08-18",
+          "PostingEndDate": null,
+          "Language": "US",
+          "PrimaryLocationCountry": "MY",
+          "GeographyId": 300000000378524,
+          "HotJobFlag": false,
+          "WorkplaceTypeCode": null,
+          "JobFamily": null,
+          "JobFunction": null,
+          "WorkerType": null,
+          "ContractType": null,
+          "ManagerLevel": null,
+          "JobSchedule": null,
+          "JobShift": null,
+          "JobType": null,
+          "StudyLevel": null,
+          "DomesticTravelRequired": null,
+          "InternationalTravelRequired": null,
+          "WorkDurationYears": null,
+          "WorkDurationMonths": null,
+          "WorkHours": null,
+          "WorkDays": null,
+          "LegalEmployer": null,
+          "BusinessUnit": null,
+          "Department": null,
+          "Organization": null,
+          "BusinessUnitId": 300000002414976,
+          "LegalEmployerId": 300000002394071,
+          "OrganizationId": 300000002394071,
+          "MediaThumbURL": "https://www.youtube.com/embed/jfDNkmoe6i0?si=bg8xAWiUgop9aaGf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+          "ShortDescriptionStr": "The Psychology Laboratory Technician supports laboratory operations, research activities, and student training while contributing to teaching, data analysis, and the development of psychology research and learning initiatives in collaboration with colleagues across Heriot-Watt University's international campuses.",
+          "PrimaryLocation": "Malaysia",
+          "Distance": 7,
+          "TrendingFlag": false,
+          "BeFirstToApplyFlag": false,
+          "Relevancy": 7,
+          "WorkplaceType": "",
+          "ExternalQualificationsStr": null,
+          "ExternalResponsibilitiesStr": null
+        }
+      ],
+      "categoriesFacet": [
+        {
+          "Id": 300000002426464,
+          "Name": "Professional and Managerial",
+          "TotalCount": 5
+        },
+        {
+          "Id": 300000002426470,
+          "Name": "Research",
+          "TotalCount": 5
+        },
+        {
+          "Id": 300000002426432,
+          "Name": "Academic",
+          "TotalCount": 4
+        },
+        {
+          "Id": 300000002426439,
+          "Name": "Administration",
+          "TotalCount": 4
+        },
+        {
+          "Id": 300000002426476,
+          "Name": "Technical",
+          "TotalCount": 3
+        }
+      ],
+      "locationsFacet": [
+        {
+          "Id": 300000000378281,
+          "Name": "United Kingdom",
+          "TotalCount": 13
+        },
+        {
+          "Id": 300000002440213,
+          "Name": "Midlothian, United Kingdom",
+          "TotalCount": 12
+        },
+        {
+          "Id": 300000002442871,
+          "Name": "Edinburgh, Midlothian, United Kingdom",
+          "TotalCount": 12
+        },
+        {
+          "Id": 300000000378524,
+          "Name": "Malaysia",
+          "TotalCount": 7
+        },
+        {
+          "Id": 300000000378059,
+          "Name": "United Arab Emirates",
+          "TotalCount": 1
+        },
+        {
+          "Id": 300000002440206,
+          "Name": "Selkirkshire, United Kingdom",
+          "TotalCount": 1
+        },
+        {
+          "Id": 300000002443074,
+          "Name": "Galashiels, Selkirkshire, United Kingdom",
+          "TotalCount": 1
+        }
+      ],
+      "postingDatesFacet": [
+        {
+          "Id": 7,
+          "Name": "Less than 7 days",
+          "TotalCount": 4
+        },
+        {
+          "Id": 30,
+          "Name": "Less than 30 days",
+          "TotalCount": 20
+        },
+        {
+          "Id": 31,
+          "Name": "Greater than 30 days",
+          "TotalCount": 1
+        }
+      ],
+      "titlesFacet": [
+        {
+          "Id": "Research",
+          "Name": "Research",
+          "TotalCount": 5
+        },
+        {
+          "Id": "Administration",
+          "Name": "Administration",
+          "TotalCount": 4
+        },
+        {
+          "Id": "Teaching",
+          "Name": "Teaching",
+          "TotalCount": 3
+        },
+        {
+          "Id": "Technical",
+          "Name": "Technical",
+          "TotalCount": 3
+        },
+        {
+          "Id": "MANAG",
+          "Name": "Managerial",
+          "TotalCount": 2
+        },
+        {
+          "Id": "Professional Specialist",
+          "Name": "Professional Specialist",
+          "TotalCount": 2
+        },
+        {
+          "Id": "Professional Technical",
+          "Name": "Professional Technical",
+          "TotalCount": 1
+        },
+        {
+          "Id": "Teaching and Research",
+          "Name": "Teaching and Research",
+          "TotalCount": 1
+        }
+      ],
+      "workLocationsFacet": [
+        {
+          "Id": 300000002430137,
+          "Name": "Edinburgh",
+          "TotalCount": 12
+        },
+        {
+          "Id": 300000002430410,
+          "Name": "Malaysia",
+          "TotalCount": 7
+        },
+        {
+          "Id": 300000002430046,
+          "Name": "Dubai",
+          "TotalCount": 1
+        }
+      ],
+      "flexFieldsFacet": [],
+      "organizationsFacet": [
+        {
+          "Id": 300000002394051,
+          "Name": "Heriot-Watt University",
+          "TotalCount": 11
+        },
+        {
+          "Id": 300000002394071,
+          "Name": "Heriot-Watt University Malaysia Sdn Bhd",
+          "TotalCount": 7
+        },
+        {
+          "Id": 300000002415011,
+          "Name": "Heriot-Watt Services Limited",
+          "TotalCount": 2
+        },
+        {
+          "Id": 300000002415030,
+          "Name": "HWU Dubai",
+          "TotalCount": 1
+        }
+      ],
+      "workplaceTypesFacet": [
+        {
+          "Id": "ORA_ON_SITE",
+          "Name": "On-site",
+          "TotalCount": 20
+        },
+        {
+          "Id": "ORA_HYBRID",
+          "Name": "Hybrid",
+          "TotalCount": 1
+        }
+      ]
+    }
+  ]
+}

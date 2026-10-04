@@ -1,0 +1,250 @@
+/* src/styles/styles.css */
+@layer a11y.reset, a11y.tokens, a11y.overrides, a11y.critical;
+@font-face {
+  font-family: "UniJobs A11y Readable";
+  src: url("./fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UniJobs A11y Readable";
+  src: url("./fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UniJobs A11y Dyslexic";
+  src: url("./fonts/opendyslexic-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UniJobs A11y Dyslexic";
+  src: url("./fonts/opendyslexic-latin-700-normal.woff2") format("woff2");
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+}
+::highlight(unijobs-a11y-reading) {
+  background-color: #fff3a3;
+  color: #111111;
+}
+::highlight(unijobs-a11y-word) {
+  background-color: #ffb020;
+  color: #000000;
+}
+@layer a11y.critical {
+  html[data-a11y-text-scale] {
+    font-size: calc(100% * var(--a11y-font-scale, 1)) !important;
+  }
+  html[data-a11y-line-height] body :where(:not(#unijobs-a11y-toolbar)) {
+    line-height: var(--a11y-line-height) !important;
+  }
+  html[data-a11y-letter-spacing] body :where(:not(#unijobs-a11y-toolbar)) {
+    letter-spacing: var(--a11y-letter-spacing) !important;
+  }
+  html[data-a11y-word-spacing] body :where(:not(#unijobs-a11y-toolbar)) {
+    word-spacing: var(--a11y-word-spacing) !important;
+  }
+  html[data-a11y-content-width=narrow] body :where(p, li, dd, dt, blockquote, figcaption) {
+    max-width: var(--a11y-content-width, 68ch) !important;
+  }
+  html[data-a11y-font=readable] body :where(:not(#unijobs-a11y-toolbar, code, pre, kbd, samp, code *, pre *)) {
+    font-family:
+      "UniJobs A11y Readable",
+      "Atkinson Hyperlegible",
+      Verdana,
+      system-ui,
+      sans-serif !important;
+  }
+  html[data-a11y-font=dyslexic] body :where(:not(#unijobs-a11y-toolbar, code, pre, kbd, samp, code *, pre *)) {
+    font-family:
+      "UniJobs A11y Dyslexic",
+      "OpenDyslexic",
+      "Comic Sans MS",
+      Verdana,
+      sans-serif !important;
+  }
+  html[data-a11y-theme=contrast-dark],
+  html[data-a11y-theme=contrast-dark] body {
+    background: #000000 !important;
+    color: #ffffff !important;
+  }
+  html[data-a11y-theme=contrast-dark] body :where(:not(#unijobs-a11y-toolbar, img, picture, video, canvas, iframe, svg, svg *)) {
+    background-color: #000000 !important;
+    background-image: none !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+  html[data-a11y-theme=contrast-dark] body :where(a, a *) {
+    color: #ffe94d !important;
+  }
+  html[data-a11y-theme=contrast-dark] body a {
+    text-decoration-line: underline !important;
+  }
+  html[data-a11y-theme=contrast-dark] body :where(button, select, textarea, input:not([type=checkbox], [type=radio], [type=range], [type=hidden]), [role=button], [role=tab], [role=switch]) {
+    border: 1px solid #ffffff !important;
+  }
+  html[data-a11y-theme=contrast-dark] body :is([aria-current]:not([aria-current=false]), [aria-pressed=true], [aria-selected=true], [aria-checked=true]),
+  html[data-a11y-theme=contrast-dark] body :is([aria-current]:not([aria-current=false]), [aria-pressed=true], [aria-selected=true], [aria-checked=true]) * {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  html[data-a11y-theme=contrast-dark] body :where(:disabled, [aria-disabled=true]) {
+    color: #c7c7c7 !important;
+    border-style: dashed !important;
+  }
+  html[data-a11y-theme=contrast-dark] body ::placeholder {
+    color: #c7c7c7 !important;
+    opacity: 1 !important;
+  }
+  html[data-a11y-theme=contrast-dark] body :where(input, select, textarea) {
+    accent-color: #ffe94d !important;
+  }
+  html[data-a11y-theme=contrast-dark] body :where(:focus-visible) {
+    outline: 3px solid #ffe94d !important;
+    outline-offset: 2px !important;
+  }
+  html[data-a11y-theme=contrast-light],
+  html[data-a11y-theme=contrast-light] body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  html[data-a11y-theme=contrast-light] body :where(:not(#unijobs-a11y-toolbar, img, picture, video, canvas, iframe, svg, svg *)) {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+  html[data-a11y-theme=contrast-light] body :where(a, a *) {
+    color: #0000c2 !important;
+  }
+  html[data-a11y-theme=contrast-light] body a {
+    text-decoration-line: underline !important;
+  }
+  html[data-a11y-theme=contrast-light] body :where(button, select, textarea, input:not([type=checkbox], [type=radio], [type=range], [type=hidden]), [role=button], [role=tab], [role=switch]) {
+    border: 1px solid #000000 !important;
+  }
+  html[data-a11y-theme=contrast-light] body :is([aria-current]:not([aria-current=false]), [aria-pressed=true], [aria-selected=true], [aria-checked=true]),
+  html[data-a11y-theme=contrast-light] body :is([aria-current]:not([aria-current=false]), [aria-pressed=true], [aria-selected=true], [aria-checked=true]) * {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+  html[data-a11y-theme=contrast-light] body :where(:disabled, [aria-disabled=true]) {
+    color: #4a4a4a !important;
+    border-style: dashed !important;
+  }
+  html[data-a11y-theme=contrast-light] body ::placeholder {
+    color: #4a4a4a !important;
+    opacity: 1 !important;
+  }
+  html[data-a11y-theme=contrast-light] body :where(input, select, textarea) {
+    accent-color: #000000 !important;
+  }
+  html[data-a11y-theme=contrast-light] body :where(:focus-visible) {
+    outline: 3px solid #0000c2 !important;
+    outline-offset: 2px !important;
+  }
+  html[data-a11y-theme=monochrome] body > :where(:not(#unijobs-a11y-toolbar)) {
+    filter: grayscale(1) !important;
+  }
+  html[data-a11y-theme=saturation-low] body > :where(:not(#unijobs-a11y-toolbar)) {
+    filter: saturate(0.5) !important;
+  }
+  html[data-a11y-theme=saturation-high] body > :where(:not(#unijobs-a11y-toolbar)) {
+    filter: saturate(1.6) !important;
+  }
+  html[data-a11y-theme=protanopia] body > :where(:not(#unijobs-a11y-toolbar)) {
+    filter: url(#unijobs-a11y-daltonize-protanopia) !important;
+  }
+  html[data-a11y-theme=deuteranopia] body > :where(:not(#unijobs-a11y-toolbar)) {
+    filter: url(#unijobs-a11y-daltonize-deuteranopia) !important;
+  }
+  html[data-a11y-theme=tritanopia] body > :where(:not(#unijobs-a11y-toolbar)) {
+    filter: url(#unijobs-a11y-daltonize-tritanopia) !important;
+  }
+  html[data-a11y-theme=invert] body > :where(:not(#unijobs-a11y-toolbar)) {
+    filter: invert(1) hue-rotate(180deg) !important;
+  }
+  html[data-a11y-theme=invert] body :where(img, picture, video, canvas, iframe, [data-a11y-no-invert]) {
+    filter: invert(1) hue-rotate(180deg) !important;
+  }
+  html[data-a11y-custom-colors] body {
+    background-color: var(--a11y-custom-bg, inherit) !important;
+    color: var(--a11y-custom-text, inherit) !important;
+  }
+  html[data-a11y-custom-colors] body :where(h1, h2, h3, h4, h5, h6) {
+    color: var(--a11y-custom-heading, inherit) !important;
+  }
+  html[data-a11y-custom-colors] body :where(a) {
+    color: var(--a11y-custom-link, inherit) !important;
+  }
+  html[data-a11y-highlight-links] body :where(a) {
+    text-decoration-line: underline !important;
+    text-decoration-thickness: 2px !important;
+    text-underline-offset: 3px !important;
+  }
+  html[data-a11y-highlight-headings] body :where(h1, h2, h3, h4, h5, h6, [role=heading]) {
+    outline: 2px dashed currentColor !important;
+    outline-offset: 4px !important;
+  }
+  html[data-a11y-highlight-hover] body :where(a, button, input, select, textarea, label, summary, [role=button], [role=link]):hover {
+    box-shadow: 0 0 0 3px #f59e0b !important;
+  }
+  html[data-a11y-highlight-focus] body :where(:not(#unijobs-a11y-toolbar)):focus-visible {
+    outline: 4px solid var(--a11y-focus-ring, #f59e0b) !important;
+    outline-offset: 3px !important;
+    box-shadow: 0 0 0 7px #000000 !important;
+  }
+  html[data-a11y-enlarge-targets] body :where(button, select, summary, [role=button], [role=tab], input:not([type=checkbox], [type=radio], [type=range], [type=hidden])) {
+    min-height: 44px !important;
+    min-width: 44px !important;
+  }
+  html[data-a11y-enlarge-targets] body :where(input[type=checkbox], input[type=radio]) {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  html[data-a11y-enlarge-targets] body :where(nav a, [role=navigation] a, a[role=button]) {
+    min-height: 44px !important;
+  }
+  html[data-a11y-cursor=large-black],
+  html[data-a11y-cursor=large-black] body :where(:not(#unijobs-a11y-toolbar)) {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath d='M5 3 L5 33 L13 25 L19 38 L25 35 L19 23 L30 23 Z' fill='%23000' stroke='%23fff' stroke-width='2.5' stroke-linejoin='round'/%3E%3C/svg%3E") 5 3, auto !important;
+  }
+  html[data-a11y-cursor=large-white],
+  html[data-a11y-cursor=large-white] body :where(:not(#unijobs-a11y-toolbar)) {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath d='M5 3 L5 33 L13 25 L19 38 L25 35 L19 23 L30 23 Z' fill='%23fff' stroke='%23000' stroke-width='2.5' stroke-linejoin='round'/%3E%3C/svg%3E") 5 3, auto !important;
+  }
+  html[data-a11y-cursor] body :where(input:not([type=checkbox], [type=radio], [type=range], [type=button], [type=submit]), textarea, [contenteditable=true]) {
+    cursor: text !important;
+  }
+  html[data-a11y-read-on-click] body :where(p, li, h1, h2, h3, h4, h5, h6, dd, dt, td, th, blockquote, figcaption, legend):hover {
+    outline: 2px dotted #1d4ed8 !important;
+    outline-offset: 2px !important;
+    cursor: pointer !important;
+  }
+  html[data-a11y-motion=off] *,
+  html[data-a11y-motion=off] *::before,
+  html[data-a11y-motion=off] *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  html[data-a11y-motion=reduced] *,
+  html[data-a11y-motion=reduced] *::before,
+  html[data-a11y-motion=reduced] *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

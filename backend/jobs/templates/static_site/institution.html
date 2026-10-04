@@ -1,0 +1,23 @@
+{% extends "static_site/base.html" %}
+{% block title %}{{ name }}{% endblock %}
+{% block root %}../{% endblock %}
+{% block home %}../{% endblock %}
+{% block content %}
+<h1>{{ name }}</h1>
+<p>{{ jobs|length }} open vacanc{{ jobs|length|pluralize:"y,ies" }}, closing soonest first.</p>
+<ul class="jobs">
+{% for job in jobs %}
+  <li>
+    <h2><a href="{{ job.url }}" rel="noopener">{{ job.title }}</a></h2>
+    <dl>
+      {% if job.salary %}<dt>Salary</dt><dd>{{ job.salary }}</dd>{% endif %}
+      {% if job.city %}<dt>Location</dt><dd>{{ job.city }}</dd>{% endif %}
+      <dt>Closes</dt><dd>{{ job.closing_date|default:"Not stated" }}</dd>
+      <dt>Sponsorship</dt><dd>{{ job.sponsor_verdict }}</dd>
+      <dt>Salary threshold</dt><dd>{{ job.threshold_verdict }}</dd>
+      <dt>Subject</dt><dd>{{ job.discipline }}</dd>
+    </dl>
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}

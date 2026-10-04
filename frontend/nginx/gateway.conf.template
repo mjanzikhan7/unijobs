@@ -1,0 +1,77 @@
+# The gateway: serves the built React app and passes /api to the Django container.
+# ${API_UPSTREAM} is filled in when the container starts.
+
+# Keep the scheme the outer proxy saw. If there is no outer proxy, use our own.
+map $http_x_forwarded_proto $forwarded_proto {
+    default $http_x_forwarded_proto;
+    ""      $scheme;
+}
+
+# Keep a request id that an outer proxy already set, or use nginx's own.
+map $http_x_request_id $request_id_out {
+    default $http_x_request_id;
+    ""      $request_id;
+}
+
+# One JSON object per line, with the same request id that Django logs.
+log_format json escape=json '{"time":"$time_iso8601","request_id":"$request_id_out",'
+    '"method":"$request_method","path":"$uri","status":$status,'
+    '"bytes":$body_bytes_sent,"duration":$request_time,"upstream":"$upstream_addr"}';
+
+server {
+    listen 8080;
+    server_name _;
+    server_tokens off;
+    access_log /dev/stdout json;
+
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # A CV can be 5 MB. Leave some room for the rest of the form.
+    client_max_body_size 8m;
+
+    gzip on;
+    gzip_types text/css application/javascript application/json image/svg+xml;
+
+    location = /healthz {
+        access_log off;
+        default_type text/plain;
+        return 200 "ok\n";
+    }
+
+    location /api/ {
+        proxy_pass http://${API_UPSTREAM};
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $forwarded_proto;
+        proxy_set_header X-Request-ID $request_id_out;
+        proxy_read_timeout 120s;
+    }
+
+    location /static/ {
+        proxy_pass http://${API_UPSTREAM};
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $forwarded_proto;
+    }
+
+    # File names here contain a hash of their content, so they can be cached for a long time.
+    location /assets/ {
+        include /etc/nginx/snippets/security-headers.conf;
+        add_header Cache-Control "public, max-age=31536000, immutable" always;
+        try_files $uri =404;
+    }
+
+    # index.html must never be cached. An old copy would point at asset files that are gone.
+    location = /index.html {
+        include /etc/nginx/snippets/security-headers.conf;
+        add_header Cache-Control "no-store" always;
+    }
+
+    # The React app owns its routes, so an unknown path gets index.html, not a 404.
+    location / {
+        include /etc/nginx/snippets/security-headers.conf;
+        add_header Cache-Control "no-store" always;
+        try_files $uri $uri/ /index.html;
+    }
+}

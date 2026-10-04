@@ -1,0 +1,59 @@
+{
+  "total": 26,
+  "jobPostings": [
+    {
+      "title": "Research Associate in Machine Learning",
+      "externalPath": "/job/London/Role_R5020",
+      "locationsText": "London, United Kingdom",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "R5020"
+      ]
+    },
+    {
+      "title": "Lecturer in Software Engineering",
+      "externalPath": "/job/London/Role_R5021",
+      "locationsText": "London, United Kingdom",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "R5021"
+      ]
+    },
+    {
+      "title": "Senior Research Software Engineer",
+      "externalPath": "/job/London/Role_R5022",
+      "locationsText": "London, United Kingdom",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "R5022"
+      ]
+    },
+    {
+      "title": "Teaching Fellow in Data Science",
+      "externalPath": "/job/London/Role_R5023",
+      "locationsText": "London, United Kingdom",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "R5023"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "externalPath": "/job/London/Role_R5024",
+      "locationsText": "London, United Kingdom",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "R5024"
+      ]
+    },
+    {
+      "title": "Research Fellow",
+      "externalPath": "/job/London/Role_R5025",
+      "locationsText": "London, United Kingdom",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "R5025"
+      ]
+    }
+  ]
+}

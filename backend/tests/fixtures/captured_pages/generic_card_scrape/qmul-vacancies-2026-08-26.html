@@ -1,0 +1,846 @@
+<!DOCTYPE html><html lang="en" data-js="yes"><head>
+    <meta charset="utf-8">
+    <title>Vacancies - Jobs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script id="spdt-capture" async="" src="https://pixel.byspotify.com/ping.min.js"></script><script async="" src="https://sc-static.net/scevent.min.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CQ3C4KRC77UAGCRD33OG&amp;lib=ttq"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CIHCB5RC77U7QBTN4BNG&amp;lib=ttq"></script><script type="text/javascript" async="" src="https://www.redditstatic.com/ads/pixel.js"></script><script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script type="text/javascript" async="" src="https://bat.bing.com/bat.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-16588318700&amp;cx=c&amp;gtm=4e68o1"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KQZ3W5"></script><script>document.documentElement.setAttribute('data-js', 'yes');</script>
+   
+    <!-- PL: 636627 -->  
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQZ3W5');</script>
+<!-- End Google Tag Manager -->
+<!-- Start VWO SmartCode --> 
+<script referrerpolicy="no-referrer-when-downgrade" src="https://dev.visualwebsiteoptimizer.com/lib/677629.js" id="vwoCode"></script> 
+<!-- End VWO SmartCode -->
+</head><body><a href="https://4xvmpmomo3.execute-api.us-east-1.amazonaws.com/ProdStage" rel="nofollow" style="display: none" aria-hidden="true">honeypot link</a>
+
+    
+  	
+  	
+  	
+  	
+  	
+  	
+  	     
+      
+  	
+  
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="/jobs/media/ow-assets/assets/css/lib.min.1.3.css?version=14.0"><!-- Lib 1.3 CSS -->
+  	<link rel="stylesheet" type="text/css" href="/jobs/media/ow-assets/assets/css/vendors~lib.min.1.2.4.css?version=2.0"><!-- Vendors Lib 1.2.4 CSS -->
+    <link rel="stylesheet" type="text/css" href="/jobs/media/ow-assets/assets/css/qm-custom.1.3.css?version=17.0"><!-- QM CUstom 1.3 -->
+    <link rel="stylesheet" type="text/css" href="/jobs/media/ow-assets/assets/css/t4extra.css?version=6.0"><!-- Hex Mega Menu -->
+    <link rel="stylesheet" type="text/css" media="all" href="">
+
+    <script>
+(function () {
+  const PARAM_MAP = {
+    department: { param: 'faculty', values: {
+      'professionalservices':        'professional services',
+      'medicineanddentistry':        'medicine & dentistry',
+      'scienceandengineering':       'science & engineering',
+      'humanitiesandsocialsciences': 'humanities & social sciences',
+    }},
+    contract: { param: 'contract', values: {
+      'permanent': 'permanent',
+      'fixedterm': 'fixed term',
+      'temporary': 'temporary',
+    }},
+    family: { param: 'family', values: {
+      'professional': 'professional',
+      'technical':    'technical',
+      'research':     'research',
+      'academic':     'academic',
+    }}
+  };
+
+  // reverse lookup: checkbox value → url param value
+  const REVERSE_MAP = {};
+  for (const [urlKey, mapping] of Object.entries(PARAM_MAP)) {
+    REVERSE_MAP[mapping.param] = REVERSE_MAP[mapping.param] || {};
+    for (const [urlVal, checkboxVal] of Object.entries(mapping.values)) {
+      REVERSE_MAP[mapping.param][checkboxVal] = { urlKey, urlVal };
+    }
+  }
+
+  function normalise(str) {
+    return str.toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  function updateURL() {
+    const params = new URLSearchParams();
+
+    document.querySelectorAll('input.form-checkbox:checked').forEach(function(cb) {
+      const mapping = REVERSE_MAP[cb.name];
+      if (!mapping) return;
+      const entry = mapping[cb.value.toLowerCase()];
+      if (!entry) return;
+      params.append(entry.urlKey, entry.urlVal);
+    });
+
+    const newURL = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+    window.history.replaceState(null, '', newURL);
+  }
+
+  function applyURLFilters() {
+    const params = new URLSearchParams(window.location.search);
+
+    for (const [urlKey, mapping] of Object.entries(PARAM_MAP)) {
+      const rawValues = params.getAll(urlKey);
+      if (!rawValues.length) continue;
+
+      rawValues.forEach(function(rawValue) {
+        const checkboxVal = mapping.values[normalise(rawValue)];
+        if (!checkboxVal) return;
+
+        document.querySelectorAll('input.form-checkbox[name="' + mapping.param + '"]').forEach(function(cb) {
+          if (cb.value.toLowerCase() === checkboxVal) {
+            cb.checked = true;
+            cb.dispatchEvent(new Event('change', { bubbles: true }));
+          }
+        });
+      });
+    }
+
+    // attach URL sync to all checkboxes after initial load
+    document.querySelectorAll('input.form-checkbox').forEach(function(cb) {
+      cb.addEventListener('change', updateURL);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(applyURLFilters, 0);
+  });
+})();
+</script><!-- Header code -->
+    <style>
+  body {
+    color: #0d3273;
+  }
+
+  table {
+    color: #0d3273;
+  }
+
+  job-board-title {
+    display: block;
+  }
+
+  .left-column {
+    z-index: 1;
+  }
+
+  .filter-column {
+    padding: 0;
+    padding-top: 1.7778rem;
+    /* margin-bottom: 1.7778rem; */
+    /* margin-left: -0.4444rem;
+    margin-right: -0.4444rem; */
+    overflow: hidden;
+  }
+
+  .filters h3 {
+    font-weight: bold;
+  }
+
+  a {
+    color: #0c746a;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    cursor: pointer;
+    text-decoration-color: #cea600;
+  }
+
+  table > tbody > tr > td,
+  table > tbody > tr > th {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+  }
+
+  table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
+    line-height: 1.428571429;
+  }
+
+  th {
+    background-color: #fff;
+  }
+
+  .staff-info h3 a[href]:hover {
+    text-decoration: underline;
+  }
+
+  .grid-container {
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* adjust to your preferred gap size */
+    padding: 20px; /* adjust to your preferred padding size */
+  }
+
+  .job-card {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .job-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    #toggleFilters.mb-4 {
+      margin-bottom: inherit;
+    }
+
+    .filters {
+      background: #f6f6f6;
+      padding: 1rem;
+    }
+    .toggle-button {
+      background: #0d3273;
+      color: #fff;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  }
+
+  .search-con {
+    padding: .8889rem;
+  }
+
+  .search-wrapper {
+    width: 100%;
+  }
+
+  .search-wrapper h4 {
+    display: none;
+  }
+
+  .search-block input {
+    width: 100%;
+    margin-bottom: .8889rem;
+  } 
+
+  .message-mini {
+    max-width: 100%;
+  }
+
+  .hidden {
+    display: none;
+  }
+</style>  
+
+    
+<!-- Terminalfour Search Metatags Start -->
+
+<!-- Terminalfour Search Metatags Start -->
+     <meta name="dateSortingSearch" content="2026-06-29"> 
+<meta name="titleSortingSearch" content="Vacancies">
+
+
+
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQZ3W5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <a href="#main-content" id="skiptocontent">Skip to main content</a>
+  
+	
+  <header class="header slat slat--blue" data-component="header" id="top" role="banner">
+    <div class="header__container slat__container">
+        <div class="header__nav" role="navigation" aria-labelledby="global-menu">
+            <a class="header__nav-trigger" href="#" data-toggle-drawer="primary-nav">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                    <use href="/jobs/media/ow-assets/assets/icons/sprite.svg#burger" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.svg#burger"></use>
+                </svg>
+            </a>
+            <h2 class="vh" id="global-menu">Global main menu</h2>
+            <ul class="header__links">
+                    <li class="header__link"><a class="header__link-secondary" href="#primary-nav-study" id="primary-menu-trigger-study" data-action="show-section" aria-label="View more study pages"><span>Study</span></a><nav class="primary-nav nav-drawer--left nav-drawer slat" id="primary-nav-1" data-component="primary-nav" data-behaviour="nav-drawer"><div class="nav-drawer__wrapper"><div class="slat__container"><div class="nav-drawer__content" data-role="content"><div class="primary-nav__section primary-nav__section--study" id="primary-nav-study" data-role="section"><h4 class="primary-nav__section-title" data-role="section-toggle">Study</h4><div class="primary-nav__groups"><div class="primary-nav__group primary-nav__group--full primary-nav__group--no-margin"><a href="#" class="tabfocus tabfocus--close">Close menu</a><a href="#primary-menu-trigger-about" class="tabfocus tabfocus--skip">Skip to next tab</a></div><div class="main-mega-nav__container">
+  <div class="primary-nav__main__university__infos">
+    <div class="primary-nav__group primary-nav__group--half primary-nav__main__university__infos__section">
+      <h5 class="primary-nav__group-title">Study at Queen Mary</h5>
+      <ul>
+<li><a href="https://www.qmul.ac.uk/undergraduate/">Undergraduate study</a></li>
+<li><a href="https://www.qmul.ac.uk/postgraduate/">Postgraduate study</a></li>
+<li><a title="Short courses" href="https://www.qmenterprisezone.com/training/">Short courses</a></li>
+<li>Summer school</li>
+<li><a href="https://www.qmul.ac.uk/degreeapprenticeships/"><span><span>Degree Apprenticeships</span></span></a></li>
+<li><a href="https://www.qmul.ac.uk/clearing/">Clearing</a></li>
+</ul>
+    </div>
+    <div class="primary-nav__group primary-nav__group--half primary-nav__main__university__infos__section">
+      <h5 class="primary-nav__group-title">Experience Queen Mary</h5>
+      <ul>
+<li><a href="https://www.qmul.ac.uk/events/university-days/open-days/">Open days</a></li>
+<li><a href="https://www.qmul.ac.uk/international-students/">International students</a></li>
+<li><a href="https://www.qmul.ac.uk/study/life-on-campus/">Life on campus</a></li>
+<li><a href="https://www.qmul.ac.uk/schools/">Schools and institutes</a></li>
+</ul>
+    </div>
+  </div>
+  <div class="primary-nav__group primary-nav__group--full primary-nav__main__courses__infos">
+    <h5 class="primary-nav__group-title">Subjects</h5>
+    <ul>
+      <li><a href="https://www.qmul.ac.uk/study/foundation-courses/">Foundation Courses</a></li><li><a href="https://www.qmul.ac.uk/study/ai-computer-and-data-science/">AI, Computer and Data Science</a></li><li><a href="https://www.qmul.ac.uk/study/biological-and-biomedical-sciences/">Biological and Biomedical Sciences</a></li><li><a href="https://www.qmul.ac.uk/study/business-and-management/">Business and Management</a></li><li><a href="https://www.qmul.ac.uk/study/chemical-sciences/">Chemical Sciences</a></li><li><a href="https://www.qmul.ac.uk/study/comparative-literature/">Comparative Literature</a></li><li><a href="https://www.qmul.ac.uk/study/creative-arts-media/">Creative Arts Media</a></li><li><a href="https://www.qmul.ac.uk/study/dentistry/">Dentistry</a></li><li><a href="https://www.qmul.ac.uk/study/drama/"> Theatre and Performance </a></li><li><a href="https://www.qmul.ac.uk/study/earth-and-marine-science/">Earth and Marine Science</a></li><li><a href="https://www.qmul.ac.uk/study/economics-finance/">Economics and Finance</a></li><li><a href="https://www.qmul.ac.uk/study/engineering/">Engineering</a></li><li><a href="https://www.qmul.ac.uk/study/english/">English</a></li><li><a href="https://www.qmul.ac.uk/study/environmental-science/">Environmental Science</a></li><li><a href="https://www.qmul.ac.uk/study/film-studies/">Film </a></li><li><a href="https://www.qmul.ac.uk/study/geography/">Geography</a></li><li><a href="https://www.qmul.ac.uk/study/global-development/">Global Development</a></li><li><a href="https://www.qmul.ac.uk/study/global-health/">Global and Public Health</a></li><li><a href="https://www.qmul.ac.uk/study/history/">History</a></li><li><a href="https://www.qmul.ac.uk/study/law/">Law</a></li><li><a href="https://www.qmul.ac.uk/study/liberal-arts/">Liberal Arts</a></li><li><a href="https://www.qmul.ac.uk/study/linguistics/">Linguistics</a></li><li><a href="https://www.qmul.ac.uk/study/materials-science/">Materials Science</a></li><li><a href="https://www.qmul.ac.uk/study/mathematics/">Mathematics</a></li><li><a href="https://www.qmul.ac.uk/study/medicine/">Medicine</a></li><li><a href="https://www.qmul.ac.uk/study/modern-languages-and-cultures/">Modern Languages and Cultures</a></li><li><a href="https://www.qmul.ac.uk/study/physics-and-astronomy/">Physics and Astronomy</a></li><li><a href="https://www.qmul.ac.uk/study/politics-and-international-relations/">Politics and International Relations</a></li><li><a href="https://www.qmul.ac.uk/study/psychology/">Psychology</a></li>
+    </ul>
+  </div>
+</div></div></div></div></div></div></nav></li><li class="header__link"><a class="header__link-secondary" href="#primary-nav-about" id="primary-menu-trigger-about" data-action="show-section" aria-label="View more about pages"><span>About</span></a><nav class="primary-nav nav-drawer--left nav-drawer slat" id="primary-nav-2" data-component="primary-nav" data-behaviour="nav-drawer"><div class="nav-drawer__wrapper"><div class="slat__container"><div class="nav-drawer__content" data-role="content"><div class="primary-nav__section primary-nav__section--about" id="primary-nav-about" data-role="section"><h4 class="primary-nav__section-title" data-role="section-toggle">About</h4><div class="primary-nav__groups"><div class="primary-nav__group primary-nav__group--full primary-nav__group--no-margin"><a href="#" class="tabfocus tabfocus--close">Close menu</a><a href="#primary-menu-trigger-about" class="tabfocus tabfocus--skip">Skip to next tab</a></div><div class="primary-nav__group primary-nav__group--full">
+  <ul>
+    <li><a href="https://www.qmul.ac.uk/about/">About home</a></li>
+    <li><a href="https://www.qmul.ac.uk/alumni/giving/">Giving</a></li><li><a href="https://www.qmul.ac.uk/about/welcome/">Welcome</a></li><li><a href="https://www.qmul.ac.uk/about/howtofindus/">How to find us</a></li><li><a href="https://www.qmul.ac.uk/about/calendar/">Calendar</a></li><li><a href="https://www.qmul.ac.uk/about/history/">Our history</a></li><li><a href="https://www.qmul.ac.uk/alumni/">Alumni</a></li><li><a href="https://www.qmul.ac.uk/about/for-east-london/">For East London</a></li><li><a href="https://www.qmul.ac.uk/global/">Global</a></li><li><a href="https://www.qmul.ac.uk/about/facts-and-figures/">Facts and figures</a></li><li><a href="https://www.qmul.ac.uk/about/foi/">Freedom of information</a></li><li><a href="https://www.qmul.ac.uk/about/whoswho/">Who's who</a></li><li><a href="https://www.qmul.ac.uk/about/sustainability/">Sustainability</a></li><li><a href="https://www.qmul.ac.uk/about/arts-and-culture/">Arts and Culture</a></li><li><a href="https://www.qmul.ac.uk/about/the-medical-college-of-saint-bartholomews-hospital-trust/">The Medical College of Saint Bartholomew’s Hospital Trust</a></li><li><a href="https://www.qmul.ac.uk/about/equality-diversity-and-inclusion/">Equality, Diversity and Inclusion</a></li><li><a href="https://www.qmul.ac.uk/about/volunteering/">Volunteering</a></li><li><a href="https://www.qmul.ac.uk/education/">Education and the student experience</a></li><li><a href="https://www.qmul.ac.uk/queenmaryacademy/the-queen-mary-education-approach/">Active Curriculum for Excellence</a></li>
+  </ul>
+</div></div></div></div></div></div></nav></li><li class="header__link"><a class="header__link-secondary" href="#primary-nav-research" id="primary-menu-trigger-research" data-action="show-section" aria-label="View more research pages"><span>Research</span></a><nav class="primary-nav nav-drawer--left nav-drawer slat" id="primary-nav-3" data-component="primary-nav" data-behaviour="nav-drawer"><div class="nav-drawer__wrapper"><div class="slat__container"><div class="nav-drawer__content" data-role="content"><div class="primary-nav__section primary-nav__section--research" id="primary-nav-research" data-role="section"><h4 class="primary-nav__section-title" data-role="section-toggle">Research</h4><div class="primary-nav__groups"><div class="primary-nav__group primary-nav__group--full primary-nav__group--no-margin"><a href="#" class="tabfocus tabfocus--close">Close menu</a><a href="#primary-menu-trigger-about" class="tabfocus tabfocus--skip">Skip to next tab</a></div><div class="primary-nav__group primary-nav__group--half">
+    <h5 class="primary-nav__group-title">Research and Innovation</h5>
+    <ul>
+<li><a href="https://www.qmul.ac.uk/research/" target="null">Research home</a></li>
+<li><a href="https://www.qmul.ac.uk/research/explore-our-research/interdisciplinary-research/research-highways/">Research highways</a></li>
+<li><a href="https://www.qmul.ac.uk/research/featured-research/" target="null">Featured research</a></li>
+<li><a href="https://www.qmul.ac.uk/research/facilities-and-resources/" target="null">Facilities and resources</a></li>
+<li><a href="https://researchpublications.its.qmul.ac.uk/publications/">Publications</a></li>
+<li><a href="https://www.qmul.ac.uk/postgraduate/research/" target="null">Postgraduate research degrees</a></li>
+<li><a href="https://www.qmul.ac.uk/research/news/" target="null">News</a></li>
+<li><a href="https://www.qmul.ac.uk/research/research-strategy/inclusive-innovative/research-impact/" target="null">Research impact</a></li>
+</ul>
+</div>
+<div class="primary-nav__group primary-nav__group--half">
+    <h5 class="primary-nav__group-title">Research by faculties and centres</h5>
+    <ul>
+<li><a href="https://www.qmul.ac.uk/research/faculties-and-research-centres/humanities-and-social-sciences/">Humanities and Social Sciences</a></li>
+<li><a href="https://www.qmul.ac.uk/research/faculties-and-research-centres/medicine-and-dentistry/">Medicine and Dentistry</a></li>
+<li><a href="https://www.seresearch.qmul.ac.uk/" target="_blank" rel="noopener">Science and Engineering</a></li>
+</ul>
+</div>
+<div class="primary-nav__group primary-nav__group--half">
+    <h5 class="primary-nav__group-title">Collaborations and partnerships</h5>
+    <ul>
+<li><a href="https://www.qmul.ac.uk/research/collaborate-with-us/" target="null">Collaborate with us</a></li>
+</ul>
+</div></div></div></div></div></div></nav></li>
+                </ul>
+        </div>
+        <a class="header__logo" href="https://www.qmul.ac.uk/">
+      			<img src="/jobs/media/ow-assets/assets/icons/Queen-Mary_Est_1785_RGB_White_Dark-Yellow-3.png" alt="Return to the Queen Mary University of London homepage" class="QM-Logo-New">
+    		</a>
+        <div class="header__search">
+            <a class="header__link header__search-link" href="https://www.qmul.ac.uk/find-an-expert/">
+            <span>Find an expert</span>
+            </a>
+            <div class="sitesearch" data-role="sitesearch">
+                <button type="button" class="sitesearch__trigger" data-role="sitesearch-trigger" tabindex="0">
+                    <span class="twi  sitesearch__icon">
+                        <span class="twi__label">
+                            <span>Search</span>
+                        </span>
+                        <span class="twi__icon">
+                            <svg class="icon  sitesearch__icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                                <use href="/jobs/media/ow-assets/assets/icons/sprite.1.2.3.svg#search" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.1.2.3.svg#search"></use>
+                            </svg>
+                        </span>
+                    </span>
+                </button>
+                <form class="sitesearch__content" data-role="sitesearch-content" action="https://www.qmul.ac.uk/search" method="GET" role="search">
+                    <label class="vh" for="sitesearch__input">Search Queen Mary University London website</label>
+                    <!--<input type="hidden" name="collection" value="queenmary-meta">-->
+                    <input type="text" name="searchStudioQuery" placeholder="Search the website" class="sitesearch__input" id="sitesearch__input" autocomplete="off" data-role="sitesearch-input" tabindex="-1">
+                    <button class="sitesearch__submit" type="submit" name="button" aria-label="Submit search form" tabindex="-1">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                            <use href="/jobs/media/ow-assets/assets/icons/sprite.1.2.3.svg#arrow-navlink" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.1.2.3.svg#arrow-navlink"></use>
+                        </svg>
+                    </button>
+                    <button class="sitesearch__close" type="button" aria-label="Close search form">
+                        <span class="twi">
+                            <span class="twi__label">
+                                <span>Close</span>
+                            </span>
+                            <span class="twi__icon">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                                    <use href="/jobs/media/ow-assets/assets/icons/sprite.1.2.3.svg#close" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.1.2.3.svg#close"></use>
+                                </svg>
+                            </span>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</header>
+<nav class="primary-nav  nav-drawer--left nav-drawer slat" id="primary-nav" data-component="primary-nav" data-behaviour="nav-drawer">
+    <div class="nav-drawer__wrapper">
+        <div class="slat__container">
+            <div class="nav-drawer__content" data-role="content">
+                <div class="nav-drawer__head">
+                    <a href="#" class="nav-drawer__home" data-role="home">Home</a>
+                    <span class="nav-drawer__back" data-role="back">
+                        <a href="#">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                            <path d="M18.36 10.86v1.64H8.2l4.66 4.68-1.18 1.18L5 11.68 11.68 5l1.18 1.18-4.66 4.68z" fill-rule="evenodd"></path>
+                            </svg>
+                            Back to home
+                        </a>
+                    </span>
+                    <span class="nav-drawer__close" data-role="close">
+                        <a href="#">
+                            <svg class="icon icon--blue" xmlns="http://www.w3.org/2000/svg" aria-label="close mobile menu" role="presentation">
+                              <path d="M17.82 7.36L13.18 12l4.64 4.64-1.18 1.18L12 13.18l-4.64 4.64-1.18-1.18L10.82 12 6.18 7.36l1.18-1.18L12 10.82l4.64-4.64z" fill-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+                <div class="nav-drawer__content" data-role="content">
+                    <div class="primary-nav__section primary-nav__section--study" id="primary-nav-study-mobile" data-role="section">
+    <h4 class="primary-nav__section-title" data-role="section-toggle"><a href="#">Study</a></h4>
+    <div class="primary-nav__groups">
+        <div class="primary-nav__group primary-nav__group--full">
+            <h5 class="primary-nav__group-title">Subjects</h5>
+            <ul>
+                <li><a href="https://www.qmul.ac.uk/study/foundation-courses/">Foundation Courses</a></li><li><a href="https://www.qmul.ac.uk/study/ai-computer-and-data-science/">AI, Computer and Data Science</a></li><li><a href="https://www.qmul.ac.uk/study/biological-and-biomedical-sciences/">Biological and Biomedical Sciences</a></li><li><a href="https://www.qmul.ac.uk/study/business-and-management/">Business and Management</a></li><li><a href="https://www.qmul.ac.uk/study/chemical-sciences/">Chemical Sciences</a></li><li><a href="https://www.qmul.ac.uk/study/comparative-literature/">Comparative Literature</a></li><li><a href="https://www.qmul.ac.uk/study/creative-arts-media/">Creative Arts Media</a></li><li><a href="https://www.qmul.ac.uk/study/dentistry/">Dentistry</a></li><li><a href="https://www.qmul.ac.uk/study/drama/"> Theatre and Performance </a></li><li><a href="https://www.qmul.ac.uk/study/earth-and-marine-science/">Earth and Marine Science</a></li><li><a href="https://www.qmul.ac.uk/study/economics-finance/">Economics and Finance</a></li><li><a href="https://www.qmul.ac.uk/study/engineering/">Engineering</a></li><li><a href="https://www.qmul.ac.uk/study/english/">English</a></li><li><a href="https://www.qmul.ac.uk/study/environmental-science/">Environmental Science</a></li><li><a href="https://www.qmul.ac.uk/study/film-studies/">Film </a></li><li><a href="https://www.qmul.ac.uk/study/geography/">Geography</a></li><li><a href="https://www.qmul.ac.uk/study/global-development/">Global Development</a></li><li><a href="https://www.qmul.ac.uk/study/global-health/">Global and Public Health</a></li><li><a href="https://www.qmul.ac.uk/study/history/">History</a></li><li><a href="https://www.qmul.ac.uk/study/law/">Law</a></li><li><a href="https://www.qmul.ac.uk/study/liberal-arts/">Liberal Arts</a></li><li><a href="https://www.qmul.ac.uk/study/linguistics/">Linguistics</a></li><li><a href="https://www.qmul.ac.uk/study/materials-science/">Materials Science</a></li><li><a href="https://www.qmul.ac.uk/study/mathematics/">Mathematics</a></li><li><a href="https://www.qmul.ac.uk/study/medicine/">Medicine</a></li><li><a href="https://www.qmul.ac.uk/study/modern-languages-and-cultures/">Modern Languages and Cultures</a></li><li><a href="https://www.qmul.ac.uk/study/physics-and-astronomy/">Physics and Astronomy</a></li><li><a href="https://www.qmul.ac.uk/study/politics-and-international-relations/">Politics and International Relations</a></li><li><a href="https://www.qmul.ac.uk/study/psychology/">Psychology</a></li>
+            </ul>
+        </div>
+        <div class="primary-nav__group primary-nav__group--half">
+            <h5 class="primary-nav__group-title">Study at Queen Mary</h5>
+            <ul>
+<li><a href="https://www.qmul.ac.uk/undergraduate/">Undergraduate study</a></li>
+<li><a href="https://www.qmul.ac.uk/postgraduate/">Postgraduate study</a></li>
+<li><a title="Short courses" href="https://www.qmenterprisezone.com/training/">Short courses</a></li>
+<li><a href="https://www.qmul.ac.uk/degreeapprenticeships/"><span><span>Degree Apprenticeships</span></span></a></li>
+<li><a title="Clearing" href="https://www.qmul.ac.ukhttps://www.qmul.ac.uk/clearing/#">Clearing</a></li>
+</ul>
+        </div>
+        <div class="primary-nav__group primary-nav__group--half">
+            <h5 class="primary-nav__group-title">Experience Queen Mary</h5>
+            <ul>
+<li><a href="https://www.qmul.ac.uk/events/university-days/open-days/">Open days</a></li>
+<li><a href="https://www.qmul.ac.uk/international-students/">International students</a></li>
+<li><a href="https://www.qmul.ac.uk/study/life-on-campus/">Life on campus</a></li>
+<li><a href="https://www.qmul.ac.uk/schools/">Schools and institutes</a></li>
+</ul>
+        </div>
+    </div>
+</div><div class="primary-nav__section primary-nav__section--about" id="primary-nav-about-mobile" data-role="section">
+	<h4 class="primary-nav__section-title" data-role="section-toggle"><a href="#">About</a></h4>
+	<div class="primary-nav__groups">
+		<div class="primary-nav__group primary-nav__group--full">
+			<ul>
+				<li><a href="https://www.qmul.ac.uk/about/">About home</a></li>
+				<li><a href="https://www.qmul.ac.uk/alumni/giving/">Giving</a></li><li><a href="https://www.qmul.ac.uk/about/welcome/">Welcome</a></li><li><a href="https://www.qmul.ac.uk/about/howtofindus/">How to find us</a></li><li><a href="https://www.qmul.ac.uk/about/calendar/">Calendar</a></li><li><a href="https://www.qmul.ac.uk/about/history/">Our history</a></li><li><a href="https://www.qmul.ac.uk/alumni/">Alumni</a></li><li><a href="https://www.qmul.ac.uk/about/for-east-london/">For East London</a></li><li><a href="https://www.qmul.ac.uk/global/">Global</a></li><li><a href="https://www.qmul.ac.uk/about/facts-and-figures/">Facts and figures</a></li><li><a href="https://www.qmul.ac.uk/about/foi/">Freedom of information</a></li><li><a href="https://www.qmul.ac.uk/about/whoswho/">Who's who</a></li><li><a href="https://www.qmul.ac.uk/about/sustainability/">Sustainability</a></li><li><a href="https://www.qmul.ac.uk/about/arts-and-culture/">Arts and Culture</a></li><li><a href="https://www.qmul.ac.uk/about/the-medical-college-of-saint-bartholomews-hospital-trust/">The Medical College of Saint Bartholomew’s Hospital Trust</a></li><li><a href="https://www.qmul.ac.uk/about/equality-diversity-and-inclusion/">Equality, Diversity and Inclusion</a></li><li><a href="https://www.qmul.ac.uk/about/volunteering/">Volunteering</a></li><li><a href="https://www.qmul.ac.uk/education/">Education and the student experience</a></li><li><a href="https://www.qmul.ac.uk/queenmaryacademy/the-queen-mary-education-approach/">Active Curriculum for Excellence</a></li>
+			</ul>
+		</div>
+	</div>
+</div><div class="primary-nav__section primary-nav__section--research" id="primary-nav-research-mobile" data-role="section">
+    <h4 class="primary-nav__section-title" data-role="section-toggle"><a href="#">Research</a>  </h4>
+    <div class="primary-nav__groups">
+        <div class="primary-nav__group primary-nav__group--half">
+            <h5 class="primary-nav__group-title">Research and Innovation</h5>
+            <ul>
+<li><a href="https://www.qmul.ac.uk/research/" target="null">Research home</a></li>
+<li>Strategy, support and guidance</li>
+<li><a href="https://www.qmul.ac.uk/research/explore-our-research/interdisciplinary-research/research-highways/">Research highways</a></li>
+<li><a href="https://www.qmul.ac.uk/research/featured-research/" target="null">Featured research</a></li>
+<li><a href="https://www.qmul.ac.uk/research/facilities-and-resources/" target="null">Facilities and resources</a></li>
+<li><a href="https://www.qmul.ac.uk/research/publications/" target="null">Publications</a></li>
+<li><a href="https://www.qmul.ac.uk/postgraduate/research/" target="null">Postgraduate research degrees</a></li>
+<li><a href="https://www.qmul.ac.uk/research/news/" target="null">News</a></li>
+<li><a href="https://www.qmul.ac.uk/research/research-strategy/inclusive-innovative/research-impact/" target="null">Research impact</a></li>
+<li>Research culture</li>
+</ul>
+        </div>
+        <div class="primary-nav__group primary-nav__group--half">
+            <h5 class="primary-nav__group-title">Research by faculties and centres</h5>
+            <ul>
+<li><a href="https://www.qmul.ac.uk/research/faculties-and-research-centres/humanities-and-social-sciences/">Humanities and Social Sciences</a></li>
+<li><a href="https://www.qmul.ac.uk/research/faculties-and-research-centres/medicine-and-dentistry/">Medicine and Dentistry</a></li>
+<li><a href="https://www.seresearch.qmul.ac.uk/" target="_blank" rel="noopener">Science and Engineering</a></li>
+</ul>
+        </div>
+        <div class="primary-nav__group primary-nav__group--half">
+            <h5 class="primary-nav__group-title">Collaborations and partnerships</h5>
+            <ul>
+<li><a href="https://www.qmul.ac.uk/research/collaborate-with-us/" target="null">Collaborate with us</a></li>
+<li>Contact us</li>
+</ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="section-header slat" data-component="section-header">
+    <div class="section-header__container slat__container">
+        <a href="/jobs/" class="section-header__title" data-role="title">Jobs
+</a>
+        <a class="section-header__nav-trigger" href="#" data-toggle-drawer="secondary-menu">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                <use href="/jobs/media/ow-assets/assets/icons/sprite.svg#menu" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.svg#menu"></use>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<nav class="secondary-menu  nav-drawer--right nav-drawer slat" id="secondary-menu" data-component="secondary-menu" data-behaviour="nav-drawer" aria-labelledby="secondary-nav-menu">
+    <div class="nav-drawer__wrapper">
+        <div class="slat__container">
+            <div class="nav-drawer__head">
+                <a href="/jobs/" class="nav-drawer__home" data-role="home">Jobs</a>
+                <span class="nav-drawer__back" data-role="back">
+
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                        <use href="/jobs/media/ow-assets/assets/icons/sprite.svg#arrow-navlink-back" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.svg#arrow-navlink-back"></use>
+                    </svg>
+
+                    School home
+                </span>
+                <span class="nav-drawer__close" data-role="close">
+
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+                        <use href="/jobs/media/ow-assets/assets/icons/sprite.svg#close" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.svg#close"></use>
+                    </svg>
+
+                </span>
+            </div>
+            <div class="nav-drawer__content" data-role="content">
+
+                <div class="secondary-menu__nav is-ready" data-role="nav">
+                    <h2 class="vh" id="secondary-nav-menu">Section navigation</h2>
+                    <ul>
+                        <li><a href="https://www.qmul.ac.uk/jobs/vacancies/">Apply</a></li><li><a href="https://hr.qmul.ac.uk/contact/">Contact Us</a></li><li><a href="https://hr.qmul.ac.uk/workqm/immigration/">Immigration and International Staff</a></li><li><a href="https://hr.qmul.ac.uk/workqm/benefits/">Benefits of Working at QM</a></li><li><a href="/jobs/staff-apprenticeships/">Staff Apprenticeships</a></li><li class="is-offscreen"><a href="https://hr.qmul.ac.uk/equality/">Equality, Diversity and Inclusion</a></li><li class="is-offscreen"><a href="https://hr.qmul.ac.uk/procedures/">Policies and Procedures</a></li>
+                    <li class="secondary-menu__more has-left-dropdown"><a href="#">More</a><ul class="secondary-menu__more-items"><li><a href="https://hr.qmul.ac.uk/equality/">Equality, Diversity and Inclusion</a></li><li><a href="https://hr.qmul.ac.uk/procedures/">Policies and Procedures</a></li></ul></li></ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="secondary-menu__panel" data-role="panel">
+        <div class="secondary-menu__panel-container" data-role="panel-content"></div>
+    </div>
+</nav>
+  
+  <main id="main-content">
+        
+    <div class="breadcrumb slat"><div class="breadcrumb__container slat__container"><ol class="breadcrumb-list"><li class="breadcrumb-list__item"><a href="/jobs/">Jobs</a></li><li class="breadcrumb-list__item">Vacancies</li></ol></div></div><div class="px-4 pb-4 clearfix"><!-- Search text crawl start --><div class="container container--xxl"><div class="prose"><h1>Vacancies</h1></div></div>
+      <!-- T4 Crawler - navigation id:1467 crawler comment added in the SectionMetaDescription layout text/ow-page-heading-test -->
+    
+<div class="slat__container container--xxl mt-4"><div class="grid"><div class="left-column grid__item sm:grid__item--full md:grid__item--1/3 lg:grid__item--1/4"><div class="filter-column"><h2 id="toggleFilters" class="mb-4 text-lg toggle-button" style="pointer-events: none;">Filters <span class="toggle-icon"></span></h2><div class="filters mb-4"><div class="search-con bg-orange"><div class="search-wrapper"><h4>Search</h4><div class="cd-filter-block search-block"><form><div class="cd-filter-content"><label class="vh" for="staff-search">Search by keyword</label><input type="search" placeholder="Search" id="staff-search"></div></form></div></div><div class="search-info py-2"><p class="text-white">Search all of our vacancies - they will filter as you type</p></div></div><h3 class="mb-2 mt-4 text-sm font-medium text-gray-700">Department</h3><label class="mb-2 flex items-center"><input type="checkbox" class="form-checkbox" name="faculty" value="professional services"><span class="ml-2">Professional Services</span></label><label class="mb-2 flex items-center"><input type="checkbox" class="form-checkbox" name="faculty" value="medicine &amp; dentistry"><span class="ml-2">Medicine &amp; Dentistry</span></label><label class="mb-2 flex items-center"><input type="checkbox" class="form-checkbox" name="faculty" value="science &amp; engineering"><span class="ml-2">Science &amp; Engineering</span></label><label class="mb-2 flex items-center"><input type="checkbox" class="form-checkbox" name="faculty" value="humanities &amp; social sciences"><span class="ml-2">Humanities &amp; Social Sciences</span></label><label class="mb-2 flex items-center"><input type="checkbox" class="form-checkbox" name="faculty" value="students union"><span class="ml-2">Students Union</span></label><h3 class="mb-2 mt-4 text-sm font-medium text-gray-700">Contract Type</h3><label class="flex items-center mb-2"><input type="checkbox" class="form-checkbox" name="contract" value="fixed term"><span class="ml-2">Fixed Term</span></label><label class="flex items-center mb-2"><input type="checkbox" class="form-checkbox" name="contract" value="permanent"><span class="ml-2">Permanent</span></label><h3 class="mb-2 mt-4 text-sm font-medium text-gray-700">Career Family</h3><label class="flex items-center mb-2"><input type="checkbox" class="form-checkbox" name="family" value="professional"><span class="ml-2">Professional</span></label><label class="flex items-center mb-2"><input type="checkbox" class="form-checkbox" name="family" value="technical"><span class="ml-2">Technical</span></label><label class="flex items-center mb-2"><input type="checkbox" class="form-checkbox" name="family" value="research"><span class="ml-2">Research</span></label><label class="flex items-center mb-2"><input type="checkbox" class="form-checkbox" name="family" value="operational"><span class="ml-2">Operational</span></label><label class="flex items-center mb-2"><input type="checkbox" class="form-checkbox" name="family" value="academic"><span class="ml-2">Academic</span></label><div class="message-mini column-promo message-mini--purple mt-4"><h2 class="message-mini__heading">E-recruitment login</h2><p class="message-mini__copy">Log into your Application Centre</p><a class="action action--inverted" href="https://qmul-jobs.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/login"><span class="twi  action__label"><span class="twi__label"><span>E-recruitment login</span></span></span></a></div></div></div></div><div class="right-column grid__item md:grid__item--2/3 lg:grid__item--3/4 flow"><div class="slat--notched pb-4 md:pb-6 -mt-4"><div class="flex flex-col"><h1 class="mb-3">Current Opportunities</h1><h3 class="mb-2" id="jobCount">50 vacancies</h3><div class="overflow-x-auto"><div class="grid-container"><div class="job-card" data-faculty="Humanities &amp; Social Sciences" data-contract="Permanent" data-family="Academic" data-title="Reader in Law (Teaching &amp; Research)" data-org="School of Law" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10750-Reader-in-Law-Teaching-Research/en-GB">Reader in Law (Teaching &amp; Research)</a></h3><p class="title">School of Law</p><p class="profile-card__contact">Salary: £64,331 - £71,834 per annum<br>Ref: 10750<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Humanities &amp; Social Sciences" data-contract="Permanent" data-family="Academic" data-title="Senior Lecturer in Law (Teaching &amp; Research)" data-org="School of Law" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10749-Senior-Lecturer-in-Law-Teaching-Research/en-GB">Senior Lecturer in Law (Teaching &amp; Research)</a></h3><p class="title">School of Law</p><p class="profile-card__contact">Salary: £64,331 - £71,834 per annum<br>Ref: 10749<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Humanities &amp; Social Sciences" data-contract="Permanent" data-family="Academic" data-title="Lecturer in Private Law (Teaching &amp; Research)" data-org="School of Law" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10751-Lecturer-in-Private-Law-Teaching-Research/en-GB">Lecturer in Private Law (Teaching &amp; Research)</a></h3><p class="title">School of Law</p><p class="profile-card__contact">Salary: £51,755-£60,901 per annum<br>Ref: 10751<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Professional" data-title="Trials Manager" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10590-Trials-Manager/en-GB">Trials Manager</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £40,015 - £46,618 per annum<br>Ref: 10590<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Professional" data-title="Trials Assistant" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10688-Trials-Assistant/en-GB">Trials Assistant</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £33,263 – £40,015 per annum<br>Ref: 10688<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Humanities &amp; Social Sciences" data-contract="Permanent" data-family="Professional" data-title="School Student Experience Manager" data-org="HSS Faculty Office" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10682-School-Student-Experience-Manager/en-GB">School Student Experience Manager</a></h3><p class="title">HSS Faculty Office</p><p class="profile-card__contact">Salary: £44,288-51,755 per annum<br>Ref: 10682<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="Barts Cancer Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10181-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">Barts Cancer Institute</p><p class="profile-card__contact">Salary: £38,419 - £46,618 per annum<br>Ref: 10181<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Technical" data-title="Research Technician" data-org="William Harvey Research Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10697-Research-Technician/en-GB">Research Technician</a></h3><p class="title">William Harvey Research Institute</p><p class="profile-card__contact">Salary: £33,263 - £40,015 per annum<br>Ref: 10697<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Research Assistant" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10809-Research-Assistant/en-GB">Research Assistant</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £38,419 - £39,022 per annum<br>Ref: 10809<br>Closing date: 26 August 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="School of Biological &amp; Behavioural Sciences" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10845-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">School of Biological &amp; Behavioural Sciences</p><p class="profile-card__contact">Salary: £38,419 - £46,618 per annum<br>Ref: 10845<br>Closing date: 27 August 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Associate PMO Analyst" data-org="IT Services" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10520-Associate-PMO-Analyst/en-GB">Associate PMO Analyst</a></h3><p class="title">IT Services</p><p class="profile-card__contact">Salary: £40,015 - £46,618 per annum<br>Ref: 10520<br>Closing date: 27 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Clinical Research Fellow" data-org="Institute Of Dentistry" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10029-Clinical-Research-Fellow/en-GB">Clinical Research Fellow</a></h3><p class="title">Institute Of Dentistry</p><p class="profile-card__contact">Salary: £40,190 - £54,499 per annum (pro rata)<br>Ref: 10029<br>Closing date: 27 August 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="School of Physical &amp; Chemical Sciences" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10459-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">School of Physical &amp; Chemical Sciences</p><p class="profile-card__contact">Salary: £38,419 - £51,755 per annum<br>Ref: 10459<br>Closing date: 28 August 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Permanent" data-family="Academic" data-title="Lecturer in Chemical Engineering (Teaching &amp; Research)" data-org="School of Engineering &amp; Materials Science" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10621-Lecturer-in-Chemical-Engineering-Teaching-Research/en-GB">Lecturer in Chemical Engineering (Teaching &amp; Research)</a></h3><p class="title">School of Engineering &amp; Materials Science</p><p class="profile-card__contact">Salary: £51,755 - £60,901 per annum<br>Ref: 10621<br>Closing date: 28 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Research Assistant" data-org="William Harvey Research Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10988-Research-Assistant/en-GB">Research Assistant</a></h3><p class="title">William Harvey Research Institute</p><p class="profile-card__contact">Salary: £38,419 - £39,022 per annum<br>Ref: 10988<br>Closing date: 28 August 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Senior Marketing and Communications Officer" data-org="External Relations" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10577-Senior-Marketing-and-Communications-Officer/en-GB">Senior Marketing and Communications Officer</a></h3><p class="title">External Relations</p><p class="profile-card__contact">Salary: £40,015 - £46,618 per annum<br>Ref: 10577<br>Closing date: 30 August 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Professional" data-title="Research Technician" data-org="Blizard Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10681-Research-Technician/en-GB">Research Technician</a></h3><p class="title">Blizard Institute</p><p class="profile-card__contact">Salary: £33,263 - £40,015 per annum<br>Ref: 10681<br>Closing date: 30 August 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Events Officer (Major Events)" data-org="External Relations" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11005-Events-Officer-Major-Events/en-GB">Events Officer (Major Events)</a></h3><p class="title">External Relations</p><p class="profile-card__contact">Salary: £33,263 - £40,015 per annum<br>Ref: 11005<br>Closing date: 1 September 2026</p></div></div></div><div class="job-card" data-faculty="Humanities &amp; Social Sciences" data-contract="Permanent" data-family="Professional" data-title="Business Engagement Officer" data-org="School of Business &amp; Management - DO NOT USE" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11022-Business-Engagement-Officer/en-GB">Business Engagement Officer</a></h3><p class="title">School of Business &amp; Management - DO NOT USE</p><p class="profile-card__contact">Salary: £40,015 - £46,618 per annum<br>Ref: 11022<br>Closing date: 1 September 2026</p></div></div></div><div class="job-card" data-faculty="Students Union" data-contract="Permanent" data-family="Professional" data-title="Cafe Assistant - part-time role (20 hours)" data-org="Students Union" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10946-Cafe-Assistant-part-time-role-20-hours/en-GB">Cafe Assistant - part-time role (20 hours)</a></h3><p class="title">Students Union</p><p class="profile-card__contact">Salary: £27,340 - £29,254 per annum (pro rata)<br>Ref: 10946<br>Closing date: 1 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Research Assistant in Data Science" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10763-Research-Assistant-in-Data-Science/en-GB">Research Assistant in Data Science</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £38,419-£39,022 per annum<br>Ref: 10763<br>Closing date: 2 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Professional" data-title="Clinical Trial Operation Manager" data-org="William Harvey Research Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10754-Clinical-Trial-Operation-Manager/en-GB">Clinical Trial Operation Manager</a></h3><p class="title">William Harvey Research Institute</p><p class="profile-card__contact">Salary: £44,288 - £51,755 per annum<br>Ref: 10754<br>Closing date: 4 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Professional" data-title="Musculoskeletal Study Coordinator" data-org="Blizard Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10584-Musculoskeletal-Study-Coordinator/en-GB">Musculoskeletal Study Coordinator</a></h3><p class="title">Blizard Institute</p><p class="profile-card__contact">Salary: £40,015 - £46,618 per annum<br>Ref: 10584<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Senior Development Manager (Humanities and Social Sciences)" data-org="External Relations" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-5/candidate/so/pm/1/pl/3/opp/9627-Senior-Development-Manager-Humanities-and-Social-Sciences/en-GB">Senior Development Manager (Humanities and Social Sciences)</a></h3><p class="title">External Relations</p><p class="profile-card__contact">Salary: £54,617 - £60,901 per annum<br>Ref: 9627<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Senior Development Manager (Health)" data-org="External Relations" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-5/candidate/so/pm/1/pl/3/opp/9698-Senior-Development-Manager-Health/en-GB">Senior Development Manager (Health)</a></h3><p class="title">External Relations</p><p class="profile-card__contact">Salary: £54,617 - £60,901 per annum<br>Ref: 9698<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="Barts Cancer Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10056-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">Barts Cancer Institute</p><p class="profile-card__contact">Salary: £38,419 - £46,618 per annum<br>Ref: 10056<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate in Epidemiology and Health Data Science" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10638-Postdoctoral-Research-Associate-in-Epidemiology-and-Health-Data-Science/en-GB">Postdoctoral Research Associate in Epidemiology and Health Data Science</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £38,419 - £51,755 per annum<br>Ref: 10638<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="Blizard Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10684-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">Blizard Institute</p><p class="profile-card__contact">Salary: £38,419- £46,618 per annum<br>Ref: 10684<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Technical" data-title="Laboratory Operations Technician" data-org="Blizard Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10756-Laboratory-Operations-Technician/en-GB">Laboratory Operations Technician</a></h3><p class="title">Blizard Institute</p><p class="profile-card__contact">Salary: £33,263 - £40,015 per annum (pro rata)<br>Ref: 10756<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Professional" data-title="Clinical Project Manager" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10999-Clinical-Project-Manager/en-GB">Clinical Project Manager</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £54,617 - £60,901 per annum<br>Ref: 10999<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Permanent" data-family="Professional" data-title="Research Manager" data-org="School of Engineering &amp; Materials Science" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10994-Research-Manager/en-GB">Research Manager</a></h3><p class="title">School of Engineering &amp; Materials Science</p><p class="profile-card__contact">Salary: Grade 5 - £44,288 - £51,755 per annum or candidates may be appointed as a Grade 4 - £40,015 - £46,618 per annum as a development zone.<br>Ref: 10994<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Business Development Manager (Health)" data-org="Research &amp; Innovation Services" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10717-Business-Development-Manager-Health/en-GB">Business Development Manager (Health)</a></h3><p class="title">Research &amp; Innovation Services</p><p class="profile-card__contact">Salary: £54,617 - £60,901 per annum<br>Ref: 10717<br>Closing date: 6 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Receptionist &amp; Administrator" data-org="Queen Mary BioEnterprises Innovation Cen" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10624-Receptionist-Administrator/en-GB">Receptionist &amp; Administrator</a></h3><p class="title">Queen Mary BioEnterprises Innovation Cen</p><p class="profile-card__contact">Salary: £32,000 - £35,000 per annum<br>Ref: 10624<br>Closing date: 7 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Community Manager" data-org="Queen Mary BioEnterprises Innovation Cen" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10888-Community-Manager/en-GB">Community Manager</a></h3><p class="title">Queen Mary BioEnterprises Innovation Cen</p><p class="profile-card__contact">Salary: £32,000 - £36,000 per annum<br>Ref: 10888<br>Closing date: 7 September 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Permanent" data-family="Professional" data-title="Assistant Teaching Technician" data-org="School of Biological &amp; Behavioural Sciences" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11062-Assistant-Teaching-Technician/en-GB">Assistant Teaching Technician</a></h3><p class="title">School of Biological &amp; Behavioural Sciences</p><p class="profile-card__contact">Salary: £29,818 - £32,515 per annum (pro-rata)<br>Ref: 11062<br>Closing date: 7 September 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="School of Biological &amp; Behavioural Sciences" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11013-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">School of Biological &amp; Behavioural Sciences</p><p class="profile-card__contact">Salary: £38,419 - £44,288 per annum<br>Ref: 11013<br>Closing date: 7 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Research Assistant" data-org="William Harvey Research Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10449-Research-Assistant/en-GB">Research Assistant</a></h3><p class="title">William Harvey Research Institute</p><p class="profile-card__contact">Salary: £38,419 - £39,022 per annum<br>Ref: 10449<br>Closing date: 7 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Technical" data-title="Learning Technologist (Technical)" data-org="IT Services" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10819-Learning-Technologist-Technical/en-GB">Learning Technologist (Technical)</a></h3><p class="title">IT Services</p><p class="profile-card__contact">Salary: £44,288 - £51,755 per annum<br>Ref: 10819<br>Closing date: 8 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Operational" data-title="Student Experience Project Delivery Manager" data-org="Student Experience" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10918-Student-Experience-Project-Delivery-Manager/en-GB">Student Experience Project Delivery Manager</a></h3><p class="title">Student Experience</p><p class="profile-card__contact">Salary: £44,288 - £51,755 per annum<br>Ref: 10918<br>Closing date: 8 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Permanent" data-family="Professional" data-title="Office Manager" data-org="Research &amp; Innovation Services" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11020-Office-Manager/en-GB">Office Manager</a></h3><p class="title">Research &amp; Innovation Services</p><p class="profile-card__contact">Salary: £40,015 - £46,618 per annum<br>Ref: 11020<br>Closing date: 8 September 2026</p></div></div></div><div class="job-card" data-faculty="Professional Services" data-contract="Fixed Term" data-family="Professional" data-title="Integration Developer" data-org="IT Services" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10630-Integration-Developer/en-GB">Integration Developer</a></h3><p class="title">IT Services</p><p class="profile-card__contact">Salary: £54,617 - £60,901 per annum<br>Ref: 10630<br>Closing date: 9 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Research Assistant – Impact and Engagement" data-org="M&amp;D Faculty Office" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10421-Research-Assistant-Impact-and-Engagement/en-GB">Research Assistant – Impact and Engagement</a></h3><p class="title">M&amp;D Faculty Office</p><p class="profile-card__contact">Salary: £40,015 per annum<br>Ref: 10421<br>Closing date: 9 September 2026</p></div></div></div><div class="job-card" data-faculty="Humanities &amp; Social Sciences" data-contract="Fixed Term" data-family="Professional" data-title="Project Manager - &quot;Critical Seeing&quot; project" data-org="School of the Arts" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10986-Project-Manager-Critical-Seeing-project/en-GB">Project Manager - "Critical Seeing" project</a></h3><p class="title">School of the Arts</p><p class="profile-card__contact">Salary: £44,288 - £51,755 per annum<br>Ref: 10986<br>Closing date: 14 September 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="School of Biological &amp; Behavioural Sciences" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10842-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">School of Biological &amp; Behavioural Sciences</p><p class="profile-card__contact">Salary: £38,419-£46,618 per annum<br>Ref: 10842<br>Closing date: 15 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Professional" data-title="Clinical Trial Monitor" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11142-Clinical-Trial-Monitor/en-GB">Clinical Trial Monitor</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £40,015 - £46,618 per annum<br>Ref: 11142<br>Closing date: 15 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="Wolfson Institute Of Population Health" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11104-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">Wolfson Institute Of Population Health</p><p class="profile-card__contact">Salary: £38,419 - £46,618 per annum<br>Ref: 11104<br>Closing date: 15 September 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Permanent" data-family="Professional" data-title="Joint Educational Institute (JEI) Administrator – Operations, Finance and Logistics" data-org="S&amp;E Faculty Office" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/11111-Joint-Educational-Institute-JEI-Administrator-Operations-Finance-and-Logistics/en-GB">Joint Educational Institute (JEI) Administrator – Operations, Finance and Logistics</a></h3><p class="title">S&amp;E Faculty Office</p><p class="profile-card__contact">Salary: £40,015 – £46,618 per annum<br>Ref: 11111<br>Closing date: 16 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Permanent" data-family="Technical" data-title="Laboratory Operations Manager" data-org="Barts Cancer Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10840-Laboratory-Operations-Manager/en-GB">Laboratory Operations Manager</a></h3><p class="title">Barts Cancer Institute</p><p class="profile-card__contact">Salary: £44,288 - £51,755 per annum<br>Ref: 10840<br>Closing date: 16 September 2026</p></div></div></div><div class="job-card" data-faculty="Medicine &amp; Dentistry" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="Barts Cancer Institute" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10499-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">Barts Cancer Institute</p><p class="profile-card__contact">Salary: £38,419 - £51,755<br>Ref: 10499<br>Closing date: 20 September 2026</p></div></div></div><div class="job-card" data-faculty="Science &amp; Engineering" data-contract="Fixed Term" data-family="Research" data-title="Postdoctoral Research Associate" data-org="School of Biological &amp; Behavioural Sciences" style="display: block;"><div class="profile-card bg-white"><div class="staff-info"><h3 class="profile-card__name job-link"><a href="https://qmul-jobs.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/10896-Postdoctoral-Research-Associate/en-GB">Postdoctoral Research Associate</a></h3><p class="title">School of Biological &amp; Behavioural Sciences</p><p class="profile-card__contact">Salary: £38,419 -£46,618 per annum<br>Ref: 10896<br>Closing date: 21 September 2026</p></div></div></div></div></div></div></div></div></div></div><!-- Search text crawl end -->
+</div>
+
+
+</main>
+
+<footer class="footer slat slat--blue" role="navigation" aria-labelledby="footer-nav">
+  <h2 class="vh" id="footer-nav">Footer navigation</h2>
+  <div class="footer__container slat__container">
+    <div class="footer__section footer__top">
+      <div class="footer__group footer__group--full">
+      	<ul class="footer__nav-links" aria-label="Footer links">
+<li><a href="https://www.qmul.ac.uk/study/accommodation/">Accommodation</a></li>
+<li><a href="https://www.qmul.ac.uk/alumni/" aria-label="Queen Mary Alumni Network">Alumni</a></li>
+<li><a href="https://www.qmul.ac.uk/schools/">Schools and Institutes</a></li>
+<li><a href="https://www.qmul.ac.uk/careers/">Careers and Enterprise</a></li>
+<li><a href="https://www.qmul.ac.uk/research/collaborate-with-us/">Collaborate with us</a></li>
+<li><a href="https://www.qmul.ac.uk/contact/" aria-label="Contact Queen Mary">Contact</a></li>
+<li><a href="https://www.qmul.ac.uk/events/" aria-label="Events at Queen Mary">Events</a></li>
+<li><a href="https://www.qmul.ac.uk/global/">Global</a></li>
+<li><a href="https://www.qmul.ac.uk/about/howtofindus/">How to find us</a></li>
+<li><a href="https://www.qmul.ac.uk/international-students/">International students</a></li>
+<li><a href="http://www.jobs.qmul.ac.uk/">Jobs</a></li>
+<li><a href="https://www.qmul.ac.uk/library/">Library</a></li>
+<li><a href="http://my.qmul.ac.uk/">MyQMUL</a></li>
+<li><a href="https://www.qmul.ac.uk/newstudents/">New students</a></li>
+<li><a href="https://www.qmul.ac.uk/media/" aria-label="News from Queen Mary">News</a></li>
+<li><a href="https://www.qmul.ac.uk/prospectus/">Order a prospectus</a></li>
+<li><a href="https://www.qmul.ac.uk/our-brand/">Our brand</a></li>
+<li><a href="https://www.qmul.ac.uk/parents/">Parents</a></li>
+<li><a href="https://www.qmul.ac.uk/professional-services/">Professional services departments</a></li>
+<li><a href="https://www.qmul.ac.uk/publicengagement/">Public Engagement</a></li>
+<li><a href="https://qmplus.qmul.ac.uk/">QMplus</a></li>
+<li><a href="https://qmulprod.sharepoint.com/_layouts/15/search.aspx/people">Staff directory</a></li>
+<li><a href="http://connected.qmul.ac.uk/">Staff intranet</a></li>
+<li><a href="https://www.qmul.ac.uk/strategy-2030/">Strategy 2030</a></li>
+<li><a href="https://www.qmsu.org/">Students' Union</a></li>
+<li><a href="https://www.qmul.ac.uk/outreach/">Teachers</a></li>
+<li><a href="https://www.qmul.ac.uk/about/calendar/">Term dates</a></li>
+<li><a href="https://www.qmul.ac.uk/about/facts-and-figures/trade-union-facility-time/">Trade Union Facility Time</a></li>
+</ul>
+      </div>
+    </div>
+    <div class="footer__section footer__bottom">
+      <div class="footer__groups">
+        <div class="footer__group footer__group--three-quarter">
+          <ul class="footer__nav-links">
+<li><a href="https://www.qmul.ac.uk/site/accessibility/" target="null">Accessibility</a></li>
+<li><a href="https://www.qmul.ac.uk/site/disclaimer/" target="null">Disclaimer</a></li>
+<li><a href="https://www.qmul.ac.uk/site/privacy/" target="null">Privacy and cookies</a></li>
+<li><a href="https://www.qmul.ac.uk/site/site-map/" target="null">Site map</a></li>
+<li><a href="https://www.qmul.ac.uk/procurement/modern-slavery-statement/" target="null">Modern Slavery Statement</a></li>
+<li><a href="https://www.qmul.ac.uk/procurement/supplier-fraud-alert/" target="null">Supplier fraud alert</a></li>
+<li><a href="https://www.qmul.ac.uk/about/facts-and-figures/ofs-data/" target="null">OFS Data</a></li>
+</ul>
+        </div>
+        <div class="footer__group footer__group--quarter">
+          <h2 class="footer__title">Contact the university</h2>
+<p>Queen Mary University of London<br>
+          Mile End Road<br>
+          London E1 4NS<br>
+          +44 000 000 0000
+        </p>
+        
+        <ul class="social-list social-list--circled flex flex-wrap mt-2">
+  
+  <li class="social-list__service mb-1">
+    <a href="https://www.facebook.com/QMUL" class="social-list__service-link icon--blue">
+ <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="icon" viewBox="0 0 16 16">
+  <title>Facebook</title>
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+</svg>
+    </a>
+  </li>
+  
+  <li class="social-list__service mb-1">
+    <a href="https://twitter.com/QMUL" class="social-list__service-link icon--blue">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="30" height="30" viewBox="0 0 16 16">
+  <title>Twitter X</title>
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
+</svg>
+
+    </a>
+  </li>
+  
+  <li class="social-list__service mb-1">
+    <a href="https://www.instagram.com/officialqmul/" class="social-list__service-link icon--blue">
+     <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 16 16">
+  <title>Instagram</title>
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+</svg>
+
+    </a>
+  </li>
+  
+  <li class="social-list__service mb-1">
+    <a href="https://www.youtube.com/user/QMULOfficial" class="social-list__service-link icon--blue">
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="icon" viewBox="0 0 16 16">
+  <title>YouTube</title>
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
+</svg>
+
+    </a>
+  </li>
+
+<li class="social-list__service">
+    <a href="https://www.linkedin.com/school/queen-mary-university-of-london" class="social-list__service-link icon--blue">
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 16 16">
+  <title>LinkedIn</title>
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+</svg>
+
+    </a>
+  </li>
+
+<li class="social-list__service">
+    <a href="https://www.tiktok.com/@officialqmul" class="social-list__service-link icon--blue">
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 16 16">
+  <title>TikTok</title>
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"></path>
+</svg>
+
+    </a>
+  </li>
+  
+</ul>
+        </div> 	
+      </div>
+    </div>
+    <div class="footer__editpage footer__top grid">
+      <div class="grid__item">
+        <ul class="footer__nav-links"><li></li></ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="btt" data-component="btt">
+  <div class="btt__inner">
+    <a href="#top" class="btt__link" data-role="link">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+        <use href="/jobs/media/ow-assets/assets/icons/sprite.svg#arrow-navup" xlink:href="/jobs/media/ow-assets/assets/icons/sprite.svg#arrow-navup"></use>
+      </svg>
+      <span class="vh">Back to top</span>
+    </a>
+  </div>
+</div>
+
+<style>
+  [data-component^="slider"]>*:nth-child(n+2) {
+      display: none;
+  }
+</style>
+
+<script defer="" src="/jobs/media/ow-assets/assets/js/svgxuse.js"></script><!--svgxuse JS -->
+<script src="/jobs/media/ow-assets/assets/js/jquery.min.js"></script><!--jquery.min JS -->
+  <script>
+    $(function () {
+      QMULComponents.header.init();
+      QMULComponents.primaryNav.init();
+      QMULComponents.secondaryNav.init();
+      QMULComponents.navDrawer.init();
+      QMULComponents.btt.init();
+      QMULComponents.revealMore.init();
+    });
+  </script>
+
+<script defer="" src="/jobs/media/ow-assets/assets/js/vendors~lib.min.1.2.4.js"></script><!-- Vendors Lib 1.2.4 JS -->
+<script defer="" src="/jobs/media/ow-assets/assets/js/lib.min.1.3.js"></script><!-- Lib 1.3 JS -->
+<script defer="" src="/jobs/media/ow-assets/assets/js/subdomain.nav.adjustment.min.1.1.js"></script><!-- Subdomain Nav Adjustment -->
+<script defer="" src="/jobs/media/ow-assets/assets/js/t4extra.js"></script><!-- Hex Mega Menu JS -->
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('staff-search');
+    const jobs = document.querySelectorAll('.job-card');
+    const filters = document.querySelectorAll('.form-checkbox');
+
+    filterJobs(); // Call filterJobs initially to filter the jobs based on the initial checkbox state
+
+    function filterJobs() {
+      
+      visibleCount = 0;
+      const query = searchInput.value.trim().toLowerCase();
+      const activeFilters = Array.from(filters)
+        .filter(filter => filter.checked)
+        .reduce((acc, filter) => {
+          if (!acc[filter.name]) acc[filter.name] = [];
+          acc[filter.name].push(filter.value);
+          return acc;
+        }, {});
+
+      jobs.forEach(job => {
+        const jobFaculty = job.getAttribute('data-faculty').toLowerCase();
+        const jobContract = job.getAttribute('data-contract').toLowerCase();
+        const jobFamily = job.getAttribute('data-family').toLowerCase();
+        const jobTitle = job.getAttribute('data-title').toLowerCase();
+
+        const matchesQuery = jobTitle.includes(query);
+        const matchesFilters = Object.keys(activeFilters).every(filterKey =>
+        activeFilters[filterKey].includes(job.getAttribute(`data-${filterKey}`).toLowerCase())
+        );
+
+        if (matchesQuery && matchesFilters) {
+          job.style.display = 'block';
+          visibleCount++;
+        } else {
+          job.style.display = 'none';
+        }
+      });
+
+      // Update the job count display
+      // visibleCount = 0;
+      const vacancyText = `${visibleCount} ${visibleCount !== 1 ? 'vacancies' : 'vacancy'}`;
+      document.getElementById('jobCount').innerText = vacancyText;
+    }
+
+    searchInput.addEventListener('input', filterJobs);
+    filters.forEach(filter => filter.addEventListener('change', filterJobs));
+
+    // Get the div element with ID 'main-content'
+    const mainContentDiv = document.getElementById('main-content');
+
+    // Check if the element exists
+    if (mainContentDiv) {
+      // Find the div element with class 'container--md' within mainContentDiv
+      const containerMdDiv = mainContentDiv.querySelector('.container--md');
+
+      // Check if the element with class 'container--md' exists
+      if (containerMdDiv) {
+        // Change the class from 'container--md' to 'container--xxl'
+        containerMdDiv.classList.remove('container--md');
+        containerMdDiv.classList.add('container--xxl');
+      } else {
+        console.log("Element with class 'container--md' not found within '#main-content'.");
+      }
+    }
+
+    const toggleButton = document.getElementById('toggleFilters');
+    const filtersDiv = document.querySelector('.filters');
+    const toggleIcon = toggleButton.querySelector('.toggle-icon');
+
+    const updateFilterVisibility = () => {
+      if (window.innerWidth <= 768) {
+        filtersDiv.classList.add('hidden');
+        toggleButton.style.pointerEvents = 'auto';
+        toggleIcon.textContent = filtersDiv.classList.contains('hidden') ? '+' : '-';
+      } else {
+        filtersDiv.classList.remove('hidden');
+        toggleButton.style.pointerEvents = 'none';
+        toggleIcon.textContent = '';
+      }
+    };
+
+    toggleButton.addEventListener('click', function () {
+      filtersDiv.classList.toggle('hidden');
+      toggleIcon.textContent = filtersDiv.classList.contains('hidden') ? '+' : '-';
+    });
+
+    // Check window width initially
+    updateFilterVisibility();
+
+    // Listen for window resize events
+    window.addEventListener('resize', updateFilterVisibility);
+  });
+</script>
+
+<!-- -->
+
+
+<style>.edit-page{position:absolute;bottom:20px;left:0;z-index:9999;transform:translateX(calc(-100% + 10px));transition:transform .3s ease}.edit-page:hover{transform:translateX(0)}.edit-page a{display:block;background:#092659;color:#fff;padding:8px 14px;border-radius:0 4px 0 0;white-space:nowrap;text-decoration:none;font-weight:700;font-size:.875rem;opacity:1}.edit-page a:hover{background:#092659}</style>
+<!--Content Type: Section Meta Description -->
+<!-- Content layout: text/edit-page-footer-html -->
+<div class="edit-page" aria-hidden="true"><a class="t4Edit-page" href="https://t4.qmul.ac.uk/terminalfour/page/section#edit/1044898/contents" tabindex="-1">Edit this page</a></div>
+<script>
+  const editLink = document.querySelector('.edit-page a');
+  if (editLink) {
+    editLink.setAttribute('tabindex', '-1');
+  }
+</script>
+
+
+
+
+<script id="" text="" charset="" type="text/javascript" src="https://app.termly.io/resource-blocker/83c28410-26f6-4523-a7d3-466c377cb83f?autoBlock=off"></script><script type="text/javascript" id="" charset="">window.__TERMLY_GTM_INITIALIZED=1;</script>
+	<script type="text/javascript" id="" charset="">!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";
+a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("CIHCB5RC77U7QBTN4BNG");a.page()}(window,document,"ttq");</script>
+	
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1148425983053697");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1148425983053697&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="" charset="">!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie holdConsent revokeConsent grantConsent".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=
+function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("CQ3C4KRC77UAGCRD33OG");a.page()}(window,document,"ttq");</script>
+
+<script type="text/javascript" id="" charset="">(function(a,b,d){if(!a.snaptr){var c=a.snaptr=function(){c.handleRequest?c.handleRequest.apply(c,arguments):c.queue.push(arguments)};c.queue=[];a="script";r=b.createElement(a);r.async=!0;r.src=d;b=b.getElementsByTagName(a)[0];b.parentNode.insertBefore(r,b)}})(window,document,"https://sc-static.net/scevent.min.js");snaptr("init","01c2b1dd-571f-44c3-bfae-8bdeebe23c07",{user_email:"__INSERT_USER_EMAIL__"});snaptr("track","PAGE_VIEW");</script>
+
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1868037393206637");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1868037393206637&amp;ev=PageView&amp;noscript=1"></noscript>
+ <script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1353221701695684");fbq("track","PageView");</script> <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1353221701695684&amp;ev=PageView&amp;noscript=1"></noscript> <script type="text/javascript" id="" charset="">(function(a,b){var d="spdt-capture",e="script";if(!b.getElementById(d)){a.spdt=a.spdt||function(){(a.spdt.q=a.spdt.q||[]).push(arguments)};var c=b.createElement(e);c.id=d;c.async=1;c.src="https://pixel.byspotify.com/ping.min.js";b=b.getElementsByTagName(e)[0];b.parentNode.insertBefore(c,b)}a.spdt("conf",{key:"7e6f1653cb57438a97d3e8c44306ad59"});a.spdt("view")})(window,document);</script></body></html>

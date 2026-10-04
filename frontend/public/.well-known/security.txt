@@ -1,0 +1,4 @@
+# How to report a security problem in UniJobs. See https://securitytxt.org (RFC 9116).
+Contact: https://github.com/mjanzikhan7/unijobs/security/advisories/new
+Expires: 2027-10-01T00:00:00.000Z
+Preferred-Languages: en

@@ -1,0 +1,62 @@
+# Secrets. Only the *.example files belong in git.
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+!backend/crawler/certs/*.pem
+
+# Database dumps and local data
+*.sql
+*.sql.gz
+*.dump
+*.sqlite3
+backend/.media/
+backend/.media-test/
+backend/.rawcache/
+backend/.rawcache-test/
+backend/staticfiles/
+backend/static-site/
+backend/openapi.yaml
+celerybeat-schedule*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node
+node_modules/
+frontend/dist/
+storybook-static/
+*.tsbuildinfo
+npm-debug.log*
+
+# Test output
+test-results/
+playwright-report/
+blob-report/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+~$*
+
+# Personal documents
+code-sample/

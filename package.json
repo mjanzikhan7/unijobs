@@ -1,0 +1,22 @@
+{
+  "name": "unijobs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "packages/*"
+  ],
+  "scripts": {
+    "build:a11y": "npm run build --workspace=@unijobs/a11y",
+    "test:a11y": "npm test --workspace=@unijobs/a11y",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build:frontend": "npm run build --workspace=frontend"
+  },
+  "overrides": {
+    "tsup": {
+      "esbuild": "^0.28.2"
+    }
+  },
+  "license": "MIT"
+}

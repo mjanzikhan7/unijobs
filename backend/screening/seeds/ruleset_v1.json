@@ -1,0 +1,19 @@
+{
+  "name": "Skilled Worker figures, August 2026",
+  "effective_from": "2026-08-19",
+  "verified_at": "2026-08-22",
+  "source_url": "https://www.gov.uk/government/publications/skilled-worker-visa-going-rates-for-eligible-occupation-codes",
+  "notes": "Figures checked by hand against the Immigration Rules Appendix Skilled Occupations, 19-22 August 2026. Personal floor and current package are the candidate's own numbers, not statutory ones. Never edit this file to change a figure in a running system - POST a new ruleset version so historic verdicts stay explainable.",
+  "figures": {
+    "transitional_general_threshold": "31300",
+    "standard_general_threshold": "41700",
+    "soc_2134_going_rate": "54700",
+    "soc_2139_going_rate": "52300",
+    "soc_2133_going_rate": "54900",
+    "soc_2162_going_rate": "43600",
+    "soc_3131_going_rate": "35200",
+    "soc_3133_going_rate": "34600",
+    "current_package": "50275",
+    "personal_floor": "37000"
+  }
+}

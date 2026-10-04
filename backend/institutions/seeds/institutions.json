@@ -1,0 +1,1672 @@
+[
+  {
+    "slug": "university-of-cambridge",
+    "name": "University of Cambridge",
+    "nation": "ENGLAND",
+    "city": "Cambridge",
+    "institution_type": "UNIVERSITY",
+    "ranking": 1,
+    "careers_url": "https://www.cam.ac.uk/jobs/search?search_api_views_fulltext=",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-oxford",
+    "name": "University of Oxford",
+    "nation": "ENGLAND",
+    "city": "Oxford",
+    "institution_type": "UNIVERSITY",
+    "ranking": 2,
+    "careers_url": "https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params",
+    "notes": ""
+  },
+  {
+    "slug": "london-school-of-economics-and-political-science",
+    "name": "London School of Economics and Political Science",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 3,
+    "careers_url": "https://jobs.lse.ac.uk/V2/Vacancy/Index",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-st-andrews",
+    "name": "University of St Andrews",
+    "nation": "SCOTLAND",
+    "city": "St Andrews",
+    "institution_type": "UNIVERSITY",
+    "ranking": 4,
+    "careers_url": "https://www.vacancies.st-andrews.ac.uk/V2/Vacancy/Index",
+    "notes": ""
+  },
+  {
+    "slug": "imperial-college-london",
+    "name": "Imperial College London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 5,
+    "careers_url": "https://www.imperial.ac.uk/jobs/search-jobs/",
+    "notes": "Registered as: Imperial College London (HR)"
+  },
+  {
+    "slug": "durham-university",
+    "name": "Durham University",
+    "nation": "ENGLAND",
+    "city": "Durham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 6,
+    "careers_url": "https://durham.taleo.net/careersection/du_ext/jobsearch.ftl?lang=en&portal=10105010224#",
+    "notes": "Registered as: University of Durham | Seed URL was an HR landing page with no listing content, not the vacancy search/ATS endpoint; corrected 26 Aug 2026, still needs a rendering path (JS widget / Taleo) to actually extract vacancies."
+  },
+  {
+    "slug": "loughborough-university",
+    "name": "Loughborough University",
+    "nation": "ENGLAND",
+    "city": "Loughborough",
+    "institution_type": "UNIVERSITY",
+    "ranking": 8,
+    "careers_url": "https://vacancies.lboro.ac.uk/tlive_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-bath",
+    "name": "University of Bath",
+    "nation": "ENGLAND",
+    "city": "Bath",
+    "institution_type": "UNIVERSITY",
+    "ranking": 9,
+    "careers_url": "https://www.bath.ac.uk/jobs/",
+    "notes": ""
+  },
+  {
+    "slug": "lancaster-university",
+    "name": "Lancaster University",
+    "nation": "ENGLAND",
+    "city": "Lancaster",
+    "institution_type": "UNIVERSITY",
+    "ranking": 10,
+    "careers_url": "https://hr-jobs.lancs.ac.uk/vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-exeter",
+    "name": "University of Exeter",
+    "nation": "ENGLAND",
+    "city": "Exeter",
+    "institution_type": "UNIVERSITY",
+    "ranking": 11,
+    "careers_url": "https://careers.exeter.ac.uk/vacancies/vacancy-search-results.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-birmingham",
+    "name": "University of Birmingham",
+    "nation": "ENGLAND",
+    "city": "Birmingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 12,
+    "careers_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001",
+    "notes": ""
+  },
+  {
+    "slug": "university-college-london-ucl",
+    "name": "University College London (UCL)",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 13,
+    "careers_url": "https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs?",
+    "notes": "Registered as: University College London | Seed URL was an HR landing page with no listing content, not the vacancy search/ATS endpoint; corrected 26 Aug 2026, still needs a rendering path (JS widget / Taleo) to actually extract vacancies."
+  },
+  {
+    "slug": "university-of-sheffield",
+    "name": "University of Sheffield",
+    "nation": "ENGLAND",
+    "city": "Sheffield",
+    "institution_type": "UNIVERSITY",
+    "ranking": 13,
+    "careers_url": "https://jobsite.sheffield.ac.uk/search/?q=&locationsearch=&searchResultView=LIST&markerViewed=&carouselIndex=&facetFilters=%7B%7D&pageNumber=0",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-southampton",
+    "name": "University of Southampton",
+    "nation": "ENGLAND",
+    "city": "Southampton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 15,
+    "careers_url": "https://jobs.soton.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "kings-college-london",
+    "name": "King's College London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 16,
+    "careers_url": "https://www.kcl.ac.uk/jobs/search",
+    "notes": "Seed URL was an HR landing page with no listing content, not the vacancy search/ATS endpoint; corrected 26 Aug 2026, still needs a rendering path (JS widget / Taleo) to actually extract vacancies."
+  },
+  {
+    "slug": "university-of-bristol",
+    "name": "University of Bristol",
+    "nation": "ENGLAND",
+    "city": "Bristol",
+    "institution_type": "UNIVERSITY",
+    "ranking": 17,
+    "careers_url": "https://www.bristol.ac.uk/jobs/find/?searchCriteria[0][key]=Resultsperpage&searchCriteria[0][values][]=200",
+    "notes": "Seed URL was an HR landing page with no listing content, not the vacancy search/ATS endpoint; corrected 26 Aug 2026, still needs a rendering path (JS widget / Taleo) to actually extract vacancies."
+  },
+  {
+    "slug": "university-of-leeds",
+    "name": "University of Leeds",
+    "nation": "ENGLAND",
+    "city": "Leeds",
+    "institution_type": "UNIVERSITY",
+    "ranking": 18,
+    "careers_url": "https://jobs.leeds.ac.uk/",
+    "notes": "Registered as: University of Leeds (Human Resources)"
+  },
+  {
+    "slug": "university-of-edinburgh",
+    "name": "University of Edinburgh",
+    "nation": "SCOTLAND",
+    "city": "Edinburgh",
+    "institution_type": "UNIVERSITY",
+    "ranking": 19,
+    "careers_url": "https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-york",
+    "name": "University of York",
+    "nation": "ENGLAND",
+    "city": "York",
+    "institution_type": "UNIVERSITY",
+    "ranking": 20,
+    "careers_url": "https://jobs.york.ac.uk/wd/plsql/wd_portal.show_page?p_web_site_id=3885&p_text_id=1763",
+    "notes": "careers_url is correct and live (Hireserve). Flagging a code-level bug found 26 Aug 2026: this URL contains the substring 'wd_portal.show_page', which also satisfies CoreHR's detect() (checked earlier in registry.py's _DETECTION_ORDER), so York is mis-routed to the CoreHR adapter. Confirmed live via browser: 'hireserve' string present, a working p_web_site_id field, a working /rss_jobs.rss feed, and no 'corehr'/'coreportal_erecruit' strings anywhere on the page — this is unambiguously a Hireserve tenant that happens to sit on the same generic Oracle PL/SQL URL shape CoreHR's detect-by also matches. Needs a code fix in the detection order, not a seed-data fix."
+  },
+  {
+    "slug": "university-of-surrey",
+    "name": "University of Surrey",
+    "nation": "ENGLAND",
+    "city": "Guildford",
+    "institution_type": "UNIVERSITY",
+    "ranking": 21,
+    "careers_url": "https://jobs.surrey.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-liverpool",
+    "name": "University of Liverpool",
+    "nation": "ENGLAND",
+    "city": "Liverpool",
+    "institution_type": "UNIVERSITY",
+    "ranking": 22,
+    "careers_url": "https://my.corehr.com/pls/ulivrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E",
+    "notes": ""
+  },
+  {
+    "slug": "queens-university-belfast",
+    "name": "Queen's University Belfast",
+    "nation": "NORTHERN_IRELAND",
+    "city": "Belfast",
+    "institution_type": "UNIVERSITY",
+    "ranking": 23,
+    "careers_url": "https://www.qub.ac.uk/sites/QUBJobVacancies/ProfessionalSupportJobs/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-manchester",
+    "name": "University of Manchester",
+    "nation": "ENGLAND",
+    "city": "Manchester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 24,
+    "careers_url": "https://www.jobs.manchester.ac.uk/Home/Job",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-dundee",
+    "name": "University of Dundee",
+    "nation": "SCOTLAND",
+    "city": "Dundee",
+    "institution_type": "UNIVERSITY",
+    "ranking": 25,
+    "careers_url": "https://www.dundee.ac.uk/work-for-us/jobs?search_api_fulltext=",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-nottingham",
+    "name": "University of Nottingham",
+    "nation": "ENGLAND",
+    "city": "Nottingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 26,
+    "careers_url": "https://jobs.nottingham.ac.uk/vacancies.aspx",
+    "notes": "Seed URL was an HR landing page with no listing content, not the vacancy search page; corrected 26 Aug 2026 after confirming the real listing (68 live vacancies across 7 categories) in a live browser check. Category-hub layout, same shape as Queen's University Belfast — an adapter here should walk categories rather than expect one flat list."
+  },
+  {
+    "slug": "cardiff-university",
+    "name": "Cardiff University",
+    "nation": "WALES",
+    "city": "Cardiff",
+    "institution_type": "UNIVERSITY",
+    "ranking": 27,
+    "careers_url": "https://cardiffuniweb.eploy.net/vacancies/vacancy-search-results.aspx?culture=en-GB",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-the-arts-london",
+    "name": "University of the Arts London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 27,
+    "careers_url": "https://jobs.arts.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-glasgow",
+    "name": "University of Glasgow",
+    "nation": "SCOTLAND",
+    "city": "Glasgow",
+    "institution_type": "UNIVERSITY",
+    "ranking": 29,
+    "careers_url": "https://www.jobs.gla.ac.uk/jobs?sort_type=relevance&query=&selected_locations=&submit=Search",
+    "notes": "Seed URL was the jobs subdomain's homepage, not the vacancy search page; corrected 26 Aug 2026 after confirming the real listing (49 live vacancies, full facets) in a live browser check."
+  },
+  {
+    "slug": "university-of-essex",
+    "name": "University of Essex",
+    "nation": "ENGLAND",
+    "city": "Colchester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 30,
+    "careers_url": "https://vacancies.essex.ac.uk/tlive_webrecruitment/wrd/run/ETREC179GF.open?WVID=9918109NEm",
+    "notes": ""
+  },
+  {
+    "slug": "heriot-watt-university",
+    "name": "Heriot-Watt University",
+    "nation": "SCOTLAND",
+    "city": "Edinburgh",
+    "institution_type": "UNIVERSITY",
+    "ranking": 31,
+    "careers_url": "https://enzj.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-aberdeen",
+    "name": "University of Aberdeen",
+    "nation": "SCOTLAND",
+    "city": "Aberdeen",
+    "institution_type": "UNIVERSITY",
+    "ranking": 32,
+    "careers_url": "https://www.abdn.ac.uk/jobs/vacancies/index.php?section=&type=&division=&category=&keywords=#results",
+    "notes": "Seed URL was an HR landing page with no listing content, not the vacancy search page; corrected 26 Aug 2026 after confirming the real listing (5 live vacancies, full facets) in a live browser check."
+  },
+  {
+    "slug": "university-of-leicester",
+    "name": "University of Leicester",
+    "nation": "ENGLAND",
+    "city": "Leicester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 33,
+    "careers_url": "https://jobs.le.ac.uk/vacancies/vacancy-search-results.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-east-anglia",
+    "name": "University of East Anglia",
+    "nation": "ENGLAND",
+    "city": "Norwich",
+    "institution_type": "UNIVERSITY",
+    "ranking": 34,
+    "careers_url": "https://vacancies.uea.ac.uk/vacancies/vacancy-search-results.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "newcastle-university",
+    "name": "Newcastle University",
+    "nation": "ENGLAND",
+    "city": "Newcastle upon Tyne",
+    "institution_type": "UNIVERSITY",
+    "ranking": 35,
+    "careers_url": "https://jobs.ncl.ac.uk/search/?createNewAlert=false&q=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield4=&optionsFacetsDD_customfield2=",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-sussex",
+    "name": "University of Sussex",
+    "nation": "ENGLAND",
+    "city": "Brighton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 36,
+    "careers_url": "https://jobs.sussex.ac.uk/#!",
+    "notes": ""
+  },
+  {
+    "slug": "northumbria-university",
+    "name": "Northumbria University",
+    "nation": "ENGLAND",
+    "city": "Newcastle upon Tyne",
+    "institution_type": "UNIVERSITY",
+    "ranking": 37,
+    "careers_url": "https://fa-etnb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX",
+    "notes": ""
+  },
+  {
+    "slug": "harper-adams-university",
+    "name": "Harper Adams University",
+    "nation": "ENGLAND",
+    "city": "Newport, Shropshire",
+    "institution_type": "UNIVERSITY",
+    "ranking": 38,
+    "careers_url": "https://jobs.harper-adams.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-strathclyde",
+    "name": "University of Strathclyde",
+    "nation": "SCOTLAND",
+    "city": "Glasgow",
+    "institution_type": "UNIVERSITY",
+    "ranking": 39,
+    "careers_url": "https://strathvacancies.engageats.co.uk/V2/Vacancy/Index?enc=HRIqN026cS+vCbCYvrmuUlRuC79/39yknYl6JyVFAq0mun48UhH8QAr+8i5zlZ1Iopg1CFFQVvSCOnD76tE5697cs+NZYbkYpVmUd+mthuk=",
+    "notes": ""
+  },
+  {
+    "slug": "queen-mary-university-of-london",
+    "name": "Queen Mary University of London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 40,
+    "careers_url": "https://www.qmul.ac.uk/jobs/vacancies/",
+    "notes": "Seed URL (qmul.ac.uk/jobs/) was a landing page; corrected 26 Aug 2026 after confirming 44 live vacancies, full facets (Department/Contract Type/Career Family) in a browser check. Plain server-rendered HTML, no JSON-LD, no RSS feed, no recognised 3rd-party ATS signature — needs a small custom/plain-HTML adapter (card scrape: title, department, salary, ref, closing date)."
+  },
+  {
+    "slug": "swansea-university",
+    "name": "Swansea University",
+    "nation": "WALES",
+    "city": "Swansea",
+    "institution_type": "UNIVERSITY",
+    "ranking": 41,
+    "careers_url": "https://www.swansea.ac.uk/jobs-at-swansea/current-vacancies/",
+    "notes": ""
+  },
+  {
+    "slug": "royal-holloway-university-of-london",
+    "name": "Royal Holloway, University of London",
+    "nation": "ENGLAND",
+    "city": "Egham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 42,
+    "careers_url": "https://jobs.royalholloway.ac.uk/",
+    "notes": "Registered as: Royal Holloway and Bedford New College"
+  },
+  {
+    "slug": "university-of-reading",
+    "name": "University of Reading",
+    "nation": "ENGLAND",
+    "city": "Reading",
+    "institution_type": "UNIVERSITY",
+    "ranking": 43,
+    "careers_url": "https://jobs.reading.ac.uk/ce1169li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-suffolk",
+    "name": "University of Suffolk",
+    "nation": "ENGLAND",
+    "city": "Ipswich",
+    "institution_type": "UNIVERSITY",
+    "ranking": 44,
+    "careers_url": "https://careers.uos.ac.uk/vacancies",
+    "notes": ""
+  },
+  {
+    "slug": "oxford-brookes-university",
+    "name": "Oxford Brookes University",
+    "nation": "ENGLAND",
+    "city": "Oxford",
+    "institution_type": "UNIVERSITY",
+    "ranking": 45,
+    "careers_url": "https://my.corehr.com/pls/oburecruit/erq_search_package.search_form?p_company=1&p_internal_external=E",
+    "notes": ""
+  },
+  {
+    "slug": "nottingham-trent-university",
+    "name": "Nottingham Trent University",
+    "nation": "ENGLAND",
+    "city": "Nottingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 46,
+    "careers_url": "https://vacancies.ntu.ac.uk/Home/Job",
+    "notes": "Registered as: Nottingham Trent University - Human Resources"
+  },
+  {
+    "slug": "ulster-university",
+    "name": "Ulster University",
+    "nation": "NORTHERN_IRELAND",
+    "city": "Coleraine / Belfast",
+    "institution_type": "UNIVERSITY",
+    "ranking": 47,
+    "careers_url": "https://university-of-ulster.staging.krakatoa.eu-2.volcanic.cloud/jobs?source=recruitment.ulster.ac.uk",
+    "notes": "Registered as: University of Ulster"
+  },
+  {
+    "slug": "brunel-university-of-london",
+    "name": "Brunel University of London",
+    "nation": "ENGLAND",
+    "city": "Uxbridge",
+    "institution_type": "UNIVERSITY",
+    "ranking": 48,
+    "careers_url": "https://careers.brunel.ac.uk/home.html",
+    "notes": "Registered as: Brunel University London"
+  },
+  {
+    "slug": "bangor-university",
+    "name": "Bangor University",
+    "nation": "WALES",
+    "city": "Bangor",
+    "institution_type": "UNIVERSITY",
+    "ranking": 49,
+    "careers_url": "https://jobs.bangor.ac.uk/list.php.en?LOV13=All&ContractType=All&LOV25=All&keywords=&Resultsperpage=10&srcsubmit=Search&statlog=1&ID=QLYFK026203F3VBQB7V68LOTX&mask=stdext&LG=UK",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-lincoln",
+    "name": "University of Lincoln",
+    "nation": "ENGLAND",
+    "city": "Lincoln",
+    "institution_type": "UNIVERSITY",
+    "ranking": 50,
+    "careers_url": "https://jobs.lincoln.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-portsmouth",
+    "name": "University of Portsmouth",
+    "nation": "ENGLAND",
+    "city": "Portsmouth",
+    "institution_type": "UNIVERSITY",
+    "ranking": 50,
+    "careers_url": "https://mss.port.ac.uk/ce0732li_webrecruitment/wrd/run/ETREC179GF.open?WVID=217310N6lo",
+    "notes": ""
+  },
+  {
+    "slug": "aston-university",
+    "name": "Aston University",
+    "nation": "ENGLAND",
+    "city": "Birmingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 52,
+    "careers_url": "https://jobs.aston.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "manchester-metropolitan-university",
+    "name": "Manchester Metropolitan University",
+    "nation": "ENGLAND",
+    "city": "Manchester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 53,
+    "careers_url": "https://recruitment.mmu.ac.uk/vacancies/vacancy-search-results.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "keele-university",
+    "name": "Keele University",
+    "nation": "ENGLAND",
+    "city": "Keele",
+    "institution_type": "UNIVERSITY",
+    "ranking": 54,
+    "careers_url": "https://ce0639li.webitrent.com/ce0639li_webrecruitment/",
+    "notes": "Registered as: Keele University - Human Resources"
+  },
+  {
+    "slug": "university-of-stirling",
+    "name": "University of Stirling",
+    "nation": "SCOTLAND",
+    "city": "Stirling",
+    "institution_type": "UNIVERSITY",
+    "ranking": 55,
+    "careers_url": "https://www.stir.ac.uk/about/work-at-stirling/list/index.html?searchCriteria[0][key]=Resultsperpage&searchCriteria[0][values][]=200",
+    "notes": ""
+  },
+  {
+    "slug": "aberystwyth-university",
+    "name": "Aberystwyth University",
+    "nation": "WALES",
+    "city": "Aberystwyth",
+    "institution_type": "UNIVERSITY",
+    "ranking": 56,
+    "careers_url": "https://jobs.aber.ac.uk/en/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "coventry-university",
+    "name": "Coventry University",
+    "nation": "ENGLAND",
+    "city": "Coventry",
+    "institution_type": "UNIVERSITY",
+    "ranking": 57,
+    "careers_url": "https://cugcareers.coventry.ac.uk/search/?createNewAlert=false&q=&optionsFacetsDD_department=&optionsFacetsDD_customfield1=&optionsFacetsDD_location=",
+    "notes": ""
+  },
+  {
+    "slug": "edge-hill-university",
+    "name": "Edge Hill University",
+    "nation": "ENGLAND",
+    "city": "Ormskirk",
+    "institution_type": "UNIVERSITY",
+    "ranking": 58,
+    "careers_url": "https://jobs.edgehill.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "city-st-georges-university-of-london",
+    "name": "City St George's, University of London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 59,
+    "careers_url": "https://jobs.citystgeorges.ac.uk/",
+    "notes": "Seed URL (citystgeorges.ac.uk/about/jobs) was a landing page; corrected 26 Aug 2026 after confirming 64 live vacancies via facet counts in a browser check (destination redirects to /en/sites/CX_1001). Platform: Oracle Fusion / Oracle Recruiting Cloud served on the institution's own custom domain, not a *.oraclecloud.com host — the existing Oracle Fusion adapter's detect() (host-based) likely does not recognise this tenant; confirmed 'oraclecloud' string present in the rendered page source."
+  },
+  {
+    "slug": "norwich-university-of-the-arts",
+    "name": "Norwich University of the Arts",
+    "nation": "ENGLAND",
+    "city": "Norwich",
+    "institution_type": "UNIVERSITY",
+    "ranking": 60,
+    "careers_url": "https://norwichuni.ac.uk/about-us/work-at-norwich/",
+    "notes": "Checked 26 Aug 2026: www.nua.ac.uk timed out on 2 separate connection attempts (ERR_CONNECTION_TIMED_OUT) — consistent with the original crawl log's failure for this institution. Appears to be genuinely unreachable right now rather than a false positive; re-check on a future run before assuming a code-side fix is needed."
+  },
+  {
+    "slug": "goldsmiths-university-of-london",
+    "name": "Goldsmiths, University of London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 61,
+    "careers_url": "https://jobs.gold.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-kent",
+    "name": "University of Kent",
+    "nation": "ENGLAND",
+    "city": "Canterbury",
+    "institution_type": "UNIVERSITY",
+    "ranking": 62,
+    "careers_url": "https://jobs.kent.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-chichester",
+    "name": "University of Chichester",
+    "nation": "ENGLAND",
+    "city": "Chichester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 63,
+    "careers_url": "https://unchili.webitrent.com/unchili_web/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-hull",
+    "name": "University of Hull",
+    "nation": "ENGLAND",
+    "city": "Hull",
+    "institution_type": "UNIVERSITY",
+    "ranking": 64,
+    "careers_url": "https://uoh.wd103.myworkdayjobs.com/en-US/University_of_Hull_Careers",
+    "notes": ""
+  },
+  {
+    "slug": "falmouth-university",
+    "name": "Falmouth University",
+    "nation": "ENGLAND",
+    "city": "Falmouth",
+    "institution_type": "UNIVERSITY",
+    "ranking": 65,
+    "careers_url": "https://jobs.falmouth.ac.uk/vacancies/vacancy-search-results.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-salford",
+    "name": "University of Salford",
+    "nation": "ENGLAND",
+    "city": "Salford",
+    "institution_type": "UNIVERSITY",
+    "ranking": 66,
+    "careers_url": "https://iahgme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-plymouth",
+    "name": "University of Plymouth",
+    "nation": "ENGLAND",
+    "city": "Plymouth",
+    "institution_type": "UNIVERSITY",
+    "ranking": 67,
+    "careers_url": "https://hrservices.plymouth.ac.uk/tlive_webrecruitment/wrd/run/ETREC179GF.open?WVID=0687193jOB",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-huddersfield",
+    "name": "University of Huddersfield",
+    "nation": "ENGLAND",
+    "city": "Huddersfield",
+    "institution_type": "UNIVERSITY",
+    "ranking": 68,
+    "careers_url": "https://vacancies.hud.ac.uk/tlive_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-sunderland",
+    "name": "University of Sunderland",
+    "nation": "ENGLAND",
+    "city": "Sunderland",
+    "institution_type": "UNIVERSITY",
+    "ranking": 68,
+    "careers_url": "https://jobs.sunderland.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-hertfordshire",
+    "name": "University of Hertfordshire",
+    "nation": "ENGLAND",
+    "city": "Hatfield",
+    "institution_type": "UNIVERSITY",
+    "ranking": 70,
+    "careers_url": "https://ce0997li.webitrent.com/ce0997li_webrecruitment/",
+    "notes": "Registered as: University of Hertfordshire Higher Education Corporation"
+  },
+  {
+    "slug": "university-of-derby",
+    "name": "University of Derby",
+    "nation": "ENGLAND",
+    "city": "Derby",
+    "institution_type": "UNIVERSITY",
+    "ranking": 71,
+    "careers_url": "https://www.derby.ac.uk/jobs/current-vacancies/?query=&collection=derbyu%7Esp-jobs-meta&profile=_default",
+    "notes": "Seed URL was an HR landing page with no listing content, not the vacancy search page; corrected 26 Aug 2026 after confirming the real listing (23 live vacancies across 3 pages) in a live browser check."
+  },
+  {
+    "slug": "arts-university-bournemouth",
+    "name": "Arts University Bournemouth",
+    "nation": "ENGLAND",
+    "city": "Poole",
+    "institution_type": "UNIVERSITY",
+    "ranking": 72,
+    "careers_url": "https://aub.ac.uk/working-at-aub/vacancies",
+    "notes": ""
+  },
+  {
+    "slug": "cardiff-metropolitan-university",
+    "name": "Cardiff Metropolitan University",
+    "nation": "WALES",
+    "city": "Cardiff",
+    "institution_type": "UNIVERSITY",
+    "ranking": 72,
+    "careers_url": "https://jobs.cardiffmet.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-the-west-of-england-bristol",
+    "name": "University of the West of England, Bristol",
+    "nation": "ENGLAND",
+    "city": "Bristol",
+    "institution_type": "UNIVERSITY",
+    "ranking": 74,
+    "careers_url": "https://ce0164li.webitrent.com/ce0164li_webrecruitment/wrd/run/ETREC179GF.open?WVID=8433573cTb&LANG=USA",
+    "notes": "Registered as: University of the West of England"
+  },
+  {
+    "slug": "robert-gordon-university",
+    "name": "Robert Gordon University",
+    "nation": "SCOTLAND",
+    "city": "Aberdeen",
+    "institution_type": "UNIVERSITY",
+    "ranking": 75,
+    "careers_url": "https://www.rgu.ac.uk/jobs/current-vacancies",
+    "notes": "Seed URL (rgu.ac.uk/jobs) was a landing page; corrected 26 Aug 2026 after confirming 4 live vacancies in a browser check. Plain server-rendered HTML — page carries no JobPosting JSON-LD (only a BreadcrumbList block elsewhere on the site), so the generic Structured adapter would not resolve this tenant; needs a small custom/plain-HTML adapter. Page also links out to 'MyJobsScotland', a shared Scottish public-sector job board, as an alternate listing worth checking for other Scottish institutions."
+  },
+  {
+    "slug": "liverpool-john-moores-university",
+    "name": "Liverpool John Moores University",
+    "nation": "ENGLAND",
+    "city": "Liverpool",
+    "institution_type": "UNIVERSITY",
+    "ranking": 76,
+    "careers_url": "https://jobs.ljmu.ac.uk/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "bournemouth-university",
+    "name": "Bournemouth University",
+    "nation": "ENGLAND",
+    "city": "Poole",
+    "institution_type": "UNIVERSITY",
+    "ranking": 77,
+    "careers_url": "https://vacancies.bournemouth.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-chester",
+    "name": "University of Chester",
+    "nation": "ENGLAND",
+    "city": "Chester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 78,
+    "careers_url": "https://jobs.chester.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "st-marys-university-twickenham",
+    "name": "St Mary's University, Twickenham",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 79,
+    "careers_url": "https://ce0230li.webitrent.com/ce0230li_webrecruitment/",
+    "notes": "Registered as: St Mary's University"
+  },
+  {
+    "slug": "university-of-worcester",
+    "name": "University of Worcester",
+    "nation": "ENGLAND",
+    "city": "Worcester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 80,
+    "careers_url": "https://jobs.worcester.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "edinburgh-napier-university",
+    "name": "Edinburgh Napier University",
+    "nation": "SCOTLAND",
+    "city": "Edinburgh",
+    "institution_type": "UNIVERSITY",
+    "ranking": 81,
+    "careers_url": "https://jobs.napier.ac.uk/mthrprod_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "sheffield-hallam-university",
+    "name": "Sheffield Hallam University",
+    "nation": "ENGLAND",
+    "city": "Sheffield",
+    "institution_type": "UNIVERSITY",
+    "ranking": 81,
+    "careers_url": "https://my.corehr.com/pls/shurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E",
+    "notes": ""
+  },
+  {
+    "slug": "liverpool-hope-university",
+    "name": "Liverpool Hope University",
+    "nation": "ENGLAND",
+    "city": "Liverpool",
+    "institution_type": "UNIVERSITY",
+    "ranking": 83,
+    "careers_url": "https://www.hope.ac.uk/aboutus/jobopportunities/currentvacancies/?_gl=1*ifbsk6*_up*MQ..*_ga*MTUzMjc5Mzk3Mi4xNzg4NDc5ODQy*_ga_4TFQNSDBXM*czE3ODg0Nzk4NDIkbzEkZzEkdDE3ODg0Nzk4NTkkajQzJGwwJGgw",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-west-london",
+    "name": "University of West London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 84,
+    "careers_url": "https://jobs.uwl.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-for-the-creative-arts",
+    "name": "University for the Creative Arts",
+    "nation": "ENGLAND",
+    "city": "Farnham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 85,
+    "careers_url": "https://jobs.ucreative.ac.uk/vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "leeds-beckett-university",
+    "name": "Leeds Beckett University",
+    "nation": "ENGLAND",
+    "city": "Leeds",
+    "institution_type": "UNIVERSITY",
+    "ranking": 86,
+    "careers_url": "https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "teesside-university",
+    "name": "Teesside University",
+    "nation": "ENGLAND",
+    "city": "Middlesbrough",
+    "institution_type": "UNIVERSITY",
+    "ranking": 87,
+    "careers_url": "https://tuwpapps.tees.ac.uk/trent22live_webrecruitment/wrd/run/ETREC179GF.open?WVID=2180376JUq",
+    "notes": "Registered as: University of Teesside | Seed URL (tees.ac.uk/jobs/) was a dead/landing page; corrected 26 Aug 2026 after confirming a live search form in a browser check. Platform: iTrent (existing adapter/platform, already in crawlers.md) — same 'empty search form must be submitted' quirk documented for CoreHR. Teesside publishes 4 separate iTrent tenants by legal entity (main University, TU Online, TU London, TU Enterprise & Innovation) reachable from the same jobs/ landing page; this URL is the main University entity only."
+  },
+  {
+    "slug": "kingston-university",
+    "name": "Kingston University",
+    "nation": "ENGLAND",
+    "city": "Kingston upon Thames",
+    "institution_type": "UNIVERSITY",
+    "ranking": 88,
+    "careers_url": "https://jobs.kingston.ac.uk/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "glasgow-caledonian-university",
+    "name": "Glasgow Caledonian University",
+    "nation": "SCOTLAND",
+    "city": "Glasgow",
+    "institution_type": "UNIVERSITY",
+    "ranking": 89,
+    "careers_url": "https://www.gcu.ac.uk/jobs/jobs",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-central-lancashire",
+    "name": "University of Central Lancashire",
+    "nation": "ENGLAND",
+    "city": "Preston",
+    "institution_type": "UNIVERSITY",
+    "ranking": 90,
+    "careers_url": "https://jobs.lancashire.ac.uk/",
+    "notes": "Registered as: University of Lancashire"
+  },
+  {
+    "slug": "university-of-south-wales",
+    "name": "University of South Wales",
+    "nation": "WALES",
+    "city": "Pontypridd",
+    "institution_type": "UNIVERSITY",
+    "ranking": 91,
+    "careers_url": "https://ce0091li.webitrent.com/ce0091li_webrecruitment/wrd/run/ETREC179GF.open?WVID=700475KWaI",
+    "notes": "Seed URL had no *_webrecruitment/*_web ATS tenant segment, which is exactly what the logged PARSE_ERROR named; corrected 26 Aug 2026 to the actual webitrent/iTrent tenant URL after confirming the real listing (8 live vacancies) in a live browser check."
+  },
+  {
+    "slug": "bath-spa-university",
+    "name": "Bath Spa University",
+    "nation": "ENGLAND",
+    "city": "Bath",
+    "institution_type": "UNIVERSITY",
+    "ranking": 92,
+    "careers_url": "https://bathspa.pinpointhq.com/",
+    "notes": ""
+  },
+  {
+    "slug": "canterbury-christ-church-university",
+    "name": "Canterbury Christ Church University",
+    "nation": "ENGLAND",
+    "city": "Canterbury",
+    "institution_type": "UNIVERSITY",
+    "ranking": 92,
+    "careers_url": "https://staffspace.canterbury.ac.uk/ce0226li_webrecruitment/wrd/run/ETREC179GF.open?WVID=902714Bjox",
+    "notes": ""
+  },
+  {
+    "slug": "soas-university-of-london",
+    "name": "SOAS University of London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 94,
+    "careers_url": "https://vacancies.soas.ac.uk/",
+    "notes": "Registered as: School of Oriental and African Studies"
+  },
+  {
+    "slug": "birmingham-city-university",
+    "name": "Birmingham City University",
+    "nation": "ENGLAND",
+    "city": "Birmingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 95,
+    "careers_url": "https://jobs.bcu.ac.uk/Vacancies.aspx?cat=-1",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-east-london",
+    "name": "University of East London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 96,
+    "careers_url": "https://jobs.uel.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-winchester",
+    "name": "University of Winchester",
+    "nation": "ENGLAND",
+    "city": "Winchester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 97,
+    "careers_url": "https://recruitment.winchester.ac.uk/tlive_webrecruitment/wrd/run/ETREC105GF?USESSION=5D2085E913BB93E67BF6ED7580822C36&WVID=9600862XFu&LANG=USA",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-bradford",
+    "name": "University of Bradford",
+    "nation": "ENGLAND",
+    "city": "Bradford",
+    "institution_type": "UNIVERSITY",
+    "ranking": 98,
+    "careers_url": "https://jobs.bradford.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-gloucestershire",
+    "name": "University of Gloucestershire",
+    "nation": "ENGLAND",
+    "city": "Cheltenham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 98,
+    "careers_url": "https://jobs.glos.ac.uk/wrl/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-wales-trinity-saint-david",
+    "name": "University of Wales Trinity Saint David",
+    "nation": "WALES",
+    "city": "Carmarthen",
+    "institution_type": "UNIVERSITY",
+    "ranking": 98,
+    "careers_url": "https://jobs.uwtsd.ac.uk/Home#2",
+    "notes": "Registered as: University of Wales Trinity Saint David - Lampeter Campus"
+  },
+  {
+    "slug": "university-of-wolverhampton",
+    "name": "University of Wolverhampton",
+    "nation": "ENGLAND",
+    "city": "Wolverhampton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 101,
+    "careers_url": "https://jobs.wlv.ac.uk/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "queen-margaret-university",
+    "name": "Queen Margaret University",
+    "nation": "SCOTLAND",
+    "city": "Musselburgh",
+    "institution_type": "UNIVERSITY",
+    "ranking": 102,
+    "careers_url": "https://ce0011li.webitrent.com/ce0011li_webrecruitment/",
+    "notes": "Registered as: Queen MargaretUniversity"
+  },
+  {
+    "slug": "university-of-greenwich",
+    "name": "University of Greenwich",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 102,
+    "careers_url": "https://jobs.gre.ac.uk/vacancies.aspx",
+    "notes": "No entry containing 'Greenwich' appears as a university. Surprising for an institution this size - verify manually before concluding it holds no licence."
+  },
+  {
+    "slug": "university-of-brighton",
+    "name": "University of Brighton",
+    "nation": "ENGLAND",
+    "city": "Brighton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 104,
+    "careers_url": "https://jobs.brighton.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "abertay-university",
+    "name": "Abertay University",
+    "nation": "SCOTLAND",
+    "city": "Dundee",
+    "institution_type": "UNIVERSITY",
+    "ranking": 105,
+    "careers_url": "https://ce0173li.webitrent.com/ce0173li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-bedfordshire",
+    "name": "University of Bedfordshire",
+    "nation": "ENGLAND",
+    "city": "Luton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 106,
+    "careers_url": "https://ubedsli.webitrent.com/ubedsli_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "leeds-arts-university",
+    "name": "Leeds Arts University",
+    "nation": "ENGLAND",
+    "city": "Leeds",
+    "institution_type": "UNIVERSITY",
+    "ranking": 107,
+    "careers_url": "https://www.leeds-art.ac.uk/about-us/jobs",
+    "notes": "No entry found. Verify manually. | Checked 26 Aug 2026: the entire leeds-art.ac.uk site is gated behind a Cookiebot consent wall — no page content, including nav links, renders in the DOM until consent is accepted or declined (confirmed across 3 different page URLs, including /vacancies and /about-us/work-for-us). Automated verification could not proceed without accepting the cookie banner, which was not done. Needs either a manual one-time check or a crawler capability that auto-dismisses standard consent frameworks (Cookiebot/OneTrust) during the browser render step — the same pattern recurs at Liverpool Hope University."
+  },
+  {
+    "slug": "york-st-john-university",
+    "name": "York St John University",
+    "nation": "ENGLAND",
+    "city": "York",
+    "institution_type": "UNIVERSITY",
+    "ranking": 108,
+    "careers_url": "https://jobs.yorksj.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "royal-agricultural-university",
+    "name": "Royal Agricultural University",
+    "nation": "ENGLAND",
+    "city": "Cirencester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 109,
+    "careers_url": "https://www.rau.ac.uk/about-rau/work-for-us",
+    "notes": ""
+  },
+  {
+    "slug": "de-montfort-university",
+    "name": "De Montfort University",
+    "nation": "ENGLAND",
+    "city": "Leicester",
+    "institution_type": "UNIVERSITY",
+    "ranking": 110,
+    "careers_url": "https://careers.dmu.ac.uk/search/?q=&searchResultView=LIST",
+    "notes": ""
+  },
+  {
+    "slug": "staffordshire-university",
+    "name": "Staffordshire University",
+    "nation": "ENGLAND",
+    "city": "Stoke-on-Trent",
+    "institution_type": "UNIVERSITY",
+    "ranking": 111,
+    "careers_url": "https://jobs.staffs.ac.uk/",
+    "notes": "Registered as: University of Staffordshire"
+  },
+  {
+    "slug": "london-south-bank-university",
+    "name": "London South Bank University",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 112,
+    "careers_url": "https://myworkplace.lsbu.ac.uk/ce1031li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "anglia-ruskin-university",
+    "name": "Anglia Ruskin University",
+    "nation": "ENGLAND",
+    "city": "Chelmsford",
+    "institution_type": "UNIVERSITY",
+    "ranking": 113,
+    "careers_url": "https://jobs.aru.ac.uk/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "bishop-grosseteste-university",
+    "name": "Bishop Grosseteste University",
+    "nation": "ENGLAND",
+    "city": "Lincoln",
+    "institution_type": "UNIVERSITY",
+    "ranking": 114,
+    "careers_url": "https://jobs.bishopg.ac.uk/",
+    "notes": "Possible match: 'Lincoln Bishop University' (Lincoln) appears in the register. Similar but not identical - NOT treated as confirmed."
+  },
+  {
+    "slug": "solent-university",
+    "name": "Solent University",
+    "nation": "ENGLAND",
+    "city": "Southampton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 115,
+    "careers_url": "https://recruitment.solent.ac.uk/vacancies.html",
+    "notes": "Registered as: Solent University Limited | Seed URL (solent.ac.uk/about/working-at-solent) was a landing page; corrected 26 Aug 2026 after confirming 7 live vacancies in a browser check. Platform: Hireserve, white-labelled on Solent's own custom domain (recruitment.solent.ac.uk) rather than a hireserve-branded host — confirmed via a p_web_site_id=6096 parameter on the rendered page. The existing Hireserve adapter's detect() should still recognise this tenant (it also matches on 'p_web_site_id' present anywhere in the HTML, not just the URL)."
+  },
+  {
+    "slug": "university-of-westminster",
+    "name": "University of Westminster",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 115,
+    "careers_url": "https://vacancies.westminster.ac.uk/vacancies/vacancy-search-results.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-cumbria",
+    "name": "University of Cumbria",
+    "nation": "ENGLAND",
+    "city": "Carlisle",
+    "institution_type": "UNIVERSITY",
+    "ranking": 117,
+    "careers_url": "https://jobs.cumbria.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-greater-manchester-formerly-univ-of-bolton",
+    "name": "University of Greater Manchester (formerly Univ. of Bolton)",
+    "nation": "ENGLAND",
+    "city": "Bolton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 118,
+    "careers_url": "https://jobs.greatermanchester.ac.uk/",
+    "notes": "Registered as: University of Bolton"
+  },
+  {
+    "slug": "arts-university-plymouth",
+    "name": "Arts University Plymouth",
+    "nation": "ENGLAND",
+    "city": "Plymouth",
+    "institution_type": "UNIVERSITY",
+    "ranking": 119,
+    "careers_url": "https://aup.peoplehr.accessacloud.com/jobboard",
+    "notes": "Seed URL (aup.ac.uk/working-here) was a landing page; corrected 26 Aug 2026 to the real listing after confirming live vacancies in a browser check. Platform: PeopleHR / Access PeopleHR (accessacloud.com) — not yet in crawlers.md, no adapter exists."
+  },
+  {
+    "slug": "buckinghamshire-new-university",
+    "name": "Buckinghamshire New University",
+    "nation": "ENGLAND",
+    "city": "High Wycombe",
+    "institution_type": "UNIVERSITY",
+    "ranking": 120,
+    "careers_url": "https://jobs.bucks.ac.uk/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-northampton",
+    "name": "University of Northampton",
+    "nation": "ENGLAND",
+    "city": "Northampton",
+    "institution_type": "UNIVERSITY",
+    "ranking": 121,
+    "careers_url": "https://jobs.northampton.ac.uk/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "middlesex-university",
+    "name": "Middlesex University",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 122,
+    "careers_url": "https://jobs.mdx.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-roehampton",
+    "name": "University of Roehampton",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 123,
+    "careers_url": "https://unroeli.webitrent.com/unroeli_webrecruitment/wrd/run/ETREC179GF.open?WVID=636993DL04",
+    "notes": "Registered as: Roehampton University"
+  },
+  {
+    "slug": "university-of-buckingham",
+    "name": "University of Buckingham",
+    "nation": "ENGLAND",
+    "city": "Buckingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 124,
+    "careers_url": "https://buckingham.t1cloud.com/T1Default/CiAnywhere/Web/BUCKINGHAM/OrganisationManagement/JobBoardEnquiry/Index?f=$ORG.REC.EXJOBB.ENQ&suite=CES&func=$ORG.REC.EXJOBB.ENQ&portal=HR_PO_RECRUIT&isOldGuest=false",
+    "notes": ""
+  },
+  {
+    "slug": "leeds-trinity-university",
+    "name": "Leeds Trinity University",
+    "nation": "ENGLAND",
+    "city": "Leeds",
+    "institution_type": "UNIVERSITY",
+    "ranking": 125,
+    "careers_url": "https://ce0309li.webitrent.com/ce0309li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "plymouth-marjon-university",
+    "name": "Plymouth Marjon University",
+    "nation": "ENGLAND",
+    "city": "Plymouth",
+    "institution_type": "UNIVERSITY",
+    "ranking": 125,
+    "careers_url": "https://ce0774li.webitrent.com/ce0774li_webrecruitment/",
+    "notes": "Registered as: University of St Mark & St John"
+  },
+  {
+    "slug": "newman-university-birmingham",
+    "name": "Newman University, Birmingham",
+    "nation": "ENGLAND",
+    "city": "Birmingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 127,
+    "careers_url": "https://newman.ac.uk/jobs/",
+    "notes": "Registered as: Birmingham Newman University"
+  },
+  {
+    "slug": "university-of-the-west-of-scotland",
+    "name": "University of the West of Scotland",
+    "nation": "SCOTLAND",
+    "city": "Paisley",
+    "institution_type": "UNIVERSITY",
+    "ranking": 128,
+    "careers_url": "https://ce0974li.webitrent.com/ce0974li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "london-metropolitan-university",
+    "name": "London Metropolitan University",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": 129,
+    "careers_url": "https://iaetme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Standard",
+    "notes": ""
+  },
+  {
+    "slug": "wrexham-university",
+    "name": "Wrexham University",
+    "nation": "WALES",
+    "city": "Wrexham",
+    "institution_type": "UNIVERSITY",
+    "ranking": 130,
+    "careers_url": "https://jobs.wrexham.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "arden-university",
+    "name": "Arden University",
+    "nation": "ENGLAND",
+    "city": "Coventry",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://careers.arden.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "bpp-university",
+    "name": "BPP University",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://vacancies.bpp.com/jobs/search",
+    "notes": ""
+  },
+  {
+    "slug": "birkbeck-university-of-london",
+    "name": "Birkbeck, University of London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://cis7.bbk.ac.uk/home.html",
+    "notes": "Registered as: Birkbeck College"
+  },
+  {
+    "slug": "cranfield-university",
+    "name": "Cranfield University",
+    "nation": "ENGLAND",
+    "city": "Cranfield",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://jobs.cranfield.ac.uk/vacancies.html",
+    "notes": ""
+  },
+  {
+    "slug": "guildhall-school-of-music-drama",
+    "name": "Guildhall School of Music & Drama",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://www.gsmd.ac.uk/jobs",
+    "notes": "Not listed separately. Owned/funded by the City of London Corporation - check that entity."
+  },
+  {
+    "slug": "hartpury-university",
+    "name": "Hartpury University",
+    "nation": "ENGLAND",
+    "city": "Gloucester",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://isw.changeworknow.co.uk/hartpury/vms/e/careers/search/new",
+    "notes": "Seed URL (hartpury.ac.uk/jobs) was a landing page; corrected 26 Aug 2026 after confirming live vacancies in a browser check. Platform: ChangeWorkNow / ISW (changeworknow.co.uk) — not yet in crawlers.md, no adapter exists. Cookie-consent banner present but did not block content."
+  },
+  {
+    "slug": "health-sciences-university-formerly-aecc",
+    "name": "Health Sciences University (formerly AECC)",
+    "nation": "ENGLAND",
+    "city": "Bournemouth",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://ce0267li.webitrent.com/ce0267li_web/",
+    "notes": "Registered as: Health Sciences University"
+  },
+  {
+    "slug": "institute-of-cancer-research",
+    "name": "Institute of Cancer Research",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "RESEARCH_INSTITUTE",
+    "ranking": null,
+    "careers_url": "https://jobs.icr.ac.uk/vacancies/vacancy-search-results.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "leeds-conservatoire",
+    "name": "Leeds Conservatoire",
+    "nation": "ENGLAND",
+    "city": "Leeds",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://jobs.luminate.ac.uk/v2/leedsconservatoirejobs",
+    "notes": "Not listed separately. Parent body 'Luminate Education Group' (Leeds) IS on the register - sponsorship likely runs through it."
+  },
+  {
+    "slug": "liverpool-institute-for-performing-arts",
+    "name": "Liverpool Institute for Performing Arts",
+    "nation": "ENGLAND",
+    "city": "Liverpool",
+    "institution_type": "RESEARCH_INSTITUTE",
+    "ranking": null,
+    "careers_url": "https://lipa.ac.uk/about-us/working-here/",
+    "notes": ""
+  },
+  {
+    "slug": "london-business-school",
+    "name": "London Business School",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://jobsearch.london.edu/",
+    "notes": ""
+  },
+  {
+    "slug": "london-school-of-hygiene-tropical-medicine",
+    "name": "London School of Hygiene & Tropical Medicine",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "OTHER",
+    "ranking": null,
+    "careers_url": "https://jobs.lshtm.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "northeastern-university-london",
+    "name": "Northeastern University London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://northeastern.wd1.myworkdayjobs.com/en-US/GBR_NULondonCareers",
+    "notes": "Registered as: Northeastern University - London"
+  },
+  {
+    "slug": "ravensbourne-university-london",
+    "name": "Ravensbourne University London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://jobs.ravensbourne.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "regents-university-london",
+    "name": "Regent's University London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://galileo.wd3.myworkdayjobs.com/en-US/regents_university_london_careersite",
+    "notes": "Registered as: Regent's University London Limited"
+  },
+  {
+    "slug": "richmond-american-university-london",
+    "name": "Richmond American University London",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://richmond.current-vacancies.com/Careers/Richmond-Vacancies-3356#",
+    "notes": "Registered as: Richmond, The American International University in London"
+  },
+  {
+    "slug": "rose-bruford-college",
+    "name": "Rose Bruford College",
+    "nation": "ENGLAND",
+    "city": "Sidcup",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://bruford.jobs.people-first.com/jobs/search?distance=300&allLocations=false",
+    "notes": "Seed URL (bruford.ac.uk/about-us/work-with-us) was a landing page; corrected 26 Aug 2026 after confirming live vacancies in a browser check. Platform: People First HR (people-first.com), JS-rendered SPA — not yet in crawlers.md, no adapter exists. Page carries one JSON-LD block but it is @type WebSite, not JobPosting — the generic Structured adapter would not resolve this tenant."
+  },
+  {
+    "slug": "royal-academy-of-music",
+    "name": "Royal Academy of Music",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://ce0778li.webitrent.com/ce0778li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "royal-central-school-of-speech-and-drama",
+    "name": "Royal Central School of Speech and Drama",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://www.cssd.ac.uk/jobs-at-central/Widening%20Participation%20and%20Access%20Officer",
+    "notes": ""
+  },
+  {
+    "slug": "royal-college-of-art",
+    "name": "Royal College of Art",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://jobs.rca.ac.uk/Vacancies.aspx",
+    "notes": ""
+  },
+  {
+    "slug": "royal-college-of-music",
+    "name": "Royal College of Music",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://www.rcm.ac.uk/about/jobs/#d.en.42466",
+    "notes": "Checked 26 Aug 2026: no accessible standard vacancy listing found. The page's only 'Current job vacancies' link (#d.en.42466) is a self-referential in-page anchor to the same narrative content, currently featuring a single senior role handled by an external recruiter (Odgers Berndtson). No known ATS platform signature present anywhere in the page source. May genuinely have no standard listing live right now, or the embed may be broken — needs a fresh manual check before concluding either way."
+  },
+  {
+    "slug": "royal-conservatoire-of-scotland",
+    "name": "Royal Conservatoire of Scotland",
+    "nation": "SCOTLAND",
+    "city": "Glasgow",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://rcs.t1cloud.com/T1Default/CiAnywhere/Web/RCS/OrganisationManagement/JobBoardEnquiry/Index?f=$ORG.REC.EXJOBB.ENQ&h=nhBWt1Xgpm&t=1B45B342&suite=CES&pagekey=20260904022850",
+    "notes": "Seed URL (rcs.ac.uk/vacancies) is a landing page whose 'Vacancies' link points here; corrected 26 Aug 2026 after confirming in a browser check. Platform: T1 Cloud / CiAnywhere (t1cloud.com) — same platform as University of Buckingham. Heavy enterprise JS grid; RCS's own site states they 'recently moved to a new recruitment platform' and are 'experiencing some technical issues' as of this check — low crawl priority pending their own fix."
+  },
+  {
+    "slug": "royal-northern-college-of-music",
+    "name": "Royal Northern College of Music",
+    "nation": "ENGLAND",
+    "city": "Manchester",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://www.rncm.ac.uk/about/job-vacancies/",
+    "notes": ""
+  },
+  {
+    "slug": "royal-veterinary-college",
+    "name": "Royal Veterinary College",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://jobs.rvc.ac.uk/",
+    "notes": ""
+  },
+  {
+    "slug": "royal-welsh-college-of-music-drama",
+    "name": "Royal Welsh College of Music & Drama",
+    "nation": "WALES",
+    "city": "Cardiff",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://ce0091li.webitrent.com/ce0091li_webrecruitment/",
+    "notes": "Not listed separately. Constituent of University of South Wales, which IS on the register."
+  },
+  {
+    "slug": "sruc-scotlands-rural-college",
+    "name": "SRUC (Scotland's Rural College)",
+    "nation": "SCOTLAND",
+    "city": "Edinburgh",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://ce0396li.webitrent.com/ce0396li_webrecruitment/",
+    "notes": "Registered as: Scotland's Rural College"
+  },
+  {
+    "slug": "st-marys-university-college-belfast",
+    "name": "St Mary's University College Belfast",
+    "nation": "NORTHERN_IRELAND",
+    "city": "Belfast",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://webapps.smucb.ac.uk/employment/default.asp",
+    "notes": "No entry. May be sponsored via Queen's University Belfast (its associated college). | corrected 26 Aug 2026 after confirming 1 live vacancy (real closing date, PDF/Word application forms) in a browser check. Bespoke self-hosted classic-ASP listing (webapps.smucb.ac.uk); the public stmarys-belfast.ac.uk/jobs/job-opportunities/ page only iframes it — a 4 Sep 2026 URL update pointed careers_url at that wrapper by mistake, reported NO_ADAPTER since GenericCardScrapeAdapter matches on the smucb.ac.uk host, not page content; reverted to the direct ASP page GenericCardScrapeAdapter already reads (free-text strategy)."
+  },
+  {
+    "slug": "stranmillis-university-college",
+    "name": "Stranmillis University College",
+    "nation": "NORTHERN_IRELAND",
+    "city": "Belfast",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://stranmillis.getgotjobs.co.uk/",
+    "notes": "No entry. May be sponsored via Queen's University Belfast (its associated college)."
+  },
+  {
+    "slug": "the-courtauld-institute-of-art",
+    "name": "The Courtauld Institute of Art",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "RESEARCH_INSTITUTE",
+    "ranking": null,
+    "careers_url": "https://ce0942li.webitrent.com/ce0942li_webrecruitment/",
+    "notes": "Registered as: Courtauld Institute of Art"
+  },
+  {
+    "slug": "the-glasgow-school-of-art",
+    "name": "The Glasgow School of Art",
+    "nation": "SCOTLAND",
+    "city": "Glasgow",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://glasali.webitrent.com/glasali_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "the-london-institute-of-banking-finance",
+    "name": "The London Institute of Banking & Finance",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "RESEARCH_INSTITUTE",
+    "ranking": null,
+    "careers_url": "https://workwithwalbrook.careers.hibob.com/jobs",
+    "notes": "No entry found. Verify manually."
+  },
+  {
+    "slug": "the-open-university",
+    "name": "The Open University",
+    "nation": "ENGLAND",
+    "city": "Milton Keynes",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://jobs.open.ac.uk/search/?q=&",
+    "notes": ""
+  },
+  {
+    "slug": "the-open-university-in-ireland",
+    "name": "The Open University in Ireland",
+    "nation": "NORTHERN_IRELAND",
+    "city": "Belfast",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://performancemanager5.successfactors.eu/sf/careers?company=OUP1",
+    "notes": "Registered as: The Open University"
+  },
+  {
+    "slug": "trinity-laban-conservatoire-of-music-and-dance",
+    "name": "Trinity Laban Conservatoire of Music and Dance",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "CONSERVATOIRE",
+    "ranking": null,
+    "careers_url": "https://jobs.trinitylaban.ac.uk/",
+    "notes": "Registered as: Trinity Laban"
+  },
+  {
+    "slug": "university-college-birmingham",
+    "name": "University College Birmingham",
+    "nation": "ENGLAND",
+    "city": "Birmingham",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://ce0886li.webitrent.com/ce0886li_webrecruitment/",
+    "notes": ""
+  },
+  {
+    "slug": "university-of-law",
+    "name": "University of Law",
+    "nation": "ENGLAND",
+    "city": "London",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://careers.law.ac.uk/",
+    "notes": "No matching entry found under 'University of Law' or 'ULaw'. Verify manually."
+  },
+  {
+    "slug": "university-of-the-highlands-and-islands-uhi",
+    "name": "University of the Highlands and Islands (UHI)",
+    "nation": "SCOTLAND",
+    "city": "Inverness",
+    "institution_type": "UNIVERSITY",
+    "ranking": null,
+    "careers_url": "https://www.uhi.ac.uk/en/staff/vacancies/",
+    "notes": "Registered as: University of the Highlands and Islands"
+  },
+  {
+    "slug": "writtle-university-college",
+    "name": "Writtle University College",
+    "nation": "ENGLAND",
+    "city": "Chelmsford",
+    "institution_type": "COLLEGE",
+    "ranking": null,
+    "careers_url": "https://jobs.aru.ac.uk/vacancies.html",
+    "notes": "No entry under Writtle. Check whether sponsorship runs through Anglia Ruskin University."
+  }
+]

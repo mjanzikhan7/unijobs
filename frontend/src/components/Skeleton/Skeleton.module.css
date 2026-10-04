@@ -1,0 +1,26 @@
+.shimmer {
+  background: linear-gradient(
+    100deg,
+    var(--color-surface-sunken) 40%,
+    color-mix(in srgb, var(--color-surface-sunken) 40%, var(--color-border-subtle)) 50%,
+    var(--color-surface-sunken) 60%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 150% 0;
+  }
+  to {
+    background-position: -50% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shimmer {
+    animation: none;
+    background-position: 50% 0;
+  }
+}

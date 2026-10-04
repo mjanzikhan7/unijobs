@@ -1,0 +1,190 @@
+[project]
+name = "hejobs-backend"
+version = "0.1.0"
+description = "UK higher-education job portal — crawling, screening and search"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "Jahanzaib Khan" }]
+
+dependencies = [
+    "Django==5.2.17",
+    "djangorestframework==3.18.1",
+    "django-filter==26.1",
+    "drf-spectacular==0.30.0",
+    "django-cors-headers==4.9.0",
+    "psycopg[binary]==3.3.6",
+    "celery[redis]==5.6.3",
+    "redis==6.4.0",
+    "argon2-cffi==25.1.0",
+    "httpx==0.28.1",
+    "certifi==2026.7.22",
+    "beautifulsoup4==4.15.0",
+    "lxml==6.1.3",
+    "python-dateutil==2.9.0.post0",
+    # Checks that an uploaded logo or banner is a real image.
+    "Pillow==12.3.0",
+    "pdfminer.six==20260107",
+    "python-docx==1.2.0",
+    "openpyxl==3.1.5",
+    "playwright==1.63.0",
+    "gunicorn==26.2.0",
+    "whitenoise==6.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-django==4.14.0",
+    "pytest-cov==7.1.0",
+    "pytest-randomly==5.0.0",
+    "factory-boy==3.3.3",
+    "freezegun==1.5.5",
+    "respx==0.23.1",
+    "syrupy==6.1.1",
+    "schemathesis==4.29.0",
+    "ruff==0.16.10",
+    "mypy==1.19.1",
+    "django-stubs[compatible-mypy]==5.2.9",
+    "djangorestframework-stubs[compatible-mypy]==3.16.9",
+    "types-python-dateutil==2.9.0.20260807",
+    "types-beautifulsoup4==4.12.0.20250516",
+    "pip-audit==2.10.1",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["shared", "config", "accounts", "analytics", "institutions", "crawler", "jobs", "screening", "api"]
+
+# ---------------------------------------------------------------- ruff
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["**/migrations/*"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",    # pycodestyle
+    "F",         # pyflakes
+    "I",         # isort
+    "UP",        # pyupgrade
+    "B",         # bugbear
+    "C4",        # comprehensions
+    "DTZ",       # naive datetimes
+    "T20",       # no print
+    "SIM",       # simplify
+    "RUF",
+    "ANN",       # missing annotations
+    "D",         # docstrings
+]
+ignore = [
+    "D203",   # conflicts with D211
+    "D213",   # conflicts with D212
+    "ANN401", # Any is occasionally the honest type at a boundary
+    # Django and DRF declare configuration on a nested `class Meta` with list attributes.
+    # Both rules fight that idiom and neither would make the code better.
+    "RUF012", # mutable class attribute without ClassVar
+    "D106",   # undocumented nested class (always `Meta`)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D100", "D101", "D102", "D103", "D104", "ANN201", "ANN001", "ANN202"]
+"**/management/commands/*" = ["T20"]  # management commands are meant to print
+"**/management/__init__.py" = ["D104"]
+"**/seeds/__init__.py" = ["D104"]
+"conftest.py" = ["D100", "ANN001", "ANN201"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+required-imports = ["from __future__ import annotations"]
+
+# ---------------------------------------------------------------- mypy
+[tool.mypy]
+python_version = "3.12"
+plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
+exclude = ["migrations/", "tests/"]
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+no_implicit_reexport = true
+
+[[tool.mypy.overrides]]
+module = ["screening.*", "crawler.*"]
+strict = true
+
+[[tool.mypy.overrides]]
+module = [
+    "bs4.*",
+    "playwright.*",
+    "celery.*",
+    "factory.*",
+    "openpyxl.*",
+    # Neither ships stubs, and `screening.*` runs under mypy --strict.
+    "pdfminer.*",
+    "docx.*",
+]
+ignore_missing_imports = true
+
+# Celery ships no type stubs, so `@shared_task` erases the signature of everything it wraps.
+# The task bodies are still checked; only the decorator itself is exempt.
+[[tool.mypy.overrides]]
+module = ["crawler.tasks", "jobs.tasks", "screening.tasks", "accounts.tasks", "analytics.tasks"]
+disallow_untyped_decorators = false
+
+[tool.django-stubs]
+django_settings_module = "config.settings.test"
+
+# ---------------------------------------------------------------- pytest
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings.test"
+python_files = ["test_*.py"]
+testpaths = ["tests"]
+addopts = """
+    -q
+    --strict-markers
+    --cov=.
+    --cov-report=term-missing:skip-covered
+    --cov-config=pyproject.toml
+    --cov-fail-under=80
+"""
+markers = [
+    "integration: needs the database",
+    "slow: takes more than a second",
+]
+filterwarnings = [
+    # Our own deprecation warnings are bugs; third-party ones are somebody else's roadmap.
+    "error::DeprecationWarning",
+    "ignore::DeprecationWarning:jsonschema.*",
+    "ignore::DeprecationWarning:schemathesis.*",
+    "ignore::DeprecationWarning:hypothesis.*",
+    "ignore::DeprecationWarning:pkg_resources.*",
+    "ignore:.*jsonschema.*:DeprecationWarning",
+    "ignore:.*pkg_resources.*:DeprecationWarning",
+    # beautifulsoup4 passes a long-deprecated option to lxml's HTMLParser. Nothing we can fix
+    # from here, and it fires on every single parse.
+    "ignore:.*strip_cdata.*:DeprecationWarning",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["shared", "config", "accounts", "analytics", "institutions", "crawler", "jobs", "screening", "api"]
+omit = [
+    "*/migrations/*",
+    "*/tests/*",
+    "manage.py",
+    "config/asgi.py",
+    "config/wsgi.py",
+    "*/apps.py",
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+    "@overload",
+    "\\.\\.\\.",
+]
