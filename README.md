@@ -7,21 +7,6 @@ results in a React web app with search, filters, a crawl console and an applicat
 **It never submits anything to an employer.** Every Apply link opens the employer's own advert
 in a new tab. There is no auto-apply and no form filling.
 
-## Why it exists
-
-To find an academic job that can lead to a sponsored visa, you must ask three questions about
-every advert:
-
-1. Does this university hold a sponsor licence?
-2. Is the salary above the threshold?
-3. Is the advert still open?
-
-A computer can answer all three. By hand, it is slow and easy to get wrong.
-
-The tool answers them and shows how it got each answer. When it cannot tell, it says so. It
-never guesses. Showing a job as sponsorable when it is not can cost a person an application,
-an interview and several weeks.
-
 ## Roles
 
 Each account has exactly one role. With a set of roles, the permission code would need a rule
